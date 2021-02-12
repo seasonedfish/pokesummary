@@ -1,7 +1,11 @@
-import pkgutil
-import pandas as pd
-from io import BytesIO
+import csv
+import pprint
+import importlib.resources
 
 if __name__ == "__main__":
-    data = pkgutil.get_data(__name__, "data/pokemon.csv")
-    df = pd.read_csv(BytesIO(data))
+    from . import data
+
+    with importlib.resources.open_text(data, "pokemon.csv") as file:
+        data = tuple(csv.reader(file))
+    pp = pprint.PrettyPrinter()
+    pp.pprint(data)
