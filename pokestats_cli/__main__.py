@@ -6,6 +6,8 @@ if __name__ == "__main__":
     from . import data
 
     with importlib.resources.open_text(data, "pokemon.csv") as file:
-        data = tuple(csv.reader(file))
+        data_iterator = csv.reader(file)
+        data = {row[2]: row[3:40]
+                for row in data_iterator}
     pp = pprint.PrettyPrinter()
-    pp.pprint(data)
+    pp.pprint(data["\"Bulbasaur\""])
