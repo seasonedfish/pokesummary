@@ -27,11 +27,11 @@ def prepare_args():
     return parser.parse_args()
 
 
-def safe_print(dictionary, input_pokemon):
+def safe_print(dictionary, pokemon):
     try:
-        print_summary(dictionary[input_pokemon])
+        print_summary(dictionary[pokemon])
     except KeyError:
-        print(f"Invalid Pokémon {input_pokemon}")
+        print(f"Invalid Pokémon {pokemon}")
 
 
 def main():
