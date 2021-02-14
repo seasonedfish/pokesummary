@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pandas as pd
 
 """
@@ -8,7 +9,14 @@ It is not used when the main program is executed
 because the main program reads from modified database.
 """
 
-if __name__ == "__main__":
+
+def main():
+    """
+    Remove the extra quotation marks from
+    pokemon.csv, writing to pokemon_modified.csv
+
+    :return: None
+    """
     # Open from file
     df = pd.read_csv("pokemon.csv")
     # Get string columns
@@ -23,3 +31,7 @@ if __name__ == "__main__":
     df.update(df_string_cols)
     # Write to file
     df.to_csv("pokemon_modified.csv", index=False)
+
+
+if __name__ == "__main__":
+    main()
