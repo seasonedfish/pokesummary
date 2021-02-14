@@ -1,3 +1,3 @@
 def print_summary(pokemon_stats):
     # TODO: implement
-    pass
+    print(pokemon_stats)
