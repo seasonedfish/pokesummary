@@ -7,7 +7,7 @@ from .summary_print import print_summary
 
 def get_args_namespace():
     parser = argparse.ArgumentParser(
-        description="Get stats for a Pokémon or multiple Pokémon."
+        description="Get summaries for a Pokémon or multiple Pokémon."
     )
     parser.add_argument(
         "pokemon",

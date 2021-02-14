@@ -1,4 +1,4 @@
-from pokestats_cli import __version__
+from pokesummary import __version__
 
 
 def test_version():

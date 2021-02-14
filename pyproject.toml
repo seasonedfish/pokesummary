@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pokestats-cli"
+name = "pokesummary"
 version = "0.1.0"
 description = ""
 authors = ["Fisher Sun <fisher521.fs@gmail.com>"]
