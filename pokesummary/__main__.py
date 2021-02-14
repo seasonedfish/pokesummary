@@ -28,10 +28,10 @@ def main():
 
     if args.interactive:
         for line in stdin:
-            print_summary(data_dictionary[line])
+            print_summary(data_dictionary[line.rstrip().capitalize()])
     else:
         for pokemon in args.pokemon:
-            print_summary(data_dictionary[pokemon])
+            print_summary(data_dictionary[pokemon.capitalize()])
 
 
 if __name__ == "__main__":
