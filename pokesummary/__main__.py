@@ -5,7 +5,12 @@ from .data_parse import parse_data
 from .summary_print import print_summary
 
 
-def get_args_namespace():
+def prepare_args():
+    """
+    Use argparse to create the command-line interface.
+
+    :return: the namespace of program arguments
+    """
     parser = argparse.ArgumentParser(
         description="Get summaries for a Pokémon or multiple Pokémon."
     )
@@ -22,16 +27,26 @@ def get_args_namespace():
     return parser.parse_args()
 
 
-def main():
-    data_dictionary = parse_data()
-    args = get_args_namespace()
+def safe_print(dictionary, input_pokemon):
+    try:
+        print_summary(dictionary[input_pokemon])
+    except KeyError:
+        print(f"Invalid Pokémon {input_pokemon}")
 
-    if args.interactive:
-        for line in stdin:
-            print_summary(data_dictionary[line.rstrip().capitalize()])
-    else:
-        for pokemon in args.pokemon:
-            print_summary(data_dictionary[pokemon.capitalize()])
+
+def main():
+    """
+    Driver code.
+    """
+    data_dictionary = parse_data()
+    args = prepare_args()
+
+    input_pokemon = stdin if args.interactive else args.pokemon
+    for pokemon in input_pokemon:
+        safe_print(
+            data_dictionary,
+            pokemon.rstrip().capitalize()
+        )
 
 
 if __name__ == "__main__":
