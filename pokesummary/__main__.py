@@ -1,8 +1,7 @@
 import argparse
 import sys
 
-from .data_parse import parse_data
-from .summary_print import print_summary
+from pokesummary import displaying, parsing
 
 
 def prepare_args():
@@ -37,7 +36,7 @@ def safe_print(dictionary, pokemon):
     :return: True if accessed, False if not accessed
     """
     try:
-        print_summary(dictionary[pokemon])
+        displaying.display_summary(dictionary[pokemon])
         return True
     except KeyError:
         print(f"Invalid Pokémon {pokemon}")
@@ -48,7 +47,7 @@ def main():
     """
     Driver code.
     """
-    data_dictionary = parse_data()
+    data_dictionary = parsing.parse_data()
     args = prepare_args()
 
     input_pokemon = sys.stdin if args.interactive else args.pokemon

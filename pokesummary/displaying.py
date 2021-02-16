@@ -1,3 +1,3 @@
-def print_summary(pokemon_stats):
+def display_summary(pokemon_stats):
     # TODO: implement
     print(pokemon_stats)
