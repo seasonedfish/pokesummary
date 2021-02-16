@@ -1,5 +1,5 @@
 import argparse
-from sys import stdin
+import sys
 
 from .data_parse import parse_data
 from .summary_print import print_summary
@@ -51,7 +51,7 @@ def main():
     data_dictionary = parse_data()
     args = prepare_args()
 
-    input_pokemon = stdin if args.interactive else args.pokemon
+    input_pokemon = sys.stdin if args.interactive else args.pokemon
     for pokemon in input_pokemon:
         safe_print(
             data_dictionary,

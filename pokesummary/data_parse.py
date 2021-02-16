@@ -1,5 +1,5 @@
-import importlib.resources
 import csv
+import importlib.resources
 
 
 def parse_data():
