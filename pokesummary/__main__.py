@@ -30,7 +30,7 @@ def safe_print(dictionary, pokemon):
     """
     Tries to print a summary of the Pokémon specified by string ``pokemon``.
     If ``pokemon`` is not a key in the dictionary, return gracefully.
-    
+
     :param dictionary: the dict of Pokémon/Pokémon info pairs
     :param pokemon: the key to access
     :return: True if accessed, False if not accessed
