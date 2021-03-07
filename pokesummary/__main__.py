@@ -54,7 +54,7 @@ def main():
     for pokemon in input_pokemon:
         safe_print(
             data_dictionary,
-            pokemon.rstrip().capitalize()
+            pokemon.rstrip().title()
         )
 
 
