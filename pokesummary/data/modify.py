@@ -17,19 +17,18 @@ def main():
     # Open from file
     df = pd.read_csv("pokemon.csv")
 
-    pd.options.mode.use_inf_as_na = True
-    alt_forms = df.loc[df["Alternate Form Name"].notnull(), "Alternate Form Name"]
-    print(alt_forms.head())
+    alt_pokemon = df.query("`Alternate Form Name` != ''")
+    print(alt_pokemon["Pokemon Name"].head())
 
     # Prepare regional demonyms
     regional_demonyms = [{"Alola": "Alolan"}, {"Galar": "Galarian"}]
     for dictionary in regional_demonyms:
-        alt_forms.replace(dictionary)
-    # Append all form names, including regional
-    df["Pokemon Name"] = alt_forms + " " + df["Pokemon Name"]
-    df["Pokemon Name"].str.lstrip()
+        alt_pokemon["Alternate Form Name"].replace(dictionary)
+    # Append all other form names, including regional
+    alt_pokemon["Pokemon Name"] = alt_pokemon["Alternate Form Name"] + " " + alt_pokemon["Pokemon Name"]
 
     # Write to file
+    df.update(alt_pokemon)
     df.to_csv("new_pokemon.csv", index=False)
 
 
