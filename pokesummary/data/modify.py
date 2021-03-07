@@ -29,7 +29,7 @@ def main():
 
     # Update original dataframe
     df.update(alt_pokemon)
-    df.drop(["Alternate Form Name"], axis=1)
+    df = df.drop(["Alternate Form Name"], axis=1)
     # Write to file
     df.to_csv("pokemon_modified.csv", index=False)
 
