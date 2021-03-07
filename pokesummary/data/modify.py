@@ -23,7 +23,7 @@ def main():
     # Prepare regional demonyms
     regional_demonyms = [{"Alola": "Alolan"}, {"Galar": "Galarian"}]
     for dictionary in regional_demonyms:
-        alt_pokemon["Alternate Form Name"].replace(dictionary)
+        alt_pokemon["Alternate Form Name"].replace(dictionary, inplace=True)
     # Append all other form names, including regional
     alt_pokemon["Pokemon Name"] = alt_pokemon["Alternate Form Name"] + " " + alt_pokemon["Pokemon Name"]
 
