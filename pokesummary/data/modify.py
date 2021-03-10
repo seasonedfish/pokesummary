@@ -30,6 +30,11 @@ def main():
     # Update original dataframe
     df.update(alt_pokemon)
     df = df.drop(["Alternate Form Name"], axis=1)
+    # Format column names
+    df.columns = df.columns\
+        .str.replace(" ", "_", regex=False)\
+        .str.replace(r"\W+", "", regex=True)\
+        .str.lower()
     # Write to file
     df.to_csv("pokemon_modified.csv", index=False)
 
