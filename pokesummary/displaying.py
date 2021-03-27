@@ -1,9 +1,19 @@
-from importlib import resources
 import csv
 from enum import Enum
+from importlib import resources
 
 
-def get_all_type_defenses():
+class Color(str, Enum):
+    WEAK = "\033[49;32m"
+    RESISTANT = "\033[49;31m"
+    IMMUNE = "\033[49;34m"
+
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    END = '\033[0m'
+
+
+def parse_all_type_defenses():
     with resources.open_text("pokesummary.data", "type_defenses.csv") as f:
         data_iterator = csv.DictReader(f)
         types_dictionary = {
@@ -21,17 +31,7 @@ def get_all_type_defenses():
     return types_dictionary
 
 
-class Color(str, Enum):
-    WEAK = "\033[49;32m"
-    RESISTANT = "\033[49;31m"
-    IMMUNE = "\033[49;34m"
-
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    END = '\033[0m'
-
-
-all_type_defenses = get_all_type_defenses()
+all_type_defenses = parse_all_type_defenses()
 
 
 def display_summary(pokemon_stats):
