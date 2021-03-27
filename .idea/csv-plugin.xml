@@ -59,6 +59,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/pokesummary/data/type_defenses_original.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/pokesummary/displaying.py">
           <value>
             <Attribute>
