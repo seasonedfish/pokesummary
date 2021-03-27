@@ -10,16 +10,3 @@ def parse_data():
             for row in data_iterator
         }
     return data_dictionary
-
-
-def parse_type_defenses():
-    with resources.open_text("pokesummary.data", "type_defenses.csv") as f:
-        data_iterator = csv.DictReader(f)
-        types_dictionary = {
-            row["attacking_type"]: row
-            for row in data_iterator
-        }
-        for key, value in types_dictionary.items():
-            del types_dictionary[key]["attacking_type"]
-
-    return types_dictionary
