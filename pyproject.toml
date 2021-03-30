@@ -3,7 +3,12 @@ name = "pokesummary"
 version = "0.1.0"
 description = ""
 authors = ["Fisher Sun <fisher521.fs@gmail.com>"]
-exclude = ["pokesummary/data/modify.py", "pokesummary/data/pokemon.csv"]
+exclude = [
+    "pokesummary/data/modify.py",
+    "pokesummary/data/pokemon_original.csv",
+    "pokesummary/data/modify_type_defenses.py",
+    "pokesummary/data/type_defenses_original.py"
+]
 license = "MIT"
 
 [tool.poetry.dependencies]
