@@ -16,7 +16,7 @@ def main():
     df = df.transpose()
     df.index.name = "defending_type"
 
-    df.to_csv("type_defenses.csv")
+    df.to_csv("type_defenses_modified.csv")
 
 
 if __name__ == "__main__":

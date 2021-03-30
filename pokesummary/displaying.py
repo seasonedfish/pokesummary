@@ -14,7 +14,7 @@ class Color(str, Enum):
 
 
 def parse_all_type_defenses():
-    with resources.open_text("pokesummary.data", "type_defenses.csv") as f:
+    with resources.open_text("pokesummary.data", "type_defenses_modified.csv") as f:
         data_iterator = csv.DictReader(f)
         types_dictionary = {
             row["defending_type"]: row
@@ -36,8 +36,8 @@ all_type_defenses = parse_all_type_defenses()
 
 def display_summary(pokemon_stats):
     # TODO: implement
-    print(f"{pokemon_stats['pokemon_name']}, {pokemon_stats['classification']}")
-    print(pokemon_stats)
+    print(f"{Color.BOLD}{pokemon_stats['pokemon_name'].upper()}, {pokemon_stats['classification'].upper().upper()}{Color.END}")
+    print(f"{pokemon_stats['pokemon_height']}m, {pokemon_stats['pokemon_weight']}kg")
 
     type_defenses = calculate_type_defenses(pokemon_stats)
     print(f"{Color.BOLD}TYPE DEFENSES{Color.END}")

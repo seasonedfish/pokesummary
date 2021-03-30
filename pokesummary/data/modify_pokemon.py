@@ -15,7 +15,7 @@ def main():
     :return: None
     """
     # Open from file
-    df = pd.read_csv("pokemon.csv")
+    df = pd.read_csv("pokemon_original.csv")
     # Format column names
     df.columns = df.columns\
         .str.replace(" ", "_", regex=False)\
