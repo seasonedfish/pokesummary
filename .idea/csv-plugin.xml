@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/pokesummary/data/pokemon_original.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/pokesummary/data/type_defenses.csv">
           <value>
             <Attribute>
@@ -66,6 +73,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/pokesummary/data/type_defenses_modified.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/pokesummary/data/type_defenses_original.csv">
           <value>
             <Attribute>
@@ -74,6 +88,13 @@
           </value>
         </entry>
         <entry key="/pokesummary/displaying.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/pokesummary/parsing.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />

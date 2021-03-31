@@ -47,8 +47,8 @@ def main():
     """
     Driver code.
     """
-    data_dictionary = parsing.parse_data()
     args = prepare_args()
+    data_dictionary = parsing.csv_to_2d_dict("pokesummary.data", "pokemon_modified.csv", "pokemon_name")
 
     input_pokemon = sys.stdin if args.interactive else args.pokemon
     for pokemon in input_pokemon:
