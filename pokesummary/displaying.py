@@ -20,16 +20,17 @@ all_type_defenses = parsing.csv_to_2d_dict(
 )
 
 
-def display_summary(pokemon_stats):
-    # TODO: implement
-    print(
-        f"{Color.BOLD}{pokemon_stats['pokemon_name'].upper()}, {pokemon_stats['classification'].upper().upper()}{Color.END}")
-    print(f"{pokemon_stats['pokemon_height']}m, {pokemon_stats['pokemon_weight']}kg")
+def calculate_type_defenses(pokemon_stats):
+    primary_type = pokemon_stats["primary_type"]
+    secondary_type = pokemon_stats["secondary_type"]
 
-    type_defenses = calculate_type_defenses(pokemon_stats)
-    print(f"{Color.BOLD}TYPE DEFENSES{Color.END}")
-    for attacking_type in type_defenses:
-        print(f"{attacking_type:<10}{format_multiplier(type_defenses[attacking_type])}")
+    if secondary_type == "":
+        return all_type_defenses[primary_type]
+    else:
+        return {
+            k: all_type_defenses[primary_type][k] * all_type_defenses[secondary_type][k]
+            for k in all_type_defenses[primary_type].keys()
+        }
 
 
 def format_multiplier(multiplier):
@@ -49,12 +50,14 @@ def format_multiplier(multiplier):
         raise ValueError("Multiplier must be 0, 0.25, 0.5, 1, 2, or 4")
 
 
-def calculate_type_defenses(pokemon_stats):
-    if pokemon_stats["secondary_type"] == "":
-        return all_type_defenses[pokemon_stats["primary_type"]]
-    else:
-        return {
-            k: all_type_defenses[pokemon_stats["primary_type"]][k] * all_type_defenses[pokemon_stats["secondary_type"]][
-                k]
-            for k in all_type_defenses[pokemon_stats["primary_type"]].keys()
-        }
+def display_summary(pokemon_stats):
+    print(
+        f"{Color.BOLD}{pokemon_stats['pokemon_name'].upper()}, "
+        f"{pokemon_stats['classification'].upper()}{Color.END}"
+    )
+    print(f"{pokemon_stats['pokemon_height']}m, {pokemon_stats['pokemon_weight']}kg")
+
+    print(f"{Color.BOLD}TYPE DEFENSES{Color.END}")
+    type_defenses = calculate_type_defenses(pokemon_stats)
+    for attacking_type in type_defenses:
+        print(f"{attacking_type:<10}{format_multiplier(type_defenses[attacking_type])}")
