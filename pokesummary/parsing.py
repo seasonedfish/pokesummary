@@ -8,7 +8,7 @@ def csv_to_2d_dict(package, csv_file, index, lambda_function=lambda x: x):
         data_dictionary = {
             row[index]: {
                 k: lambda_function(v)
-                for k, v in list(row.items())[1:]
+                for k, v in list(row.items()) if k not in {index}
             }
             for row in data_iterator
         }
