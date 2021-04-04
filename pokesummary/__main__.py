@@ -36,7 +36,7 @@ def safe_print(dictionary, pokemon):
     :return: True if accessed, False if not accessed
     """
     try:
-        displaying.display_summary(dictionary[pokemon])
+        displaying.display_summary(pokemon, dictionary[pokemon])
         return True
     except KeyError:
         print(f"Invalid Pokémon {pokemon}")

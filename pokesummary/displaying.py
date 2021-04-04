@@ -50,9 +50,9 @@ def format_multiplier(multiplier):
         raise ValueError("Multiplier must be 0, 0.25, 0.5, 1, 2, or 4")
 
 
-def display_summary(pokemon_stats):
+def display_summary(pokemon_name, pokemon_stats):
     print(
-        f"{Color.BOLD}{pokemon_stats['pokemon_name'].upper()}, "
+        f"{Color.BOLD}{pokemon_name.upper()}, "
         f"{pokemon_stats['classification'].upper()}{Color.END}"
     )
     print(f"{pokemon_stats['pokemon_height']}m, {pokemon_stats['pokemon_weight']}kg")
