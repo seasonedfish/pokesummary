@@ -67,10 +67,10 @@ def calculate_type_defenses(pokemon_stats):
     if type2 == "":
         return all_type_defenses[type1]
     else:
-        d = {}
-        for k in all_type_defenses[type1].keys():
-            d[k]: all_type_defenses[type1][k] * all_type_defenses[type2][k]
-        return d
+        return {
+            k: all_type_defenses[type1][k] * all_type_defenses[type2][k]
+            for k in all_type_defenses[type1].keys()
+        }
 
 
 def format_multiplier(multiplier):
