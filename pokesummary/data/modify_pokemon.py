@@ -43,6 +43,11 @@ def rename_alternate_forms(df):
     # Append all form names
     alt_pokemon["pokemon_name"] = alt_pokemon["alternate_form_name"] + " " + alt_pokemon["pokemon_name"]
     # TODO: fix order of mega (e.g. Mega Charizard X, not Mega X Charizard)
+    alt_pokemon["pokemon_name"] = alt_pokemon["pokemon_name"].str.replace(
+        r"(\bMega\b)\s(X|Y)\s(\w+)",
+        r"\1 \3 \2",
+        regex=True
+    )
 
     df1 = df.copy()
     df1.update(alt_pokemon)
