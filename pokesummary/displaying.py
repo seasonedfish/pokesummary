@@ -64,17 +64,17 @@ def calculate_type_defenses(pokemon_stats):
 
 def format_multiplier(multiplier):
     if multiplier == 0:
-        return f"{Color.IMMUNE}0×{Color.END}"
+        return f"{Color.GREEN}0×{Color.END}"
     elif multiplier == 0.25:
-        return f"{Color.RED}¼×{Color.END}"
+        return f"{Color.GREEN}¼×{Color.END}"
     elif multiplier == 0.5:
-        return f"{Color.RED}½×{Color.END}"
+        return f"{Color.GREEN}½×{Color.END}"
     elif multiplier == 1:
         return ""
     elif multiplier == 2:
-        return f"{Color.GREEN}2×{Color.END}"
+        return f"{Color.RED}2×{Color.END}"
     elif multiplier == 4:
-        return f"{Color.GREEN}4×{Color.END}"
+        return f"{Color.RED}4×{Color.END}"
     else:
         raise ValueError("Multiplier must be 0, 0.25, 0.5, 1, 2, or 4")
 
