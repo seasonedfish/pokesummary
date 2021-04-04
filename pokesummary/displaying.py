@@ -96,7 +96,14 @@ def display_summary(pokemon_name, pokemon_stats):
         f"{Color.BOLD}{pokemon_name.upper()}, "
         f"{pokemon_stats['classification'].upper()}{Color.END}"
     )
-    print(f"{pokemon_stats['pokemon_height']}m, {pokemon_stats['pokemon_weight']}kg\n")
+    print(
+        f"{pokemon_stats['pokemon_height']}m, "
+        f"{pokemon_stats['pokemon_weight']}kg")
+    print(
+        f"{pokemon_stats['primary_type']}"
+        f"{', ' + pokemon_stats['secondary_type'] if pokemon_stats['secondary_type'] != '' else ''}"
+    )
+    print()
 
     print(f"{Color.BOLD}BASE STATS{Color.END}")
     print(get_base_stats_chart(pokemon_stats))
