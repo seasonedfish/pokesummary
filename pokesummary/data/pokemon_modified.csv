@@ -1,1053 +1,1053 @@
 pokemon_name,classification,pokemon_height,pokemon_weight,primary_type,secondary_type,health_stat,attack_stat,defense_stat,special_attack_stat,special_defense_stat,speed_stat,base_stat_total
-Bulbasaur,Seed Pokemon,0.7,6.9,Grass,Poison,45,49,49,65,65,45,318
-Ivysaur,Seed Pokemon,1.0,13.0,Grass,Poison,60,62,63,80,80,60,405
-Venusaur,Seed Pokemon,2.0,100.0,Grass,Poison,80,82,83,100,100,80,525
-Mega Venusaur,Seed Pokemon,2.4,155.5,Grass,Poison,80,100,123,122,120,80,625
-Charmander,Lizard Pokemon,0.6,8.5,Fire,,39,52,43,60,50,65,309
-Charmeleon,Flame Pokemon,1.1,19.0,Fire,,58,64,58,80,65,80,405
-Charizard,Flame Pokemon,1.7,90.5,Fire,Flying,78,84,78,109,85,100,534
-Mega X Charizard,Flame Pokemon,1.7,110.5,Fire,Dragon,78,130,111,130,85,100,634
-Mega Y Charizard,Flame Pokemon,1.7,100.5,Fire,Flying,78,104,78,159,115,100,634
-Gigantamax Charizard,Flame Pokemon,28.0,0.0,Fire,Flying,78,84,78,109,85,100,534
-Squirtle,Tiny Turtle Pokemon,0.5,9.0,Water,,44,48,65,50,64,43,314
-Wartortle,Turtle Pokemon,1.0,22.5,Water,,59,63,80,65,80,58,405
-Blastoise,Shellfish Pokemon,1.6,85.5,Water,,79,83,100,85,105,78,530
-Mega Blastoise,Shellfish Pokemon,1.6,101.1,Water,,79,103,120,135,115,78,630
-Caterpie,Worm Pokemon,0.3,2.9,Bug,,45,30,35,20,20,45,195
-Metapod,Cocoon Pokemon,0.7,9.9,Bug,,50,20,55,25,25,30,205
-Butterfree,Butterfly Pokemon,1.1,32.0,Bug,Flying,60,45,50,90,80,70,395
-Gigantamax Butterfree,Butterfly Pokemon,17.0,0.0,Bug,Flying,60,45,50,90,80,70,395
-Weedle,Hairy Bug Pokemon,0.3,3.2,Bug,Poison,40,35,30,20,20,50,195
-Kakuna,Cocoon Pokemon,0.6,10.0,Bug,Poison,45,25,50,25,25,35,205
-Beedrill,Poison Bee Pokemon,1.0,29.5,Bug,Poison,65,90,40,45,80,75,395
-Mega Beedrill,Poison Bee Pokemon,1.4,40.5,Bug,Poison,65,150,40,15,80,145,495
-Pidgey,Tiny Bird Pokemon,0.3,1.8,Normal,Flying,40,45,40,35,35,56,251
-Pidgeotto,Bird Pokemon,1.1,30.0,Normal,Flying,63,60,55,50,50,71,349
-Pidgeot,Bird Pokemon,1.5,39.5,Normal,Flying,83,80,75,70,70,101,479
-Mega Pidgeot,Bird Pokemon,2.2,50.5,Normal,Flying,83,80,80,135,80,121,579
-Rattata,Mouse Pokemon,0.3,3.5,Normal,,30,56,35,25,35,72,253
-Alolan Rattata,Mouse Pokemon,0.3,3.8,Dark,Normal,30,56,35,25,35,72,253
-Raticate,Mouse Pokemon,0.7,18.5,Normal,,55,81,60,50,70,97,413
-Alolan Raticate,Mouse Pokemon,0.7,25.5,Dark,Normal,75,71,70,40,80,77,413
-Spearow,Tiny Bird Pokemon,0.3,2.0,Normal,Flying,40,60,30,31,31,70,262
-Fearow,Beak Pokemon,1.2,38.0,Normal,Flying,65,90,65,61,61,100,442
-Ekans,Snake Pokemon,2.0,6.9,Poison,,35,60,44,40,54,55,288
-Arbok,Cobra Pokemon,3.5,65.0,Poison,,60,95,69,65,79,80,448
-Pikachu,Mouse Pokemon,0.4,6.0,Electric,,35,55,40,50,50,90,320
-Gigantamax Pikachu,Mouse Pokemon,21.0,0.0,Electric,,35,55,40,50,50,90,320
-Starter Pikachu,Mouse Pokemon,0.4,6.0,Electric,,45,80,50,75,60,120,430
-Raichu,Mouse Pokemon,0.8,30.0,Electric,,60,90,55,90,80,110,485
-Alolan Raichu,Mouse Pokemon,0.7,21.0,Electric,Psychic,60,85,50,95,85,110,485
-Sandshrew,Mouse Pokemon,0.6,12.0,Ground,,50,75,85,20,30,40,300
-Alolan Sandshrew,Mouse Pokemon,0.7,40.0,Ice,Steel,50,75,90,10,35,40,300
-Sandslash,Mouse Pokemon,1.0,29.5,Ground,,75,100,110,45,55,65,450
-Alolan Sandslash,Mouse Pokemon,1.2,55.0,Ice,Steel,75,100,120,25,65,65,450
-Nidoran (Female),Poison Pin Pokemon,0.4,7.0,Poison,,55,47,52,40,40,41,275
-Nidorina,Poison Pin Pokemon,0.8,20.0,Poison,,70,62,67,55,55,56,365
-Nidoqueen,Drill Pokemon,1.3,60.0,Poison,Ground,90,92,87,75,85,76,505
-Nidoran (Male),Poison Pin Pokemon,0.5,9.0,Poison,,46,57,40,40,40,50,273
-Nidorino,Poison Pin Pokemon,0.9,19.5,Poison,,61,72,57,55,55,65,365
-Nidoking,Drill Pokemon,1.4,62.0,Poison,Ground,81,102,77,85,75,85,505
-Clefairy,Fairy Pokemon,0.6,7.5,Fairy,,70,45,48,60,65,35,323
-Clefable,Fairy Pokemon,1.3,40.0,Fairy,,95,70,73,95,90,60,483
-Vulpix,Fox Pokemon,0.6,9.9,Fire,,38,41,40,50,65,65,299
-Alolan Vulpix,Fox Pokemon,0.6,9.9,Ice,,38,41,40,50,65,65,299
-Ninetales,Fox Pokemon,1.1,19.9,Fire,,73,76,75,81,100,100,505
-Alolan Ninetales,Fox Pokemon,1.1,19.9,Ice,Fairy,73,67,75,81,100,109,505
-Jigglypuff,Balloon Pokemon,0.5,5.5,Normal,Fairy,115,45,20,45,25,20,270
-Wigglytuff,Balloon Pokemon,1.0,12.0,Normal,Fairy,140,70,45,85,50,45,435
-Zubat,Bat Pokemon,0.8,7.5,Poison,Flying,40,45,35,30,40,55,245
-Golbat,Bat Pokemon,1.6,55.0,Poison,Flying,75,80,70,65,75,95,460
-Oddish,Weed Pokemon,0.5,5.4,Grass,Poison,45,50,55,75,65,30,320
-Gloom,Weed Pokemon,0.8,8.6,Grass,Poison,60,65,70,85,75,40,395
-Vileplume,Flower Pokemon,1.2,18.6,Grass,Poison,75,80,85,110,90,50,490
-Paras,Mushroom Pokemon,0.3,5.4,Bug,Grass,35,70,55,45,55,25,285
-Parasect,Mushroom Pokemon,1.0,29.5,Bug,Grass,60,95,80,60,80,30,405
-Venonat,Insect Pokemon,1.0,30.0,Bug,Poison,60,55,50,40,55,45,305
-Venomoth,Poison Moth Pokemon,1.5,12.5,Bug,Poison,70,65,60,90,75,90,450
-Diglett,Mole Pokemon,0.2,0.8,Ground,,10,55,25,35,45,95,265
-Alolan Diglett,Mole Pokemon,0.2,1.0,Ground,Steel,10,55,30,35,45,90,265
-Dugtrio,Mole Pokemon,0.7,33.3,Ground,,35,100,50,50,70,120,425
-Alolan Dugtrio,Mole Pokemon,0.7,66.6,Ground,Steel,35,100,60,50,70,110,425
-Meowth,Scratch Cat Pokemon,0.4,4.2,Normal,,40,45,35,40,40,90,290
-Alolan Meowth,Scratch Cat Pokemon,0.4,4.2,Dark,,40,35,35,50,40,90,290
-Galarian Meowth,Scratch Cat Pokemon,0.4,7.5,Steel,,50,65,55,40,40,40,290
-Gigantamax Meowth,Scratch Cat Pokemon,33.0,0.0,Normal,,40,45,35,40,40,90,290
-Persian,Classy Cat Pokemon,1.0,32.0,Normal,,65,70,60,65,65,115,440
-Alolan Persian,Classy Cat Pokemon,1.1,33.0,Dark,,65,60,60,75,65,115,440
-Psyduck,Duck Pokemon,0.8,19.6,Water,,50,52,48,65,50,55,320
-Golduck,Duck Pokemon,1.7,76.6,Water,,80,82,78,95,80,85,500
-Mankey,Pig Monkey Pokemon,0.5,28.0,Fighting,,40,80,35,35,45,70,305
-Primeape,Pig Monkey Pokemon,1.0,32.0,Fighting,,65,105,60,60,70,95,455
-Growlithe,Puppy Pokemon,0.7,19.0,Fire,,55,70,45,70,50,60,350
-Arcanine,Legendary Pokemon,1.9,155.0,Fire,,90,110,80,100,80,95,555
-Poliwag,Tadpole Pokemon,0.6,12.4,Water,,40,50,40,40,40,90,300
-Poliwhirl,Tadpole Pokemon,1.0,20.0,Water,,65,65,65,50,50,90,385
-Poliwrath,Tadpole Pokemon,1.3,54.0,Water,Fighting,90,95,95,70,90,70,510
-Abra,Psi Pokemon,0.9,19.5,Psychic,,25,20,15,105,55,90,310
-Kadabra,Psi Pokemon,1.3,56.5,Psychic,,40,35,30,120,70,105,400
-Alakazam,Psi Pokemon,1.5,48.0,Psychic,,55,50,45,135,95,120,500
-Mega Alakazam,Psi Pokemon,1.2,48.0,Psychic,,55,50,65,175,105,150,600
-Machop,Superpower Pokemon,0.8,19.5,Fighting,,70,80,50,35,35,35,305
-Machoke,Superpower Pokemon,1.5,70.5,Fighting,,80,100,70,50,60,45,405
-Machamp,Superpower Pokemon,1.6,130.0,Fighting,,90,130,80,65,85,55,505
-Gigantamax Machamp,Superpower Pokemon,25.0,0.0,Fighting,,90,130,80,65,85,55,505
-Bellsprout,Flower Pokemon,0.7,4.0,Grass,Poison,50,75,35,70,30,40,300
-Weepinbell,Flycatcher Pokemon,1.0,6.4,Grass,Poison,65,90,50,85,45,55,390
-Victreebel,Flycatcher Pokemon,1.7,15.5,Grass,Poison,80,105,65,100,70,70,490
-Tentacool,Jellyfish Pokemon,0.9,45.5,Water,Poison,40,40,35,50,100,70,335
-Tentacruel,Jellyfish Pokemon,1.6,55.0,Water,Poison,80,70,65,80,120,100,515
-Geodude,Rock Pokemon,0.4,20.0,Rock,Ground,40,80,100,30,30,20,300
-Alolan Geodude,Rock Pokemon,0.4,20.3,Rock,Electric,40,80,100,30,30,20,300
-Graveler,Rock Pokemon,1.0,105.0,Rock,Ground,55,95,115,45,45,35,390
-Alolan Graveler,Rock Pokemon,1.0,110.0,Rock,Electric,55,95,115,45,45,35,390
-Golem,Megaton Pokemon,1.4,300.0,Rock,Ground,80,120,130,55,65,45,495
-Alolan Golem,Megaton Pokemon,1.7,316.0,Rock,Electric,80,120,130,55,65,45,495
-Ponyta,Fire Horse Pokemon,1.0,30.0,Fire,,50,85,55,65,65,90,410
-Galarian Ponyta,Unique Horn Pokemon,0.8,24.0,Psychic,,50,85,55,65,65,90,410
-Rapidash,Fire Horse Pokemon,1.7,95.0,Fire,,65,100,70,80,80,105,500
-Galarian Rapidash,Unique Horn Pokemon,1.7,80.0,Psychic,Fairy,65,100,70,80,80,105,500
-Slowpoke,Dopey Pokemon,1.2,36.0,Water,Psychic,90,65,65,40,40,15,315
-Galarian Slowpoke,Dopey Pokemon,1.2,36.0,Psychic,,90,65,65,40,40,15,315
-Slowbro,Hermit Crab Pokemon,1.6,78.5,Water,Psychic,95,75,110,100,80,30,490
-Mega Slowbro,Hermit Crab Pokemon,2.0,120.0,Water,Psychic,95,75,180,130,80,30,590
-Magnemite,Magnet Pokemon,0.3,6.0,Electric,Steel,25,35,70,95,55,45,325
-Magneton,Magnet Pokemon,1.0,60.0,Electric,Steel,50,60,95,120,70,70,465
-Farfetch'd,Wild Duck Pokemon,0.8,15.0,Normal,Flying,52,90,55,58,62,60,377
-Galarian Farfetch'd,Wild Bull Pokemon,0.8,42.0,Fighting,,52,95,55,58,62,55,377
-Doduo,Twin Bird Pokemon,1.4,39.2,Normal,Flying,35,85,45,35,35,75,310
-Dodrio,Triple Bird Pokemon,1.8,85.2,Normal,Flying,60,110,70,60,60,110,470
-Seel,Sea Lion Pokemon,1.1,90.0,Water,,65,45,55,45,70,45,325
-Dewgong,Sea Lion Pokemon,1.7,120.0,Water,Ice,90,70,80,70,95,70,475
-Grimer,Sludge Pokemon,0.9,30.0,Poison,,80,80,50,40,50,25,325
-Alolan Grimer,Sludge Pokemon,0.7,42.0,Poison,Dark,80,80,50,40,50,25,325
-Muk,Sludge Pokemon,1.2,30.0,Poison,,105,105,75,65,100,50,500
-Alolan Muk,Sludge Pokemon,1.0,52.0,Poison,Dark,105,105,75,65,100,50,500
-Shellder,Bivalve Pokemon,0.3,4.0,Water,,30,65,100,45,25,40,305
-Cloyster,Bivalve Pokemon,1.5,132.5,Water,,50,95,180,85,45,70,525
-Gastly,Gas Pokemon,1.3,0.1,Ghost,Poison,30,35,30,100,35,80,310
-Haunter,Gas Pokemon,1.6,0.1,Ghost,Poison,45,50,45,115,55,95,405
-Gengar,Shadow Pokemon,1.5,40.5,Ghost,Poison,60,65,60,130,75,110,500
-Mega Gengar,Shadow Pokemon,1.4,40.5,Ghost,Poison,60,65,80,170,95,130,600
-Gigantamax Gengar,Shadow Pokemon,20.0,0.0,Ghost,Poison,60,65,60,130,75,110,500
-Onix,Rock Snake Pokemon,8.8,210.0,Rock,Ground,35,45,160,30,45,70,385
-Drowzee,Hypnosis Pokemon,1.0,32.4,Psychic,,60,48,45,43,90,42,328
-Hypno,Hypnosis Pokemon,1.6,75.6,Psychic,,85,73,70,73,115,67,483
-Krabby,River Crab Pokemon,0.4,6.5,Water,,30,105,90,25,25,50,325
-Kingler,Pincer Pokemon,1.3,60.0,Water,,55,130,115,50,50,75,475
-Gigantamax Kingler,Pincer Pokemon,19.0,0.0,Water,,55,130,115,50,50,75,475
-Voltorb,Ball Pokemon,0.5,10.5,Electric,,40,30,50,55,55,100,330
-Electrode,Ball Pokemon,1.2,66.6,Electric,,60,50,70,80,80,150,490
-Exeggcute,Egg Pokemon,0.4,2.5,Grass,Psychic,60,40,80,60,45,40,325
-Exeggutor,Coconut Pokemon,2.0,120.0,Grass,Psychic,95,95,85,125,75,55,530
-Alolan Exeggutor,Coconut Pokemon,10.9,415.6,Grass,Dragon,95,105,85,125,75,45,530
-Cubone,Lonely Pokemon,0.4,6.5,Ground,,50,50,95,40,50,35,320
-Marowak,Bone Keeper Pokemon,1.0,45.0,Ground,,60,80,110,50,80,45,425
-Alolan Marowak,Bone Keeper Pokemon,1.0,34.0,Ghost,Fire,60,80,110,50,80,45,425
-Hitmonlee,Kicking Pokemon,1.5,49.8,Fighting,,50,120,53,35,110,87,455
-Hitmonchan,Punching Pokemon,1.4,50.2,Fighting,,50,105,79,35,110,76,455
-Lickitung,Licking Pokemon,1.2,65.5,Normal,,90,55,75,60,75,30,385
-Koffing,Poison Gas Pokemon,0.6,1.0,Poison,,40,65,95,60,45,35,340
-Weezing,Poison Gas Pokemon,1.2,9.5,Poison,,65,90,120,85,70,60,490
-Galarian Weezing,Poison Gas Pokemon,3.0,16.0,Poison,Fairy,65,90,120,85,70,60,490
-Rhyhorn,Spikes Pokemon,1.0,115.0,Ground,Rock,80,85,95,30,30,25,345
-Rhydon,Drill Pokemon,1.9,120.0,Ground,Rock,105,130,120,45,45,40,485
-Chansey,Egg Pokemon,1.1,34.6,Normal,,250,5,5,35,105,50,450
-Tangela,Vine Pokemon,1.0,35.0,Grass,,65,55,115,100,40,60,435
-Kangaskhan,Parent Pokemon,2.2,80.0,Normal,,105,95,80,40,80,90,490
-Mega Kangaskhan,Parent Pokemon,2.2,100.0,Normal,,105,125,100,60,100,100,590
-Horsea,Dragon Pokemon,0.4,8.0,Water,,30,40,70,70,25,60,295
-Seadra,Dragon Pokemon,1.2,25.0,Water,,55,65,95,95,45,85,440
-Goldeen,Goldfish Pokemon,0.6,15.0,Water,,45,67,60,35,50,63,320
-Seaking,Goldfish Pokemon,1.3,39.0,Water,,80,92,65,65,80,68,450
-Staryu,Star Shape Pokemon,0.8,34.5,Water,,30,45,55,70,55,85,340
-Starmie,Mysterious Pokemon,1.1,80.0,Water,Psychic,60,75,85,100,85,115,520
-Mr. Mime,Barrier Pokemon,1.3,54.5,Psychic,Fairy,40,45,65,100,120,90,460
-Galarian Mr. Mime,Dancing Pokemon,1.4,56.0,Ice,Psychic,50,65,65,90,90,100,460
-Scyther,Mantis Pokemon,1.5,56.0,Bug,Flying,70,110,80,55,80,105,500
-Jynx,Human Shape Pokemon,1.4,40.6,Ice,Psychic,65,50,35,115,95,95,455
-Electabuzz,Electric Pokemon,1.1,30.0,Electric,,65,83,57,95,85,105,490
-Magmar,Spitfire Pokemon,1.3,44.5,Fire,,65,95,57,100,85,93,495
-Pinsir,Stag Beetle Pokemon,1.5,55.0,Bug,,65,125,100,55,70,85,500
-Mega Pinsir,Stag Beetle Pokemon,1.7,59.0,Bug,Flying,65,155,120,65,90,105,600
-Tauros,Wild Bull Pokemon,1.4,88.4,Normal,,75,100,95,40,70,110,490
-Magikarp,Fish Pokemon,0.9,10.0,Water,,20,10,55,15,20,80,200
-Gyarados,Atrocious Pokemon,6.5,235.0,Water,Flying,95,125,79,60,100,81,540
-Mega Gyarados,Atrocious Pokemon,6.5,305.0,Water,Dark,95,155,109,70,130,81,640
-Lapras,Transport Pokemon,2.5,220.0,Water,Ice,130,85,80,85,95,60,535
-Gigantamax Lapras,Transport Pokemon,24.0,0.0,Water,Ice,130,85,80,85,95,60,535
-Ditto,Transform Pokemon,0.3,4.0,Normal,,48,48,48,48,48,48,288
-Eevee,Evolution Pokemon,0.3,6.5,Normal,,55,55,50,45,65,55,325
-Gigantamax Eevee,Evolution Pokemon,18.0,0.0,Normal,,55,55,50,45,65,55,325
-Starter Eevee,Evolution Pokemon,0.3,6.5,Normal,,65,75,70,65,85,75,435
-Vaporeon,Bubble Jet Pokemon,1.0,29.0,Water,,130,65,60,110,95,65,525
-Jolteon,Lightning Pokemon,0.8,24.5,Electric,,65,65,60,110,95,130,525
-Flareon,Flame Pokemon,0.9,25.0,Fire,,65,130,60,95,110,65,525
-Porygon,Virtual Pokemon,0.8,36.5,Normal,,65,60,70,85,75,40,395
-Omanyte,Spiral Pokemon,0.4,7.5,Rock,Water,35,40,100,90,55,35,355
-Omastar,Spiral Pokemon,1.0,35.0,Rock,Water,70,60,125,115,70,55,495
-Kabuto,Shellfish Pokemon,0.5,11.5,Rock,Water,30,80,90,55,45,55,355
-Kabutops,Shellfish Pokemon,1.3,40.5,Rock,Water,60,115,105,65,70,80,495
-Aerodactyl,Fossil Pokemon,1.8,59.0,Rock,Flying,80,105,65,60,75,130,515
-Mega Aerodactyl,Fossil Pokemon,2.1,79.0,Rock,Flying,80,135,85,70,95,150,615
-Snorlax,Sleeping Pokemon,2.1,460.0,Normal,,160,110,65,65,110,30,540
-Gigantamax Snorlax,Sleeping Pokemon,35.0,0.0,Normal,,160,110,65,65,110,30,540
-Articuno,Freeze Pokemon,1.7,55.4,Ice,Flying,90,85,100,95,125,85,580
-Zapdos,Electric Pokemon,1.6,52.6,Electric,Flying,90,90,85,125,90,100,580
-Moltres,Flame Pokemon,2.0,60.0,Fire,Flying,90,100,90,125,85,90,580
-Dratini,Dragon Pokemon,1.8,3.3,Dragon,,41,64,45,50,50,50,300
-Dragonair,Dragon Pokemon,4.0,16.5,Dragon,,61,84,65,70,70,70,420
-Dragonite,Dragon Pokemon,2.2,210.0,Dragon,Flying,91,134,95,100,100,80,600
-Mewtwo,Genetic Pokemon,2.0,122.0,Psychic,,106,110,90,154,90,130,680
-Mega X Mewtwo,Genetic Pokemon,2.3,127.0,Psychic,,106,190,100,154,100,130,780
-Mega Y Mewtwo,Genetic Pokemon,1.5,33.0,Psychic,,106,150,70,194,120,140,780
-Mew,New Species Pokemon,0.4,4.0,Psychic,,100,100,100,100,100,100,600
-Chikorita,Leaf Pokemon,0.9,6.4,Grass,,45,49,65,49,65,45,318
-Bayleef,Leaf Pokemon,1.2,15.8,Grass,,60,62,80,63,80,60,405
-Meganium,Herb Pokemon,1.8,100.5,Grass,,80,82,100,83,100,80,525
-Cyndaquil,Fire Mouse Pokemon,0.5,7.9,Fire,,39,52,43,60,50,65,309
-Quilava,Volcano Pokemon,0.9,19.0,Fire,,58,64,58,80,65,80,405
-Typhlosion,Volcano Pokemon,1.7,79.5,Fire,,78,84,78,109,85,100,534
-Totodile,Big Jaw Pokemon,0.6,9.5,Water,,50,65,64,44,48,43,314
-Croconaw,Big Jaw Pokemon,1.1,25.0,Water,,65,80,80,59,63,58,405
-Feraligatr,Big Jaw Pokemon,2.3,88.8,Water,,85,105,100,79,83,78,530
-Sentret,Scout Pokemon,0.8,6.0,Normal,,35,46,34,35,45,20,215
-Furret,Long Body Pokemon,1.8,32.5,Normal,,85,76,64,45,55,90,415
-Hoothoot,Owl Pokemon,0.7,21.2,Normal,Flying,60,30,30,36,56,50,262
-Noctowl,Owl Pokemon,1.6,40.8,Normal,Flying,100,50,50,86,96,70,452
-Ledyba,Five Star Pokemon,1.0,10.8,Bug,Flying,40,20,30,40,80,55,265
-Ledian,Five Star Pokemon,1.4,35.6,Bug,Flying,55,35,50,55,110,85,390
-Spinarak,String Spit Pokemon,0.5,8.5,Bug,Poison,40,60,40,40,40,30,250
-Ariados,Long Leg Pokemon,1.1,33.5,Bug,Poison,70,90,70,60,70,40,400
-Crobat,Bat Pokemon,1.8,75.0,Poison,Flying,85,90,80,70,80,130,535
-Chinchou,Angler Pokemon,0.5,12.0,Water,Electric,75,38,38,56,56,67,330
-Lanturn,Light Pokemon,1.2,22.5,Water,Electric,125,58,58,76,76,67,460
-Pichu,Tiny Mouse Pokemon,0.3,2.0,Electric,,20,40,15,35,35,60,205
-Cleffa,Star Shape Pokemon,0.3,3.0,Fairy,,50,25,28,45,55,15,218
-Igglybuff,Balloon Pokemon,0.3,1.0,Normal,Fairy,90,30,15,40,20,15,210
-Togepi,Spike Ball Pokemon,0.3,1.5,Fairy,,35,20,65,40,65,20,245
-Togetic,Happiness Pokemon,0.6,3.2,Fairy,Flying,55,40,85,80,105,40,405
-Natu,Tiny Bird Pokemon,0.2,2.0,Psychic,Flying,40,50,45,70,45,70,320
-Xatu,Mystic Pokemon,1.5,15.0,Psychic,Flying,65,75,70,95,70,95,470
-Mareep,Wool Pokemon,0.6,7.8,Electric,,55,40,40,65,45,35,280
-Flaaffy,Wool Pokemon,0.8,13.3,Electric,,70,55,55,80,60,45,365
-Ampharos,Light Pokemon,1.4,61.5,Electric,,90,75,85,115,90,55,510
-Mega Ampharos,Light Pokemon,1.4,61.5,Electric,Dragon,90,95,105,165,110,45,610
-Bellossom,Flower Pokemon,0.4,5.8,Grass,,75,80,95,90,100,50,490
-Marill,Aqua Mouse Pokemon,0.4,8.5,Water,Fairy,70,20,50,20,50,40,250
-Azumarill,Aqua Rabbit Pokemon,0.8,28.5,Water,Fairy,100,50,80,60,80,50,420
-Sudowoodo,Imitation Pokemon,1.2,38.0,Rock,,70,110,115,30,65,30,420
-Politoed,Frog Pokemon,1.1,33.9,Water,,90,75,75,90,100,70,500
-Hoppip,Cottonweed Pokemon,0.4,0.5,Grass,Flying,35,35,40,35,55,50,250
-Skiploom,Cottonweed Pokemon,0.6,1.0,Grass,Flying,55,45,50,45,65,80,340
-Jumpluff,Cottonweed Pokemon,0.8,3.0,Grass,Flying,75,55,70,55,95,110,460
-Aipom,Long Tail Pokemon,0.8,11.5,Normal,,55,70,55,40,55,85,360
-Sunkern,Seed Pokemon,0.3,1.8,Grass,,30,30,30,30,30,30,180
-Sunflora,Sun Pokemon,0.8,8.5,Grass,,75,75,55,105,85,30,425
-Yanma,Clear Wing Pokemon,1.2,38.0,Bug,Flying,65,65,45,75,45,95,390
-Wooper,Water Fish Pokemon,0.4,8.5,Water,Ground,55,45,45,25,25,15,210
-Quagsire,Water Fish Pokemon,1.4,75.0,Water,Ground,95,85,85,65,65,35,430
-Espeon,Sun Pokemon,0.9,26.5,Psychic,,65,65,60,130,95,110,525
-Umbreon,Moonlight Pokemon,1.0,27.0,Dark,,95,65,110,60,130,65,525
-Murkrow,Darkness Pokemon,0.5,2.1,Dark,Flying,60,85,42,85,42,91,405
-Slowking,Royal Pokemon,2.0,79.5,Water,Psychic,95,75,80,100,110,30,490
-Misdreavus,Screech Pokemon,0.7,1.0,Ghost,,60,60,60,85,85,85,435
-Unown,Symbol Pokemon,0.5,5.0,Psychic,,48,72,48,72,48,48,336
-Wobbuffet,Patient Pokemon,1.3,28.5,Psychic,,190,33,58,33,58,33,405
-Girafarig,Long Neck Pokemon,1.5,41.5,Normal,Psychic,70,80,65,90,65,85,455
-Pineco,Bagworm Pokemon,0.6,7.2,Bug,,50,65,90,35,35,15,290
-Forretress,Bagworm Pokemon,1.2,125.8,Bug,Steel,75,90,140,60,60,40,465
-Dunsparce,Land Snake Pokemon,1.5,14.0,Normal,,100,70,70,65,65,45,415
-Gligar,Fly Scorpion Pokemon,1.1,64.8,Ground,Flying,65,75,105,35,65,85,430
-Steelix,Iron Snake Pokemon,9.2,400.0,Steel,Ground,75,85,200,55,65,30,510
-Mega Steelix,Iron Snake Pokemon,10.5,740.0,Steel,Ground,75,125,230,55,95,30,610
-Snubbull,Fairy Pokemon,0.6,7.8,Fairy,,60,80,50,40,40,30,300
-Granbull,Fairy Pokemon,1.4,48.7,Fairy,,90,120,75,60,60,45,450
-Qwilfish,Balloon Pokemon,0.5,3.9,Water,Poison,65,95,85,55,55,85,440
-Scizor,Pincer Pokemon,1.8,118.0,Bug,Steel,70,130,100,55,80,65,500
-Mega Scizor,Pincer Pokemon,2.0,125.0,Bug,Steel,70,150,140,65,100,75,600
-Shuckle,Mold Pokemon,0.6,20.5,Bug,Rock,20,10,230,10,230,5,505
-Heracross,Single Horn Pokemon,1.5,54.0,Bug,Fighting,80,125,75,40,95,85,500
-Mega Heracross,Abundance Pokemon,1.7,62.5,Bug,Fighting,80,185,115,40,105,75,600
-Sneasel,Sharp Claw Pokemon,0.9,28.0,Dark,Ice,55,95,55,35,75,115,430
-Teddiursa,Little Bear Pokemon,0.6,8.8,Normal,,60,80,50,50,50,40,330
-Ursaring,Hibernator Pokemon,1.8,125.8,Normal,,90,130,75,75,75,55,500
-Slugma,Lava Pokemon,0.7,35.0,Fire,,40,40,40,70,40,20,250
-Magcargo,Lava Pokemon,0.8,55.0,Fire,Rock,60,50,120,90,80,30,430
-Swinub,Pig Pokemon,0.4,6.5,Ice,Ground,50,50,40,30,30,50,250
-Piloswine,Swine Pokemon,1.1,55.8,Ice,Ground,100,100,80,60,60,50,450
-Corsola,Coral Pokemon,0.6,5.0,Water,Rock,65,55,95,65,95,35,410
-Galarian Corsola,Coral Pokemon,0.6,0.5,Ghost,,60,55,100,65,100,30,410
-Remoraid,Jet Pokemon,0.6,12.0,Water,,35,65,35,65,35,65,300
-Octillery,Jet Pokemon,0.9,28.5,Water,,75,105,75,105,75,45,480
-Delibird,Delivery Pokemon,0.9,16.0,Ice,Flying,45,55,45,65,45,75,330
-Mantine,Kite Pokemon,2.1,220.0,Water,Flying,85,40,70,80,140,70,485
-Skarmory,Armor Bird Pokemon,1.7,50.5,Steel,Flying,65,80,140,40,70,70,465
-Houndour,Dark Pokemon,0.6,10.8,Dark,Fire,45,60,30,80,50,65,330
-Houndoom,Dark Pokemon,1.4,35.0,Dark,Fire,75,90,50,110,80,95,500
-Mega Houndoom,Dark Pokemon,1.9,49.5,Dark,Fire,75,90,90,140,90,115,600
-Kingdra,Dragon Pokemon,1.8,152.0,Water,Dragon,75,95,95,95,95,85,540
-Phanpy,Long Nose Pokemon,0.5,33.5,Ground,,90,60,60,40,40,40,330
-Donphan,Armor Pokemon,1.1,120.0,Ground,,90,120,120,60,60,50,500
-Porygon2,Virtual Pokemon,0.6,32.5,Normal,,85,80,90,105,95,60,515
-Stantler,Big Horn Pokemon,1.4,71.2,Normal,,73,95,62,85,65,85,465
-Smeargle,Painter Pokemon,1.2,58.0,Normal,,55,20,35,20,45,75,250
-Tyrogue,Scuffle Pokemon,0.7,21.0,Fighting,,35,35,35,35,35,35,210
-Hitmontop,Handstand Pokemon,1.4,48.0,Fighting,,50,95,95,35,110,70,455
-Smoochum,Kiss Pokemon,0.4,6.0,Ice,Psychic,45,30,15,85,65,65,305
-Elekid,Electric Pokemon,0.6,23.5,Electric,,45,63,37,65,55,95,360
-Magby,Live Coal Pokemon,0.7,21.4,Fire,,45,75,37,70,55,83,365
-Miltank,Milk Cow Pokemon,1.2,75.5,Normal,,95,80,105,40,70,100,490
-Blissey,Happiness Pokemon,1.5,46.8,Normal,,255,10,10,75,135,55,540
-Raikou,Thunder Pokemon,1.9,178.0,Electric,,90,85,75,115,100,115,580
-Entei,Volcano Pokemon,2.1,198.0,Fire,,115,115,85,90,75,100,580
-Suicune,Aurora Pokemon,2.0,187.0,Water,,100,75,115,90,115,85,580
-Larvitar,Rock Skin Pokemon,0.6,72.0,Rock,Ground,50,64,50,45,50,41,300
-Pupitar,Hard Shell Pokemon,1.2,152.0,Rock,Ground,70,84,70,65,70,51,410
-Tyranitar,Armor Pokemon,2.0,202.0,Rock,Dark,100,134,110,95,100,61,600
-Mega Tyranitar,Armor Bird Pokemon,2.5,255.0,Rock,Dark,100,164,150,95,120,71,700
-Lugia,Diving Pokemon,5.2,216.0,Psychic,Flying,106,90,130,90,154,110,680
-Ho-Oh,Rainbow Pokemon,3.8,199.0,Fire,Flying,106,130,90,110,154,90,680
-Celebi,Time Travel Pokemon,0.6,5.0,Psychic,Grass,100,100,100,100,100,100,600
-Treecko,Wood Gecko Pokemon,0.5,5.0,Grass,,40,45,35,65,55,70,310
-Grovyle,Wood Gecko Pokemon,0.9,21.6,Grass,,50,65,45,85,65,95,405
-Sceptile,Forest Pokemon,1.7,52.2,Grass,,70,85,65,105,85,120,530
-Mega Sceptile,Forest Pokemon,1.9,55.2,Grass,Dragon,70,110,75,145,85,145,630
-Torchic,Chick Pokemon,0.4,2.5,Fire,,45,60,40,70,50,45,310
-Combusken,Young Fowl Pokemon,0.9,19.5,Fire,Fighting,60,85,60,85,60,55,405
-Blaziken,Blaze Pokemon,1.9,52.0,Fire,Fighting,80,120,70,110,70,80,530
-Mega Blaziken,Blaze Pokemon,1.9,52.0,Fire,Fighting,80,160,80,130,80,100,630
-Mudkip,Mud Fish Pokemon,0.4,7.6,Water,,50,70,50,50,50,40,310
-Marshtomp,Mud Fish Pokemon,0.7,28.0,Water,Ground,70,85,70,60,70,50,405
-Swampert,Mud Fish Pokemon,1.5,81.9,Water,Ground,100,110,90,85,90,60,535
-Mega Swampert,Mud Fish Pokemon,1.9,102.0,Water,Ground,100,150,110,95,110,70,635
-Poochyena,Bite Pokemon,0.5,13.6,Dark,,35,55,35,30,30,35,220
-Mightyena,Bite Pokemon,1.0,37.0,Dark,,70,90,70,60,60,70,420
-Zigzagoon,Tiny Raccoon Pokemon,0.4,17.5,Normal,,38,30,41,30,41,60,240
-Galarian Zigzagoon,Tiny Raccoon Pokemon,0.4,17.5,Dark,Normal,38,30,41,30,41,60,240
-Linoone,Rushing Pokemon,0.5,32.5,Normal,,78,70,61,50,61,100,420
-Galarian Linoone,Rushing Pokemon,0.5,32.5,Dark,Normal,78,70,61,50,61,100,420
-Wurmple,Worm Pokemon,0.3,3.6,Bug,,45,45,35,20,30,20,195
-Silcoon,Cocoon Pokemon,0.6,10.0,Bug,,50,35,55,25,25,15,205
-Beautifly,Butterfly Pokemon,1.0,28.4,Bug,Flying,60,70,50,100,50,65,395
-Cascoon,Cocoon Pokemon,0.7,11.5,Bug,,50,35,55,25,25,15,205
-Dustox,Poison Moth Pokemon,1.2,31.6,Bug,Poison,60,50,70,50,90,65,385
-Lotad,Water Weed Pokemon,0.5,2.6,Water,Grass,40,30,30,40,50,30,220
-Lombre,Jolly Pokemon,1.2,32.5,Water,Grass,60,50,50,60,70,50,340
-Ludicolo,Carefree Pokemon,1.5,55.0,Water,Grass,80,70,70,90,100,70,480
-Seedot,Acorn Pokemon,0.5,4.0,Grass,,40,40,50,30,30,30,220
-Nuzleaf,Wily Pokemon,1.0,28.0,Grass,Dark,70,70,40,60,40,60,340
-Shiftry,Wicked Pokemon,1.3,59.6,Grass,Dark,90,100,60,90,60,80,480
-Taillow,Tiny Swallow Pokemon,0.3,2.3,Normal,Flying,40,55,30,30,30,85,270
-Swellow,Swallow Pokemon,0.7,19.8,Normal,Flying,60,85,60,75,50,125,455
-Wingull,Seagull Pokemon,0.6,9.5,Water,Flying,40,30,30,55,30,85,270
-Pelipper,Water Bird Pokemon,1.2,28.0,Water,Flying,90,50,100,95,70,65,470
-Ralts,Feeling Pokemon,0.4,6.6,Psychic,Fairy,28,25,25,45,35,40,198
-Kirlia,Emotion Pokemon,0.8,20.2,Psychic,Fairy,38,35,35,65,55,50,278
-Gardevoir,Embrace Pokemon,1.6,48.4,Psychic,Fairy,68,65,65,125,115,80,518
-Mega Gardevoir,Embrace Pokemon,1.6,48.4,Psychic,Fairy,68,85,65,165,135,100,618
-Surskit,Pond Skater Pokemon,0.5,1.7,Bug,Water,40,30,32,50,52,65,269
-Masquerain,Eyeball Pokemon,0.8,3.6,Bug,Flying,70,60,62,100,82,80,454
-Shroomish,Mushroom Pokemon,0.4,4.5,Grass,,60,40,60,40,60,35,295
-Breloom,Mushroom Pokemon,1.2,39.2,Grass,Fighting,60,130,80,60,60,70,460
-Slakoth,Slacker Pokemon,0.8,24.0,Normal,,60,60,60,35,35,30,280
-Vigoroth,Wild Monkey Pokemon,1.4,46.5,Normal,,80,80,80,55,55,90,440
-Slaking,Lazy Pokemon,2.0,130.5,Normal,,150,160,100,95,65,100,670
-Nincada,Trainee Pokemon,0.5,5.5,Bug,Ground,31,45,90,30,30,40,266
-Ninjask,Ninja Pokemon,0.8,12.0,Bug,Flying,61,90,45,50,50,160,456
-Shedinja,Shed Pokemon,0.8,1.2,Bug,Ghost,1,90,45,30,30,40,236
-Whismur,Whisper Pokemon,0.6,16.3,Normal,,64,51,23,51,23,28,240
-Loudred,Big Voice Pokemon,1.0,40.5,Normal,,84,71,43,71,43,48,360
-Exploud,Loud Noise Pokemon,1.5,84.0,Normal,,104,91,63,91,73,68,490
-Makuhita,Guts Pokemon,1.0,86.4,Fighting,,72,60,30,20,30,25,237
-Hariyama,Arm Thrust Pokemon,2.3,253.8,Fighting,,144,120,60,40,60,50,474
-Azurill,Polka Dot Pokemon,0.2,2.0,Normal,Fairy,50,20,40,20,40,20,190
-Nosepass,Compass Pokemon,1.0,97.0,Rock,,30,45,135,45,90,30,375
-Skitty,Kitten Pokemon,0.6,11.0,Normal,,50,45,45,35,35,50,260
-Delcatty,Prim Pokemon,1.1,32.6,Normal,,70,65,65,55,55,90,400
-Sableye,Darkness Pokemon,0.5,11.0,Dark,Ghost,50,75,75,65,65,50,380
-Mega Sableye,Darkness Pokemon,0.5,161.0,Dark,Ghost,50,85,125,85,115,20,480
-Mawile,Deceiver Pokemon,0.6,11.5,Steel,Fairy,50,85,85,55,55,50,380
-Mega Mawile,Deceiver Pokemon,1.0,23.5,Steel,Fairy,50,105,125,55,95,50,480
-Aron,Iron Armor Pokemon,0.4,60.0,Steel,Rock,50,70,100,40,40,30,330
-Lairon,Iron Armor Pokemon,0.9,120.0,Steel,Rock,60,90,140,50,50,40,430
-Aggron,Iron Armor Pokemon,2.1,360.0,Steel,Rock,70,110,180,60,60,50,530
-Mega Aggron,Iron Armor Pokemon,2.2,395.0,Steel,,70,140,230,60,80,50,630
-Meditite,Meditate Pokemon,0.6,11.2,Fighting,Psychic,30,40,55,40,55,60,280
-Medicham,Meditate Pokemon,1.3,31.5,Fighting,Psychic,60,60,75,60,75,80,410
-Mega Medicham,Meditate Pokemon,1.3,31.5,Fighting,Psychic,60,100,85,80,85,100,510
-Electrike,Lightning Pokemon,0.6,15.2,Electric,,40,45,40,65,40,65,295
-Manectric,Discharge Pokemon,1.5,40.2,Electric,,70,75,60,105,60,105,475
-Mega Manectric,Discharge Pokemon,1.8,44.0,Electric,,70,75,80,135,80,135,575
-Plusle,Cheering Pokemon,0.4,4.2,Electric,,60,50,40,85,75,95,405
-Minun,Cheering Pokemon,0.4,4.2,Electric,,60,40,50,75,85,95,405
-Volbeat,Firefly Pokemon,0.7,17.7,Bug,,65,73,75,47,85,85,430
-Illumise,Firefly Pokemon,0.6,17.7,Bug,,65,47,75,73,85,85,430
-Roselia,Thorn Pokemon,0.3,2.0,Grass,Poison,50,60,45,100,80,65,400
-Gulpin,Stomach Pokemon,0.4,10.3,Poison,,70,43,53,43,53,40,302
-Swalot,Poison Bag Pokemon,1.7,80.0,Poison,,100,73,83,73,83,55,467
-Carvanha,Savage Pokemon,0.8,20.8,Water,Dark,45,90,20,65,20,65,305
-Sharpedo,Brutal Pokemon,1.8,88.8,Water,Dark,70,120,40,95,40,95,460
-Mega Sharpedo,Brutal Pokemon,2.5,130.3,Water,Dark,70,140,70,110,65,105,560
-Wailmer,Ball Whale Pokemon,2.0,130.0,Water,,130,70,35,70,35,60,400
-Wailord,Float Whale Pokemon,14.5,398.0,Water,,170,90,45,90,45,60,500
-Numel,Numb Pokemon,0.7,24.0,Fire,Ground,60,60,40,65,45,35,305
-Camerupt,Eruption Pokemon,1.9,220.0,Fire,Ground,70,100,70,105,75,40,460
-Mega Camerupt,Eruption Pokemon,2.5,320.5,Fire,Ground,70,120,100,145,105,20,560
-Torkoal,Coal Pokemon,0.5,80.4,Fire,,70,85,140,85,70,20,470
-Spoink,Bounce Pokemon,0.7,30.6,Psychic,,60,25,35,70,80,60,330
-Grumpig,Manipulate Pokemon,0.9,71.5,Psychic,,80,45,65,90,110,80,470
-Spinda,Spot Panda Pokemon,1.1,5.0,Normal,,60,60,60,60,60,60,360
-Trapinch,Ant Pit Pokemon,0.7,15.0,Ground,,45,100,45,45,45,10,290
-Vibrava,Vibration Pokemon,1.1,15.3,Ground,Dragon,50,70,50,50,50,70,340
-Flygon,Mystic Pokemon,2.0,82.0,Ground,Dragon,80,100,80,80,80,100,520
-Cacnea,Cactus Pokemon,0.4,51.3,Grass,,50,85,40,85,40,35,335
-Cacturne,Scarecrow Pokemon,1.3,77.4,Grass,Dark,70,115,60,115,60,55,475
-Swablu,Cotton Bird Pokemon,0.4,1.2,Normal,Flying,45,40,60,40,75,50,310
-Altaria,Humming Pokemon,1.1,20.6,Dragon,Flying,75,70,90,70,105,80,490
-Mega Altaria,Humming Pokemon,1.5,20.6,Dragon,Fairy,75,110,110,110,105,80,590
-Zangoose,Cat Ferret Pokemon,1.3,40.3,Normal,,73,115,60,60,60,90,458
-Seviper,Fang Snake Pokemon,2.7,52.5,Poison,,73,100,60,100,60,65,458
-Lunatone,Meteorite Pokemon,1.0,168.0,Rock,Psychic,90,55,65,95,85,70,460
-Solrock,Meteorite Pokemon,1.2,154.0,Rock,Psychic,90,95,85,55,65,70,460
-Barboach,Whiskers Pokemon,0.4,1.9,Water,Ground,50,48,43,46,41,60,288
-Whiscash,Whiskers Pokemon,0.9,23.6,Water,Ground,110,78,73,76,71,60,468
-Corphish,Ruffian Pokemon,0.6,11.5,Water,,43,80,65,50,35,35,308
-Crawdaunt,Rogue Pokemon,1.1,32.8,Water,Dark,63,120,85,90,55,55,468
-Baltoy,Clay Doll Pokemon,0.5,21.5,Ground,Psychic,40,40,55,40,70,55,300
-Claydol,Clay Doll Pokemon,1.5,107.9,Ground,Psychic,60,70,105,70,120,75,500
-Lileep,Sea Lily Pokemon,1.0,23.8,Rock,Grass,66,41,77,61,87,23,355
-Cradily,Barnacle Pokemon,1.5,60.4,Rock,Grass,86,81,97,81,107,43,495
-Anorith,Old Shrimp Pokemon,0.7,12.5,Rock,Bug,45,95,50,40,50,75,355
-Armaldo,Plate Pokemon,1.5,68.2,Rock,Bug,75,125,100,70,80,45,495
-Feebas,Fish Pokemon,0.6,7.4,Water,,20,15,20,10,55,80,200
-Milotic,Tender Pokemon,6.2,162.0,Water,,95,60,79,100,125,81,540
-Castform,Weather Pokemon,0.3,0.8,Normal,,70,70,70,70,70,70,420
-Sunny Castform,Weather Pokemon,0.3,0.8,Fire,,70,70,70,70,70,70,420
-Rainy Castform,Weather Pokemon,0.3,0.8,Water,,70,70,70,70,70,70,420
-Snowy Castform,Weather Pokemon,0.3,0.8,Ice,,70,70,70,70,70,70,420
-Kecleon,Color Swap Pokemon,1.0,22.0,Normal,,60,90,70,60,120,40,440
-Shuppet,Puppet Pokemon,0.6,2.3,Ghost,,44,75,35,63,33,45,295
-Banette,Marionette Pokemon,1.1,12.5,Ghost,,64,115,65,83,63,65,455
-Mega Banette,Marionette Pokemon,1.2,13.0,Ghost,,64,165,75,93,83,75,555
-Duskull,Requiem Pokemon,0.8,15.0,Ghost,,20,40,90,30,90,25,295
-Dusclops,Beckon Pokemon,1.6,30.6,Ghost,,40,70,130,60,130,25,455
-Tropius,Fruit Pokemon,2.0,100.0,Grass,Flying,99,68,83,72,87,51,460
-Chimecho,Wind Chime Pokemon,0.6,1.0,Psychic,,75,50,80,95,90,65,455
-Absol,Disaster Pokemon,1.2,47.0,Dark,,65,130,60,75,60,75,465
-Mega Absol,Disaster Pokemon,1.2,49.0,Dark,,65,150,60,115,60,115,565
-Wynaut,Bright Pokemon,0.6,14.0,Psychic,,95,23,48,23,48,23,260
-Snorunt,Snow Hat Pokemon,0.7,16.8,Ice,,50,50,50,50,50,50,300
-Glalie,Face Pokemon,1.5,256.5,Ice,,80,80,80,80,80,80,480
-Mega Glalie,Face Pokemon,2.1,350.2,Ice,,80,120,80,120,80,100,580
-Spheal,Clap Pokemon,0.8,39.5,Ice,Water,70,40,50,55,50,25,290
-Sealeo,Ball Roll Pokemon,1.1,87.6,Ice,Water,90,60,70,75,70,45,410
-Walrein,Ice Break Pokemon,1.4,150.6,Ice,Water,110,80,90,95,90,65,530
-Clamperl,Bivalve Pokemon,0.4,52.5,Water,,35,64,85,74,55,32,345
-Huntail,Deep Sea Pokemon,1.7,27.0,Water,,55,104,105,94,75,52,485
-Gorebyss,South Sea Pokemon,1.8,22.6,Water,,55,84,105,114,75,52,485
-Relicanth,Longevity Pokemon,1.0,23.4,Water,Rock,100,90,130,45,65,55,485
-Luvdisc,Rendezvous Pokemon,0.6,8.7,Water,,43,30,55,40,65,97,330
-Bagon,Rock Head Pokemon,0.6,42.1,Dragon,,45,75,60,40,30,50,300
-Shelgon,Endurance Pokemon,1.1,110.5,Dragon,,65,95,100,60,50,50,420
-Salamence,Dragon Pokemon,1.5,102.6,Dragon,Flying,95,135,80,110,80,100,600
-Mega Salamence,Dragon Pokemon,1.8,112.6,Dragon,Flying,95,145,130,120,90,120,700
-Beldum,Iron Ball Pokemon,0.6,95.2,Steel,Psychic,40,55,80,35,60,30,300
-Metang,Iron Claw Pokemon,1.2,202.5,Steel,Psychic,60,75,100,55,80,50,420
-Metagross,Iron Leg Pokemon,1.6,550.0,Steel,Psychic,80,135,130,95,90,70,600
-Mega Metagross,Iron Leg Pokemon,2.5,942.9,Steel,Psychic,80,145,150,105,110,110,700
-Regirock,Rock Peak Pokemon,1.7,230.0,Rock,,80,100,200,50,100,50,580
-Regice,Iceberg Pokemon,1.8,175.0,Ice,,80,50,100,100,200,50,580
-Registeel,Iron Pokemon,1.9,205.0,Steel,,80,75,150,75,150,50,580
-Latias,Eon Pokemon,1.4,40.0,Dragon,Psychic,80,80,90,110,130,110,600
-Mega Latias,Eon Pokemon,1.8,52.0,Dragon,Psychic,80,100,120,140,150,110,700
-Latios,Eon Pokemon,2.0,60.0,Dragon,Psychic,80,90,80,130,110,110,600
-Mega Latios,Eon Pokemon,2.3,70.0,Dragon,Psychic,80,130,100,160,120,110,700
-Kyogre,Sea Basin Pokemon,4.5,352.0,Water,,100,100,90,150,140,90,670
-Primal Kyogre,Sea Basin Pokemon,9.8,430.0,Water,,100,150,90,180,160,90,770
-Groudon,Continent Pokemon,3.5,950.0,Ground,,100,150,140,100,90,90,670
-Primal Groudon,Continent Pokemon,5.0,999.7,Ground,Fire,100,180,160,150,90,90,770
-Rayquaza,Sky High Pokemon,7.0,206.5,Dragon,Flying,105,150,90,150,90,95,680
-Mega Rayquaza,Sky High Pokemon,10.8,392.0,Dragon,Flying,105,180,100,180,100,115,780
-Jirachi,Wish Pokemon,0.3,1.1,Steel,Psychic,100,100,100,100,100,100,600
-Deoxys,DNA Pokemon,1.7,60.8,Psychic,,50,150,50,150,50,150,600
-Attack Deoxys,DNA Pokemon,1.7,60.8,Psychic,,50,180,20,180,20,150,600
-Defense Deoxys,DNA Pokemon,1.7,60.8,Psychic,,50,70,160,70,160,90,600
-Speed Deoxys,DNA Pokemon,1.7,60.8,Psychic,,50,95,90,95,90,180,600
-Turtwig,Tiny Leaf Pokemon,0.4,10.2,Grass,,55,68,64,45,55,31,318
-Grotle,Grove Pokemon,1.1,97.0,Grass,,75,89,85,55,65,36,405
-Torterra,Continent Pokemon,2.2,310.0,Grass,Ground,95,109,105,75,85,56,525
-Chimchar,Chimp Pokemon,0.5,6.2,Fire,,44,58,44,58,44,61,309
-Monferno,Playful Pokemon,0.9,22.0,Fire,Fighting,64,78,52,78,52,81,405
-Infernape,Flame Pokemon,1.2,55.0,Fire,Fighting,76,104,71,104,71,108,534
-Piplup,Penguin Pokemon,0.4,5.2,Water,,53,51,53,61,56,40,314
-Prinplup,Penguin Pokemon,0.8,23.0,Water,,64,66,68,81,76,50,405
-Empoleon,Emperor Pokemon,1.7,84.5,Water,Steel,84,86,88,111,101,60,530
-Starly,Starling Pokemon,0.3,2.0,Normal,Flying,40,55,30,30,30,60,245
-Staravia,Starling Pokemon,0.6,15.5,Normal,Flying,55,75,50,40,40,80,340
-Staraptor,Predator Pokemon,1.2,24.9,Normal,Flying,85,120,70,50,60,100,485
-Bidoof,Plump Mouse Pokemon,0.5,20.0,Normal,,59,45,40,35,40,31,250
-Bibarel,Beaver Pokemon,1.0,31.5,Normal,Water,79,85,60,55,60,71,410
-Kricketot,Cricket Pokemon,0.3,2.2,Bug,,37,25,41,25,41,25,194
-Kricketune,Cricket Pokemon,1.0,25.5,Bug,,77,85,51,55,51,65,384
-Shinx,Flash Pokemon,0.5,9.5,Electric,,45,65,34,40,34,45,263
-Luxio,Spark Pokemon,0.9,30.5,Electric,,60,85,49,60,49,60,363
-Luxray,Gleam Eyes Pokemon,1.4,42.0,Electric,,80,120,79,95,79,70,523
-Budew,Bud Pokemon,0.2,1.2,Grass,Poison,40,30,35,50,70,55,280
-Roserade,Bouquet Pokemon,0.9,14.5,Grass,Poison,60,70,65,125,105,90,515
-Cranidos,Head Butt Pokemon,0.9,31.5,Rock,,67,125,40,30,30,58,350
-Rampardos,Head Butt Pokemon,1.6,102.5,Rock,,97,165,60,65,50,58,495
-Shieldon,Shield Pokemon,0.5,57.0,Rock,Steel,30,42,118,42,88,30,350
-Bastiodon,Shield Pokemon,1.3,149.5,Rock,Steel,60,52,168,47,138,30,495
-Burmy,Bagworm Pokemon,0.2,3.4,Bug,,40,29,45,29,45,36,224
-Wormadam,Bagworm Pokemon,0.5,6.5,Bug,Grass,60,59,85,79,105,36,424
-Sandy Wormadam,Bagworm Pokemon,0.5,6.5,Bug,Ground,60,79,105,59,85,36,424
-Trash Wormadam,Bagworm Pokemon,0.5,6.5,Bug,Steel,60,69,95,69,95,36,424
-Mothim,Moth Pokemon,0.9,23.3,Bug,Flying,70,94,50,94,50,66,424
-Combee,Tiny Bee Pokemon,0.3,5.5,Bug,Flying,30,30,42,30,42,70,244
-Vespiquen,Beehive Pokemon,1.2,38.5,Bug,Flying,70,80,102,80,102,40,474
-Pachirisu,EleSquirrel Pokemon,0.4,3.9,Electric,,60,45,70,45,90,95,405
-Buizel,Sea Weasel Pokemon,0.7,29.5,Water,,55,65,35,60,30,85,330
-Floatzel,Sea Weasel Pokemon,1.1,33.5,Water,,85,105,55,85,50,115,495
-Cherubi,Cherry Pokemon,0.4,3.3,Grass,,45,35,45,62,53,35,275
-Cherrim,Blossom Pokemon,0.5,9.3,Grass,,70,60,70,87,78,85,450
-Shellos,Sea Slug Pokemon,0.3,6.3,Water,,76,48,48,57,62,34,325
-Gastrodon,Sea Slug Pokemon,0.9,29.9,Water,Ground,111,83,68,92,82,39,475
-Ambipom,Long Tail Pokemon,1.2,20.3,Normal,,75,100,66,60,66,115,482
-Drifloon,Balloon Pokemon,0.4,1.2,Ghost,Flying,90,50,34,60,44,70,348
-Drifblim,Blimp Pokemon,1.2,15.0,Ghost,Flying,150,80,44,90,54,80,498
-Buneary,Rabbit Pokemon,0.4,5.5,Normal,,55,66,44,44,56,85,350
-Lopunny,Rabbit Pokemon,1.2,33.3,Normal,,65,76,84,54,96,105,480
-Mega Lopunny,Rabbit Pokemon,1.3,28.3,Normal,Fighting,65,136,94,54,96,135,580
-Mismagius,Magical Pokemon,0.9,4.4,Ghost,,60,60,60,105,105,105,495
-Honchkrow,Big Boss Pokemon,0.9,27.3,Dark,Flying,100,125,52,105,52,71,505
-Glameow,Catty Pokemon,0.5,3.9,Normal,,49,55,42,42,37,85,310
-Purugly,Tiger Cat Pokemon,1.0,43.8,Normal,,71,82,64,64,59,112,452
-Chingling,Bell Pokemon,0.2,0.6,Psychic,,45,30,50,65,50,45,285
-Stunky,Skunk Pokemon,0.4,19.2,Poison,Dark,63,63,47,41,41,74,329
-Skuntank,Skunk Pokemon,1.0,38.0,Poison,Dark,103,93,67,71,61,84,479
-Bronzor,Bronze Pokemon,0.5,60.5,Steel,Psychic,57,24,86,24,86,23,300
-Bronzong,Bronze Bell Pokemon,1.3,187.0,Steel,Psychic,67,89,116,79,116,33,500
-Bonsly,Bonsai Pokemon,0.5,15.0,Rock,,50,80,95,10,45,10,290
-Mime Jr.,Mime Pokemon,0.6,13.0,Psychic,Fairy,20,25,45,70,90,60,310
-Happiny,Playhouse Pokemon,0.6,24.4,Normal,,100,5,5,15,65,30,220
-Chatot,Music Note Pokemon,0.5,1.9,Normal,Flying,76,65,45,92,42,91,411
-Spiritomb,Forbidden Pokemon,1.0,108.0,Ghost,Dark,50,92,108,92,108,35,485
-Gible,Land Shark Pokemon,0.7,20.5,Dragon,Ground,58,70,45,40,45,42,300
-Gabite,Cave Pokemon,1.4,56.0,Dragon,Ground,68,90,65,50,55,82,410
-Garchomp,Mach Pokemon,1.9,95.0,Dragon,Ground,108,130,95,80,85,102,600
-Mega Garchomp,Mach Pokemon,1.9,95.0,Dragon,Ground,108,170,115,120,95,92,700
-Munchlax,Big Eater Pokemon,0.6,105.0,Normal,,135,85,40,40,85,5,390
-Riolu,Emanation Pokemon,0.7,20.2,Fighting,,40,70,40,35,40,60,285
-Lucario,Aura Pokemon,1.2,54.0,Fighting,Steel,70,110,70,115,70,90,525
-Mega Lucario,Aura Pokemon,1.3,57.5,Fighting,Steel,70,145,88,140,70,112,625
-Hippopotas,Hippo Pokemon,0.8,49.5,Ground,,68,72,78,38,42,32,330
-Hippowdon,Heavyweight Pokemon,2.0,300.0,Ground,,108,112,118,68,72,47,525
-Skorupi,Scorpion Pokemon,0.8,12.0,Poison,Bug,40,50,90,30,55,65,330
-Drapion,Ogre Scorpion Pokemon,1.3,61.5,Poison,Dark,70,90,110,60,75,95,500
-Croagunk,Toxic Mouth Pokemon,0.7,23.0,Poison,Fighting,48,61,40,61,40,50,300
-Toxicroak,Toxic Mouth Pokemon,1.3,44.4,Poison,Fighting,83,106,65,86,65,85,490
-Carnivine,Bug Catcher Pokemon,1.4,27.0,Grass,,74,100,72,90,72,46,454
-Finneon,Wing Fish Pokemon,0.4,7.0,Water,,49,49,56,49,61,66,330
-Lumineon,Neon Pokemon,1.2,24.0,Water,,69,69,76,69,86,91,460
-Mantyke,Kite Pokemon,1.0,65.0,Water,Flying,45,20,50,60,120,50,345
-Snover,Frost Tree Pokemon,1.0,50.5,Grass,Ice,60,62,50,62,60,40,334
-Abomasnow,Frost Tree Pokemon,2.2,135.5,Grass,Ice,90,92,75,92,85,60,494
-Mega Abomasnow,Frost Tree Pokemon,2.7,185.0,Grass,Ice,90,132,105,132,105,30,594
-Weavile,Sharp Claw Pokemon,1.1,34.0,Dark,Ice,70,120,65,45,85,125,510
-Magnezone,Magnet Area Pokemon,1.2,180.0,Electric,Steel,70,70,115,130,90,60,535
-Lickilicky,Licking Pokemon,1.7,140.0,Normal,,110,85,95,80,95,50,515
-Rhyperior,Drill Pokemon,2.4,282.8,Ground,Rock,115,140,130,55,55,40,535
-Tangrowth,Vine Pokemon,2.0,128.6,Grass,,100,100,125,110,50,50,535
-Electivire,Thunderbolt Pokemon,1.8,138.6,Electric,,75,123,67,95,85,95,540
-Magmortar,Blast Pokemon,1.6,68.0,Fire,,75,95,67,125,95,83,540
-Togekiss,Jubilee Pokemon,1.5,38.0,Fairy,Flying,85,50,95,120,115,80,545
-Yanmega,Ogre Darner Pokemon,1.9,51.5,Bug,Flying,86,76,86,116,56,95,515
-Leafeon,Verdant Pokemon,1.0,25.5,Grass,,65,110,130,60,65,95,525
-Glaceon,Fresh Snow Pokemon,0.8,25.9,Ice,,65,60,110,130,95,65,525
-Gliscor,Fang Scorpion Pokemon,2.0,42.5,Ground,Flying,75,95,125,45,75,95,510
-Mamoswine,Twin Tusk Pokemon,2.5,291.0,Ice,Ground,110,130,80,70,60,80,530
-Porygon-Z,Virtual Pokemon,0.9,34.0,Normal,,85,80,70,135,75,90,535
-Gallade,Blade Pokemon,1.6,52.0,Psychic,Fighting,68,125,65,65,115,80,518
-Mega Gallade,Blade Pokemon,1.6,56.4,Psychic,Fighting,68,165,95,65,115,110,618
-Probopass,Compass Pokemon,1.4,340.0,Rock,Steel,60,55,145,75,150,40,525
-Dusknoir,Gripper Pokemon,2.2,106.6,Ghost,,45,100,135,65,135,45,525
-Froslass,Snow Land Pokemon,1.3,26.6,Ice,Ghost,70,80,70,80,70,110,480
-Rotom,Plasma Pokemon,0.3,0.3,Electric,Ghost,50,50,77,95,77,91,440
-Heat Rotom,Plasma Pokemon,0.3,0.3,Electric,Fire,50,65,107,105,107,86,520
-Wash Rotom,Plasma Pokemon,0.3,0.3,Electric,Water,50,65,107,105,107,86,520
-Frost Rotom,Plasma Pokemon,0.3,0.3,Electric,Ice,50,65,107,105,107,86,520
-Fan Rotom,Plasma Pokemon,0.3,0.3,Electric,Flying,50,65,107,105,107,86,520
-Mow Rotom,Plasma Pokemon,0.3,0.3,Electric,Grass,50,65,107,105,107,86,520
-Uxie,Knowledge Pokemon,0.3,0.3,Psychic,,75,75,130,75,130,95,580
-Mesprit,Emotion Pokemon,0.3,0.3,Psychic,,80,105,105,105,105,80,580
-Azelf,Willpower Pokemon,0.3,0.3,Psychic,,75,125,70,125,70,115,580
-Dialga,Temporal Pokemon,5.4,683.0,Steel,Dragon,100,120,120,150,100,90,680
-Palkia,Spatial Pokemon,4.2,336.0,Water,Dragon,90,120,100,150,120,100,680
-Heatran,Lava Dome Pokemon,1.7,430.0,Fire,Steel,91,90,106,130,106,77,600
-Regigigas,Colossal Pokemon,3.7,420.0,Normal,,110,160,110,80,110,100,670
-Giratina,Renegade Pokemon,4.5,750.0,Ghost,Dragon,150,100,120,100,120,90,680
-Origin Giratina,Renegade Pokemon,6.9,650.0,Ghost,Dragon,150,120,100,120,100,90,680
-Cresselia,Lunar Pokemon,1.5,85.6,Psychic,,120,70,120,75,130,85,600
-Phione,Sea Drifter Pokemon,0.4,3.1,Water,,80,80,80,80,80,80,480
-Manaphy,Seafaring Pokemon,0.3,1.4,Water,,100,100,100,100,100,100,600
-Darkrai,Pitch-Black Pokemon,1.5,50.5,Dark,,70,90,90,135,90,125,600
-Shaymin,Gratitude Pokemon,0.2,2.1,Grass,,100,100,100,100,100,100,600
-Sky Shaymin,Gratitude Pokemon,0.4,5.2,Grass,Flying,100,103,75,120,75,127,600
-Arceus,Alpha Pokemon,3.2,320.0,Normal,,120,120,120,120,120,120,720
-Victini,Victory Pokemon,0.4,4.0,Psychic,Fire,100,100,100,100,100,100,600
-Snivy,Grass Snake Pokemon,0.6,8.1,Grass,,45,45,55,45,55,63,308
-Servine,Grass Snake Pokemon,0.8,16.0,Grass,,60,60,75,60,75,83,413
-Serperior,Regal Pokemon,3.3,63.0,Grass,,75,75,95,75,95,113,528
-Tepig,Fire Pig Pokemon,0.5,9.9,Fire,,65,63,45,45,45,45,308
-Pignite,Fire Pig Pokemon,1.0,55.5,Fire,Fighting,90,93,55,70,55,55,418
-Emboar,Mega Fire Pig Pokemon,1.6,150.0,Fire,Fighting,110,123,65,100,65,65,528
-Oshawott,Sea Otter Pokemon,0.5,5.9,Water,,55,55,45,63,45,45,308
-Dewott,Discipline Pokemon,0.8,24.5,Water,,75,75,60,83,60,60,413
-Samurott,Formidable Pokemon,1.5,94.6,Water,,95,100,85,108,70,70,528
-Patrat,Scout Pokemon,0.5,11.6,Normal,,45,55,39,35,39,42,255
-Watchog,Lookout Pokemon,1.1,27.0,Normal,,60,85,69,60,69,77,420
-Lillipup,Puppy Pokemon,0.4,4.1,Normal,,45,60,45,25,45,55,275
-Herdier,Loyal Dog Pokemon,0.9,14.7,Normal,,65,80,65,35,65,60,370
-Stoutland,Big-Hearted Pokemon,1.2,61.0,Normal,,85,110,90,45,90,80,500
-Purrloin,Devious Pokemon,0.4,10.1,Dark,,41,50,37,50,37,66,281
-Liepard,Cruel Pokemon,1.1,37.5,Dark,,64,88,50,88,50,106,446
-Pansage,Grass Monkey Pokemon,0.6,10.5,Grass,,50,53,48,53,48,64,316
-Simisage,Thorn Monkey Pokemon,1.1,30.5,Grass,,75,98,63,98,63,101,498
-Pansear,High Temp Pokemon,0.6,11.0,Fire,,50,53,48,53,48,64,316
-Simisear,Ember Pokemon,1.0,28.0,Fire,,75,98,63,98,63,101,498
-Panpour,Spray Pokemon,0.6,13.5,Water,,50,53,48,53,48,64,316
-Simipour,Geyser Pokemon,1.0,29.0,Water,,75,98,63,98,63,101,498
-Munna,Dream Eater Pokemon,0.6,23.3,Psychic,,76,25,45,67,55,24,292
-Musharna,Drowsing Pokemon,1.1,60.5,Psychic,,116,55,85,107,95,29,487
-Pidove,Tiny Pigeon Pokemon,0.3,2.1,Normal,Flying,50,55,50,36,30,43,264
-Tranquill,Wild Pigeon Pokemon,0.6,15.0,Normal,Flying,62,77,62,50,42,65,358
-Unfezant,Proud Pokemon,1.2,29.0,Normal,Flying,80,115,80,65,55,93,488
-Blitzle,Electrified Pokemon,0.8,29.8,Electric,,45,60,32,50,32,76,295
-Zebstrika,Thunderbolt Pokemon,1.6,79.5,Electric,,75,100,63,80,63,116,497
-Roggenrola,Mantle Pokemon,0.4,18.0,Rock,,55,75,85,25,25,15,280
-Boldore,Ore Pokemon,0.9,102.0,Rock,,70,105,105,50,40,20,390
-Gigalith,Compressed Pokemon,1.7,260.0,Rock,,85,135,130,60,80,25,515
-Woobat,Bat Pokemon,0.4,2.1,Psychic,Flying,65,45,43,55,43,72,323
-Swoobat,Courting Pokemon,0.9,10.5,Psychic,Flying,67,57,55,77,55,114,425
-Drilbur,Mole Pokemon,0.3,8.5,Ground,,60,85,40,30,45,68,328
-Excadrill,Subterrene Pokemon,0.7,40.4,Ground,Steel,110,135,60,50,65,88,508
-Audino,Hearing Pokemon,1.1,31.0,Normal,,103,60,86,60,86,50,445
-Mega Audino,Hearing Pokemon,1.5,32.0,Normal,Fairy,103,60,126,80,126,50,545
-Timburr,Muscular Pokemon,0.6,12.5,Fighting,,75,80,55,25,35,35,305
-Gurdurr,Muscular Pokemon,1.2,40.0,Fighting,,85,105,85,40,50,40,405
-Conkeldurr,Muscular Pokemon,1.4,87.0,Fighting,,105,140,95,55,65,45,505
-Tympole,Tadpole Pokemon,0.5,4.5,Water,,50,50,40,50,40,64,294
-Palpitoad,Vibration Pokemon,0.8,17.0,Water,Ground,75,65,55,65,55,69,384
-Seismitoad,Vibration Pokemon,1.5,62.0,Water,Ground,105,95,75,85,75,74,509
-Throh,Judo Pokemon,1.3,55.5,Fighting,,120,100,85,30,85,45,465
-Sawk,Karate Pokemon,1.4,41.0,Fighting,,75,125,75,30,75,85,465
-Sewaddle,Sewing Pokemon,0.3,2.5,Bug,Grass,45,53,70,40,60,42,310
-Swadloon,Leaf-Wrapped Pokemon,0.5,7.3,Bug,Grass,55,63,90,50,80,42,380
-Leavanny,Nurturing Pokemon,1.2,20.5,Bug,Grass,75,103,80,70,80,92,500
-Venipede,Centipede Pokemon,0.4,5.3,Bug,Poison,30,45,59,30,39,57,260
-Whirlipede,Curlipede Pokemon,1.2,58.5,Bug,Poison,40,55,99,40,79,47,360
-Scolipede,Megapede Pokemon,2.5,200.5,Bug,Poison,60,100,89,55,69,112,485
-Cottonee,Cotton Puff Pokemon,0.3,0.6,Grass,Fairy,40,27,60,37,50,66,280
-Whimsicott,Windveiled Pokemon,0.7,6.6,Grass,Fairy,60,67,85,77,75,116,480
-Petilil,Bulb Pokemon,0.5,6.6,Grass,,45,35,50,70,50,30,280
-Lilligant,Flowering Pokemon,1.1,16.3,Grass,,70,60,75,110,75,90,480
-Basculin,Hostile Pokemon,1.0,18.0,Water,,70,92,65,80,55,98,460
-Blue-Striped Basculin,Hostile Pokemon,1.0,18.0,Water,,70,92,65,80,55,98,460
-Sandile,Desert Croc Pokemon,0.7,15.2,Ground,Dark,50,72,35,35,35,65,292
-Krokorok,Desert Croc Pokemon,1.0,33.4,Ground,Dark,60,82,45,45,45,74,351
-Krookodile,Intimidation Pokemon,1.5,96.3,Ground,Dark,95,117,80,65,70,92,519
-Darumaka,Zen Charm Pokemon,0.6,37.5,Fire,,70,90,45,15,45,50,315
-Galarian Darumaka,Zen Charm Pokemon,0.7,40.0,Ice,,70,90,45,15,45,50,315
-Darmanitan,Blazing Pokemon,1.3,92.9,Fire,,105,140,55,30,55,95,480
-Zen Darmanitan,Blazing Pokemon,1.3,92.9,Fire,Psychic,105,30,105,140,105,55,540
-Galarian Darmanitan,Zen Charm Pokemon,1.7,120.0,Ice,,105,140,55,30,55,95,480
-Galar Zen Darmanitan,Zen Charm Pokemon,1.7,120.0,Ice,Fire,105,160,55,30,55,135,540
-Maractus,Cactus Pokemon,1.0,28.0,Grass,,75,86,67,106,67,60,461
-Dwebble,Rock Inn Pokemon,0.3,14.5,Bug,Rock,50,65,85,35,35,55,325
-Crustle,Stone Home Pokemon,1.4,200.0,Bug,Rock,70,105,125,65,75,45,485
-Scraggy,Shedding Pokemon,0.6,11.8,Dark,Fighting,50,75,70,35,70,48,348
-Scrafty,Hoodlum Pokemon,1.1,30.0,Dark,Fighting,65,90,115,45,115,58,488
-Sigilyph,Avianoid Pokemon,1.4,14.0,Psychic,Flying,72,58,80,103,80,97,490
-Yamask,Spirit Pokemon,0.5,1.5,Ghost,,38,30,85,55,65,30,303
-Galarian Yamask,Spirit Pokemon,0.5,1.5,Ground,Ghost,38,55,85,30,65,30,303
-Cofagrigus,Coffin Pokemon,1.7,76.5,Ghost,,58,50,145,95,105,30,483
-Tirtouga,Prototurtle Pokemon,0.7,16.5,Water,Rock,54,78,103,53,45,22,355
-Carracosta,Prototurtle Pokemon,1.2,81.0,Water,Rock,74,108,133,83,65,32,495
-Archen,First Bird Pokemon,0.5,9.5,Rock,Flying,55,112,45,74,45,70,401
-Archeops,First Bird Pokemon,1.4,32.0,Rock,Flying,75,140,65,112,65,110,567
-Trubbish,Trash Bag Pokemon,0.6,31.0,Poison,,50,50,62,40,62,65,329
-Garbodor,Trash Heap Pokemon,1.9,107.3,Poison,,80,95,82,60,82,75,474
-Gigantamax Garbodor,Trash Heap Pokemon,21.0,0.0,Poison,,80,95,82,60,82,75,474
-Zorua,Tricky Fox Pokemon,0.7,12.5,Dark,,40,65,40,80,40,65,330
-Zoroark,Illusion Fox Pokemon,1.6,81.1,Dark,,60,105,60,120,60,105,510
-Minccino,Chinchilla Pokemon,0.4,5.8,Normal,,55,50,40,40,40,75,300
-Cinccino,Scarf Pokemon,0.5,7.5,Normal,,75,95,60,65,60,115,470
-Gothita,Fixation Pokemon,0.4,5.8,Psychic,,45,30,50,55,65,45,290
-Gothorita,Manipulate Pokemon,0.7,18.0,Psychic,,60,45,70,75,85,55,390
-Gothitelle,Astral Body Pokemon,1.5,44.0,Psychic,,70,55,95,95,110,65,490
-Solosis,Cell Pokemon,0.3,1.0,Psychic,,45,30,40,105,50,20,290
-Duosion,Mitosis Pokemon,0.6,8.0,Psychic,,65,40,50,125,60,30,370
-Reuniclus,Multiplying Pokemon,1.0,20.1,Psychic,,110,65,75,125,85,30,490
-Ducklett,Water Bird Pokemon,0.5,5.5,Water,Flying,62,44,50,44,50,55,305
-Swanna,White Bird Pokemon,1.3,24.2,Water,Flying,75,87,63,87,63,98,473
-Vanillite,Fresh Snow Pokemon,0.4,5.7,Ice,,36,50,50,65,60,44,305
-Vanillish,Icy Snow Pokemon,1.1,41.0,Ice,,51,65,65,80,75,59,395
-Vanilluxe,Snowstorm Pokemon,1.3,57.5,Ice,,71,95,85,110,95,79,535
-Deerling,Season Pokemon,0.6,19.5,Normal,Grass,60,60,50,40,50,75,335
-Sawsbuck,Season Pokemon,1.9,92.5,Normal,Grass,80,100,70,60,70,95,475
-Emolga,Sky Squirrel Pokemon,0.4,5.0,Electric,Flying,55,75,60,75,60,103,428
-Karrablast,Clamping Pokemon,0.5,5.9,Bug,,50,75,45,40,45,60,315
-Escavalier,Cavalry Pokemon,1.0,33.0,Bug,Steel,70,135,105,60,105,20,495
-Foongus,Mushroom Pokemon,0.2,1.0,Grass,Poison,69,55,45,55,55,15,294
-Amoonguss,Mushroom Pokemon,0.6,10.5,Grass,Poison,114,85,70,85,80,30,464
-Frillish,Floating Pokemon,1.2,33.0,Water,Ghost,55,40,50,65,85,40,335
-Jellicent,Floating Pokemon,2.2,135.0,Water,Ghost,100,60,70,85,105,60,480
-Alomomola,Caring Pokemon,1.2,31.6,Water,,165,75,80,40,45,65,470
-Joltik,Attaching Pokemon,0.1,0.6,Bug,Electric,50,47,50,57,50,65,319
-Galvantula,EleSpider Pokemon,0.8,14.3,Bug,Electric,70,77,60,97,60,108,472
-Ferroseed,Thorn Seed Pokemon,0.6,18.8,Grass,Steel,44,50,91,24,86,10,305
-Ferrothorn,Thorn Pod Pokemon,1.0,110.0,Grass,Steel,74,94,131,54,116,20,489
-Klink,Gear Pokemon,0.3,21.0,Steel,,40,55,70,45,60,30,300
-Klang,Gear Pokemon,0.6,51.0,Steel,,60,80,95,70,85,50,440
-Klinklang,Gear Pokemon,0.6,81.0,Steel,,60,100,115,70,85,90,520
-Tynamo,EleFish Pokemon,0.2,0.3,Electric,,35,55,40,45,40,60,275
-Eelektrik,EleFish Pokemon,1.2,22.0,Electric,,65,85,70,75,70,40,405
-Eelektross,EleFish Pokemon,2.1,80.5,Electric,,85,115,80,105,80,50,515
-Elgyem,Cerebral Pokemon,0.5,9.0,Psychic,,55,55,55,85,55,30,335
-Beheeyem,Cerebral Pokemon,1.0,34.5,Psychic,,75,75,75,125,95,40,485
-Litwick,Candle Pokemon,0.3,3.1,Ghost,Fire,50,30,55,65,55,20,275
-Lampent,Lamp Pokemon,0.6,13.0,Ghost,Fire,60,40,60,95,60,55,370
-Chandelure,Luring Pokemon,1.0,34.3,Ghost,Fire,60,55,90,145,90,80,520
-Axew,Tusk Pokemon,0.6,18.0,Dragon,,46,87,60,30,40,57,320
-Fraxure,Axe Jaw Pokemon,1.0,36.0,Dragon,,66,117,70,40,50,67,410
-Haxorus,Axe Jaw Pokemon,1.8,105.5,Dragon,,76,147,90,60,70,97,540
-Cubchoo,Chill Pokemon,0.5,8.5,Ice,,55,70,40,60,40,40,305
-Beartic,Freezing Pokemon,2.6,260.0,Ice,,95,130,80,70,80,50,505
-Cryogonal,Crystallizing Pokemon,1.1,148.0,Ice,,80,50,50,95,135,105,515
-Shelmet,Snail Pokemon,0.4,7.7,Bug,,50,40,85,40,65,25,305
-Accelgor,Shell Out Pokemon,0.8,25.3,Bug,,80,70,40,100,60,145,495
-Stunfisk,Trap Pokemon,0.7,11.0,Ground,Electric,109,66,84,81,99,32,471
-Galarian Stunfisk,Trap Pokemon,0.7,20.5,Ground,Steel,109,81,99,66,84,32,471
-Mienfoo,Martial Arts Pokemon,0.9,20.0,Fighting,,45,85,50,55,50,65,350
-Mienshao,Martial Arts Pokemon,1.4,35.5,Fighting,,65,125,60,95,60,105,510
-Druddigon,Cave Pokemon,1.6,139.0,Dragon,,77,120,90,60,90,48,485
-Golett,Automaton Pokemon,1.0,92.0,Ground,Ghost,59,74,50,35,50,35,303
-Golurk,Automaton Pokemon,2.8,330.0,Ground,Ghost,89,124,80,55,80,55,483
-Pawniard,Sharp Blade Pokemon,0.5,10.2,Dark,Steel,45,85,70,40,40,60,340
-Bisharp,Sword Blade Pokemon,1.6,70.0,Dark,Steel,65,125,100,60,70,70,490
-Bouffalant,Bash Buffalo Pokemon,1.6,94.5,Normal,,95,110,95,40,95,55,490
-Rufflet,Eaglet Pokemon,0.5,10.5,Normal,Flying,70,83,50,37,50,60,350
-Braviary,Valiant Pokemon,1.5,41.0,Normal,Flying,100,123,75,57,75,80,510
-Vullaby,Diapered Pokemon,0.5,9.0,Dark,Flying,70,55,75,45,65,60,370
-Mandibuzz,Bone Vulture Pokemon,1.2,39.5,Dark,Flying,110,65,105,55,95,80,510
-Heatmor,Anteater Pokemon,1.4,58.0,Fire,,85,97,66,105,66,65,484
-Durant,Iron Ant Pokemon,0.3,33.0,Bug,Steel,58,109,112,48,48,109,484
-Deino,Irate Pokemon,0.8,17.3,Dark,Dragon,52,65,50,45,50,38,300
-Zweilous,Hostile Pokemon,1.4,50.0,Dark,Dragon,72,85,70,65,70,58,420
-Hydreigon,Brutal Pokemon,1.8,160.0,Dark,Dragon,92,105,90,125,90,98,600
-Larvesta,Torch Pokemon,1.1,28.8,Bug,Fire,55,85,55,50,55,60,360
-Volcarona,Sun Pokemon,1.6,46.0,Bug,Fire,85,60,65,135,105,100,550
-Cobalion,Iron Will Pokemon,2.1,250.0,Steel,Fighting,91,90,129,90,72,108,580
-Terrakion,Cavern Pokemon,1.9,260.0,Rock,Fighting,91,129,90,72,90,108,580
-Virizion,Grassland Pokemon,2.0,200.0,Grass,Fighting,91,90,72,90,129,108,580
-Tornadus,Cyclone Pokemon,1.5,63.0,Flying,,79,115,70,125,80,111,580
-Therian Tornadus,Cyclone Pokemon,1.5,63.0,Flying,,79,100,80,110,90,121,580
-Thundurus,Bolt Strike Pokemon,1.5,61.0,Electric,Flying,79,115,70,125,80,111,580
-Therian Thundurus,Bolt Strike Pokemon,3.0,61.0,Electric,Flying,79,105,70,145,80,101,580
-Reshiram,Vast White Pokemon,3.2,330.0,Dragon,Fire,100,120,100,150,120,90,680
-Zekrom,Deep Black Pokemon,2.9,345.0,Dragon,Electric,100,150,120,120,100,90,680
-Landorus,Abundance Pokemon,1.5,68.0,Ground,Flying,89,125,90,115,80,101,600
-Therian Landorus,Abundance Pokemon,1.3,68.0,Ground,Flying,89,145,90,105,80,91,600
-Kyurem,Boundary Pokemon,3.0,325.0,Dragon,Ice,125,130,90,130,90,95,660
-White Kyurem,Boundary Pokemon,3.6,325.0,Dragon,Ice,125,120,90,170,100,95,700
-Black Kyurem,Boundary Pokemon,3.3,325.0,Dragon,Ice,125,170,100,120,90,95,700
-Keldeo,Colt Pokemon,1.4,48.5,Water,Fighting,91,72,90,129,90,108,580
-Meloetta,Melody Pokemon,0.6,6.5,Normal,Psychic,100,77,77,128,128,90,600
-Pirouette Meloetta,Melody Pokemon,0.6,6.5,Normal,Fighting,100,128,90,77,77,128,600
-Genesect,Melody Pokemon,1.5,82.5,Bug,Steel,71,120,95,120,95,99,600
-Chespin,Spiky Nut Pokemon,0.4,9.0,Grass,,56,61,65,48,45,38,313
-Quilladin,Spiky Armor Pokemon,0.7,29.0,Grass,,61,78,95,56,58,57,405
-Chesnaught,Spiky Armor Pokemon,1.6,90.0,Grass,Fighting,88,107,122,74,75,64,530
-Fennekin,Fox Pokemon,0.4,9.4,Fire,,40,45,40,62,60,60,307
-Braixen,Fox Pokemon,1.0,14.5,Fire,,59,59,58,90,70,73,409
-Delphox,Fox Pokemon,1.5,39.0,Fire,Psychic,75,69,72,114,100,104,534
-Froakie,Bubble Frog Pokemon,0.3,7.0,Water,,41,56,40,62,44,71,314
-Frogadier,Bubble Frog Pokemon,0.6,10.9,Water,,54,63,52,83,56,97,405
-Greninja,Ninja Pokemon,1.5,40.0,Water,Dark,72,95,67,103,71,122,530
-Ash Greninja,Ninja Pokemon,1.5,40.0,Water,Dark,72,145,67,153,71,132,640
-Bunnelby,Digging Pokemon,0.4,5.0,Normal,,38,36,38,32,36,57,237
-Diggersby,Digging Pokemon,1.0,42.4,Normal,Ground,85,56,77,50,77,78,423
-Fletchling,Tiny Robin Pokemon,0.3,1.7,Normal,Flying,45,50,43,40,38,62,278
-Fletchinder,Ember Pokemon,0.7,16.0,Fire,Flying,62,73,55,56,52,84,382
-Talonflame,Scorching Pokemon,1.2,24.5,Fire,Flying,78,81,71,74,69,126,499
-Scatterbug,Scatterdust Pokemon,0.3,2.5,Bug,,38,35,40,27,25,35,200
-Spewpa,Scatterdust Pokemon,0.3,8.4,Bug,,45,22,60,27,30,29,213
-Vivillon,Scale Pokemon,1.2,17.0,Bug,Flying,80,52,50,90,50,89,411
-Litleo,Lion Cub Pokemon,0.6,13.5,Fire,Normal,62,50,58,73,54,72,369
-Pyroar,Royal Pokemon,1.5,81.5,Fire,Normal,86,68,72,109,66,106,507
-Flabébé,Single Bloom Pokemon,0.1,0.1,Fairy,,44,38,39,61,79,42,303
-Floette,Single Bloom Pokemon,0.2,0.9,Fairy,,54,45,47,75,98,52,371
-Florges,Garden Pokemon,1.1,10.0,Fairy,,78,65,68,112,154,75,552
-Skiddo,Mount Pokemon,0.9,31.0,Grass,,66,65,48,62,57,52,350
-Gogoat,Mount Pokemon,1.7,91.0,Grass,,123,100,62,97,81,68,531
-Pancham,Playful Pokemon,0.6,8.0,Fighting,,67,82,62,46,48,43,348
-Pangoro,Daunting Pokemon,2.1,136.0,Fighting,Dark,95,124,78,69,71,58,495
-Furfrou,Poodle Pokemon,1.2,28.0,Normal,,75,80,60,65,90,102,472
-Espurr,Restraint Pokemon,0.3,3.5,Psychic,,62,48,54,63,60,68,355
-Meowstic,Constraint Pokemon,0.6,8.5,Psychic,,74,48,76,83,81,104,466
-Female Meowstic,Constraint Pokemon,0.6,8.5,Psychic,,74,48,76,83,81,104,466
-Honedge,Sword Pokemon,0.8,2.0,Steel,Ghost,45,80,100,35,37,28,325
-Doublade,Sword Pokemon,0.8,4.5,Steel,Ghost,59,110,150,45,49,35,448
-Aegislash,Royal Sword Pokemon,1.7,53.0,Steel,Ghost,60,50,140,50,140,60,500
-Blade Aegislash,Royal Sword Pokemon,1.7,53.0,Steel,Ghost,60,140,50,140,50,60,500
-Spritzee,Perfume Pokemon,0.2,0.5,Fairy,,78,52,60,63,65,23,341
-Aromatisse,Fragrance Pokemon,0.8,15.5,Fairy,,101,72,72,99,89,29,462
-Swirlix,Cotton Candy Pokemon,0.4,3.5,Fairy,,62,48,66,59,57,49,341
-Slurpuff,Meringue Pokemon,0.8,5.0,Fairy,,82,80,86,85,75,72,480
-Inkay,Revolving Pokemon,0.4,3.5,Dark,Psychic,53,54,53,37,46,45,288
-Malamar,Overturning Pokemon,1.5,47.0,Dark,Psychic,86,92,88,68,75,73,482
-Binacle,Two-Handed Pokemon,0.5,31.0,Rock,Water,42,52,67,39,56,50,306
-Barbaracle,Collective Pokemon,1.3,96.0,Rock,Water,72,105,115,54,86,68,500
-Skrelp,Mock Kelp Pokemon,0.5,7.3,Poison,Water,50,60,60,60,60,30,320
-Dragalge,Mock Kelp Pokemon,1.8,81.5,Poison,Dragon,65,75,90,97,123,44,494
-Clauncher,Water Gun Pokemon,0.5,8.3,Water,,50,53,62,58,63,44,330
-Clawitzer,Howitzer Pokemon,1.3,35.3,Water,,71,73,88,120,89,59,500
-Helioptile,Generator Pokemon,0.5,6.0,Electric,Normal,44,38,33,61,43,70,289
-Heliolisk,Generator Pokemon,1.0,21.0,Electric,Normal,62,55,52,109,94,109,481
-Tyrunt,Royal Heir Pokemon,0.8,26.0,Rock,Dragon,58,89,77,45,45,48,362
-Tyrantrum,Despot Pokemon,2.5,270.0,Rock,Dragon,82,121,119,69,59,71,521
-Amaura,Tundra Pokemon,1.3,25.2,Rock,Ice,77,59,50,67,63,46,362
-Aurorus,Tundra Pokemon,2.7,225.0,Rock,Ice,123,77,72,99,92,58,521
-Sylveon,Interwining Pokemon,1.0,23.5,Fairy,,95,65,65,110,130,60,525
-Hawlucha,Wrestling Pokemon,0.8,21.5,Fighting,Flying,78,92,75,74,63,118,500
-Dedenne,Antenna Pokemon,0.2,2.2,Electric,Fairy,67,58,57,81,67,101,431
-Carbink,Jewel Pokemon,0.3,5.7,Rock,Fairy,50,50,150,50,150,50,500
-Goomy,Soft Tissue Pokemon,0.3,2.8,Dragon,,45,50,35,55,75,40,300
-Sliggoo,Soft Tissue Pokemon,0.8,17.5,Dragon,,68,75,53,83,113,60,452
-Goodra,Dragon Pokemon,2.0,150.5,Dragon,,90,100,70,110,150,80,600
-Klefki,Key Ring Pokemon,0.2,3.0,Steel,Fairy,57,80,91,80,87,75,470
-Phantump,Stump Pokemon,0.4,7.0,Ghost,Grass,43,70,48,50,60,38,309
-Trevenant,Elder Tree Pokemon,1.5,71.0,Ghost,Grass,85,110,76,65,82,56,474
-Pumpkaboo,Pumpkin Pokemon,0.4,5.0,Ghost,Grass,49,66,70,44,55,51,335
-Small Pumpkaboo,Pumpkin Pokemon,0.3,3.5,Ghost,Grass,44,66,70,44,55,56,335
-Large Pumpkaboo,Pumpkin Pokemon,0.5,7.5,Ghost,Grass,54,66,70,44,55,46,335
-Super Pumpkaboo,Pumpkin Pokemon,0.8,15.0,Ghost,Grass,59,66,70,44,55,41,335
-Gourgeist,Pumpkin Pokemon,0.9,12.5,Ghost,Grass,65,90,122,58,75,84,494
-Small Gourgeist,Pumpkin Pokemon,0.7,9.5,Ghost,Grass,55,85,122,58,75,99,494
-Large Gourgeist,Pumpkin Pokemon,1.1,14.0,Ghost,Grass,75,95,122,58,75,69,494
-Super Gourgeist,Pumpkin Pokemon,1.7,39.0,Ghost,Grass,85,100,122,58,75,54,494
-Bergmite,Ice Chunk Pokemon,1.0,99.5,Ice,,55,69,85,32,35,28,304
-Avalugg,Iceberg Pokemon,2.0,505.0,Ice,,95,117,184,44,46,28,514
-Noibat,Sound Wave Pokemon,0.5,8.0,Flying,Dragon,40,30,35,45,40,55,245
-Noivern,Sound Wave Pokemon,1.5,85.0,Flying,Dragon,85,70,80,97,80,123,535
-Xerneas,Life Pokemon,3.0,215.0,Fairy,,126,131,95,131,98,99,680
-Yveltal,Destruction Pokemon,5.8,203.0,Dark,Flying,126,131,95,131,98,99,680
-Zygarde,Order Pokemon,5.0,305.0,Dragon,Ground,108,100,121,81,95,95,600
-10% Zygarde,Order Pokemon,1.2,33.5,Dragon,Ground,54,100,71,61,85,115,486
-Complete Zygarde,Order Pokemon,4.5,610.0,Dragon,Ground,216,100,121,91,95,85,708
-Diancie,Jewel Pokemon,0.7,8.8,Rock,Fairy,50,100,150,100,150,50,600
-Mega Diancie,Jewel Pokemon,1.1,27.8,Rock,Fairy,50,160,110,160,110,110,700
-Hoopa,Mischief Pokemon,0.5,9.0,Psychic,Ghost,80,110,60,150,130,70,600
-Unbound Hoopa,Djinn Pokemon,6.5,490.0,Psychic,Dark,80,160,60,170,130,80,680
-Volcanion,Steam Pokemon,1.7,195.0,Fire,Water,80,110,120,130,90,70,600
-Rowlet,Grass Quill Pokemon,0.3,1.5,Grass,Flying,68,55,55,50,50,40,318
-Dartrix,Blade Quill Pokemon,0.7,16.0,Grass,Flying,78,75,75,70,70,52,420
-Decidueye,Arrow Quill Pokemon,1.6,36.6,Grass,Ghost,78,107,75,100,100,70,530
-Litten,Fire Cat Pokemon,0.4,4.3,Fire,,45,65,40,60,40,70,320
-Torracat,Fire Cat Pokemon,0.7,25.0,Fire,,65,85,50,80,50,90,420
-Incineroar,Heel Pokemon,1.8,83.0,Fire,Dark,95,115,90,80,90,60,530
-Popplio,Sea Lion Pokemon,0.4,7.5,Water,,50,54,54,66,56,40,320
-Brionne,Pop Star Pokemon,0.6,17.5,Water,,60,69,69,91,81,50,420
-Primarina,Soloist Pokemon,1.8,44.0,Water,Fairy,80,74,74,126,116,60,530
-Pikipek,Woodpecker Pokemon,0.3,1.2,Normal,Flying,35,75,30,30,30,65,265
-Trumbeak,Bugle Beak Pokemon,0.6,14.8,Normal,Flying,55,85,50,40,50,75,355
-Toucannon,Cannon Pokemon,1.1,26.0,Normal,Flying,80,120,75,75,75,60,485
-Yungoos,Loitering Pokemon,0.4,6.0,Normal,,48,70,30,30,30,45,253
-Gumshoos,Stakeout Pokemon,0.7,14.2,Normal,,88,110,60,55,60,45,418
-Grubbin,Larva Pokemon,0.4,4.4,Bug,,47,62,45,55,45,46,300
-Charjabug,Battery Pokemon,0.5,10.5,Bug,Electric,57,82,95,55,75,36,400
-Vikavolt,Stag Beetle Pokemon,1.5,45.0,Bug,Electric,77,70,90,145,75,43,500
-Crabrawler,Boxing Pokemon,0.6,7.0,Fighting,,47,82,57,42,47,63,338
-Crabominable,Woolly Crab Pokemon,1.7,180.0,Fighting,Ice,97,132,77,62,67,43,478
-Oricorio,Dancing Pokemon,0.6,3.4,Fire,Flying,75,70,70,98,70,93,476
-Pom-Pom Oricorio,Dancing Pokemon,0.6,3.4,Electric,Flying,75,70,70,98,70,93,476
-Pa'u Oricorio,Dancing Pokemon,0.6,3.4,Psychic,Flying,75,70,70,98,70,93,476
-Sensu Oricorio,Dancing Pokemon,0.6,3.4,Ghost,Flying,75,70,70,98,70,93,476
-Cutiefly,Bee Fly Pokemon,0.1,0.2,Bug,Fairy,40,45,40,55,40,84,304
-Ribombee,Bee Fly Pokemon,0.2,0.5,Bug,Fairy,60,55,60,96,70,124,465
-Rockruff,Puppy Pokemon,0.5,9.2,Rock,,45,65,40,30,40,60,280
-Lycanroc,Wolf Pokemon,0.8,25.0,Rock,,75,115,65,55,65,112,487
-Midnight Lycanroc,Wolf Pokemon,1.1,25.0,Rock,,85,115,75,55,75,82,487
-Dusk Lycanroc,Wolf Pokemon,0.8,25.0,Rock,,75,117,65,55,65,110,487
-Wishiwashi,Small Fry Pokemon,0.2,0.3,Water,,45,20,20,25,25,40,175
-School Wishiwashi,Small Fry Pokemon,8.2,78.6,Water,,45,140,130,140,135,30,620
-Mareanie,Brutal Pokemon,0.4,8.0,Poison,Water,50,53,62,43,52,45,305
-Toxapex,Brutal Pokemon,0.7,14.5,Poison,Water,50,63,152,53,142,35,495
-Mudbray,Donkey Pokemon,1.0,110.0,Ground,,70,100,70,45,55,45,385
-Mudsdale,Draft Horse Pokemon,2.5,920.0,Ground,,100,125,100,55,85,35,500
-Dewpider,Water Bubble Pokemon,0.3,4.0,Water,Bug,38,40,52,40,72,27,269
-Araquanid,Water Bubble Pokemon,1.8,82.0,Water,Bug,68,70,92,50,132,42,454
-Fomantis,Sickle Grass Pokemon,0.3,1.5,Grass,,40,55,35,50,35,35,250
-Lurantis,Bloom Sickle Pokemon,0.9,18.5,Grass,,70,105,90,80,90,45,480
-Morelull,Illuminating Pokemon,0.2,1.5,Grass,Fairy,40,35,55,65,75,15,285
-Shiinotic,Illuminating Pokemon,1.0,11.5,Grass,Fairy,60,45,80,90,100,30,405
-Salandit,Toxic Lizard Pokemon,0.6,4.8,Poison,Fire,48,44,40,71,40,77,320
-Salazzle,Toxic Lizard Pokemon,1.2,22.2,Poison,Fire,68,64,60,111,60,117,480
-Stufful,Flailing Pokemon,0.5,6.8,Normal,Fighting,70,75,50,45,50,50,340
-Bewear,Strong Arm Pokemon,2.1,135.0,Normal,Fighting,120,125,80,55,60,60,500
-Bounsweet,Fruit Pokemon,0.3,3.2,Grass,,42,30,38,30,38,32,210
-Steenee,Fruit Pokemon,0.7,8.2,Grass,,52,40,48,40,48,62,290
-Tsareena,Fruit Pokemon,1.2,21.4,Grass,,72,120,98,50,98,72,510
-Comfey,Posy Picker Pokemon,0.1,0.3,Fairy,,51,52,90,82,110,100,485
-Oranguru,Sage Pokemon,1.5,76.0,Normal,Psychic,90,60,80,90,110,60,490
-Passimian,Teamwork Pokemon,2.0,82.8,Fighting,,100,120,90,40,60,80,490
-Wimpod,Turn Tail Pokemon,0.5,12.0,Bug,Water,25,35,40,20,30,80,230
-Golisopod,Hard Scale Pokemon,2.0,108.0,Bug,Water,75,125,140,60,90,40,530
-Sandygast,Sand Heap Pokemon,0.5,70.0,Ghost,Ground,55,55,80,70,45,15,320
-Palossand,Sand Castle Pokemon,1.3,250.0,Ghost,Ground,85,75,110,100,75,35,480
-Pyukumuku,Sea Cucumber Pokemon,0.3,1.2,Water,,55,60,130,30,130,5,410
-Type: Null,Synthetic Pokemon,1.9,120.5,Normal,,95,95,95,95,95,59,534
-Silvally,Synthetic Pokemon,2.3,100.5,Normal,,95,95,95,95,95,95,570
-Minior,Meteor Pokemon,0.3,40.0,Rock,Flying,60,60,100,60,100,60,440
-Core Minior,Meteor Pokemon,0.3,0.3,Rock,Flying,60,100,60,100,60,120,500
-Komala,Drowsing Pokemon,0.4,19.9,Normal,,65,115,65,75,95,65,480
-Turtonator,Blast Turtle Pokemon,2.0,212.0,Fire,Dragon,60,78,135,91,85,36,485
-Togedemaru,Roly-Poly Pokemon,0.3,3.3,Electric,Steel,65,98,63,40,73,96,435
-Mimikyu,Disguise Pokemon,0.2,0.7,Ghost,Fairy,55,90,80,50,105,96,476
-Bruxish,Gnash Teeth Pokemon,0.9,19.0,Water,Psychic,68,105,70,70,70,92,475
-Drampa,Placid Pokemon,3.0,185.0,Normal,Dragon,78,60,85,135,91,36,485
-Dhelmise,Sea Creeper Pokemon,3.9,210.0,Ghost,Grass,70,131,100,86,90,40,517
-Jangmo-o,Scaly Pokemon,0.6,29.7,Dragon,,45,55,65,45,45,45,300
-Hakamo-o,Scaly Pokemon,1.2,47.0,Dragon,Fighting,55,75,90,65,70,65,420
-Kommo-o,Scaly Pokemon,1.6,78.2,Dragon,Fighting,75,110,125,100,105,85,600
-Tapu Koko,Land Spirit Pokemon,1.8,20.5,Electric,Fairy,70,115,85,95,75,130,570
-Tapu Lele,Land Spirit Pokemon,1.2,18.6,Psychic,Fairy,70,85,75,130,115,95,570
-Tapu Bulu,Land Spirit Pokemon,1.9,45.5,Grass,Fairy,70,130,115,85,95,75,570
-Tapu Fini,Land Spirit Pokemon,1.3,21.2,Water,Fairy,70,75,115,95,130,85,570
-Cosmog,Nebula Pokemon,0.2,0.1,Psychic,,43,29,31,29,31,37,200
-Cosmoem,Protostar Pokemon,0.1,999.9,Psychic,,43,29,131,29,131,37,400
-Solgaleo,Sunne Pokemon,3.4,230.0,Psychic,Steel,137,137,107,113,89,97,680
-Lunala,Moone Pokemon,4.0,120.0,Psychic,Ghost,137,113,89,137,107,97,680
-Nihilego,Parasite Pokemon,1.2,55.5,Rock,Poison,109,53,47,127,131,103,570
-Buzzwole,Swollen Pokemon,2.4,333.6,Bug,Fighting,107,139,139,53,53,79,570
-Pheromosa,Lissome Pokemon,1.8,25.0,Bug,Fighting,71,137,37,137,37,151,570
-Xurkitree,Glowing Pokemon,3.8,100.0,Electric,,83,89,71,173,71,83,570
-Celesteela,Launch Pokemon,9.2,999.9,Steel,Flying,97,101,103,107,101,61,570
-Kartana,Drawn Sword Pokemon,0.3,0.1,Grass,Steel,59,181,131,59,31,109,570
-Guzzlord,Junkivore Pokemon,5.5,888.0,Dark,Dragon,223,101,53,97,53,43,570
-Necrozma,Prism Pokemon,2.4,230.0,Psychic,,97,107,101,127,89,79,600
-Dusk Mane Necrozma,Prism Pokemon,3.8,460.0,Psychic,Steel,97,157,127,113,109,77,680
-Dawn Wings Necrozma,Prism Pokemon,4.2,350.0,Psychic,Ghost,97,113,109,157,127,77,680
-Ultra Necrozma,Prism Pokemon,7.5,230.0,Psychic,Dragon,97,167,97,167,97,129,754
-Magearna,Artificial Pokemon,1.0,80.5,Steel,Fairy,80,95,115,130,115,65,600
-Marshadow,Gloomdweller Pokemon,0.7,22.2,Fighting,Ghost,90,125,80,90,90,125,600
-Poipole,Poison Pin Pokemon,0.6,1.8,Poison,,67,73,67,73,67,73,420
-Naganadel,Poison Pin Pokemon,3.6,150.0,Poison,Dragon,73,73,73,127,73,121,540
-Stakataka,Rampart Pokemon,5.5,820.0,Rock,Steel,61,131,211,53,101,13,570
-Blacephalon,Fireworks Pokemon,1.8,13.0,Fire,Ghost,53,127,53,151,79,107,570
-Zeraora,Thunderclap Pokemon,1.5,44.5,Electric,,88,112,75,102,80,143,600
-Meltan,Hex Nut Pokemon,0.2,8.0,Steel,,46,65,65,55,35,34,300
-Melmetal,Hex Nut Pokemon,2.5,800.0,Steel,,135,143,143,80,65,34,600
-Grookey,Chimp Pokemon,0.3,5.0,Grass,,50,65,50,40,40,65,310
-Thwackey,Beat Pokemon,0.7,14.0,Grass,,70,85,70,55,60,80,420
-Rillaboom,Drummer Pokemon,2.1,90.0,Grass,,100,125,90,60,70,85,530
-Scorbunny,Rabbit Pokemon,0.3,4.5,Fire,,50,71,40,40,40,69,310
-Raboot,Rabbit Pokemon,0.6,9.0,Fire,,65,86,50,55,60,94,410
-Cinderace,Striker Pokemon,1.4,33.0,Fire,,80,116,75,65,75,119,530
-Sobble,Water Lizard Pokemon,0.3,4.0,Water,,50,40,40,70,40,70,310
-Drizzile,Water Lizard Pokemon,0.7,11.5,Water,,65,60,55,95,55,90,420
-Inteleon,Secret Agent Pokemon,1.9,45.2,Water,,70,85,65,125,65,120,530
-Skwovet,Cheeky Pokemon,0.3,2.5,Normal,,70,55,55,35,35,25,275
-Greedent,Greedy Pokemon,0.6,6.0,Normal,,120,95,95,55,75,20,460
-Rookidee,Tiny Bird Pokemon,0.2,1.8,Flying,,38,47,35,33,35,57,245
-Corvisquire,Raven Pokemon,0.8,16.0,Flying,,68,67,55,43,55,77,365
-Corviknight,Raven Pokemon,2.2,75.0,Flying,Steel,98,87,105,53,85,67,495
-Gigantamax Corviknight,Raven Pokemon,14.0,0.0,Flying,Steel,98,87,105,53,85,67,495
-Blipbug,Larva Pokemon,0.4,8.0,Bug,,25,20,20,25,45,45,180
-Dottler,Radome Pokemon,0.4,19.5,Bug,Psychic,50,35,80,50,90,30,335
-Orbeetle,Seven Spot Pokemon,0.4,40.8,Bug,Psychic,60,45,110,80,120,90,505
-Gigantamax Orbeetle,Seven Spot Pokemon,14.0,0.0,Bug,Psychic,60,45,110,80,120,90,505
-Nickit,Fox Pokemon,0.6,8.9,Dark,,40,28,28,47,52,50,245
-Thievul,Fox Pokemon,1.2,19.9,Dark,,70,58,58,87,92,90,455
-Gossifleur,Flowering Pokemon,0.4,2.2,Grass,,40,40,60,40,60,10,250
-Eldegoss,Cotton Bloom Pokemon,0.5,2.5,Grass,,60,50,90,80,120,60,460
-Wooloo,Sheep Pokemon,0.6,6.0,Normal,,42,40,55,40,45,48,270
-Dubwool,Sheep Pokemon,1.3,43.0,Normal,,72,80,100,60,90,88,490
-Chewtle,Snapping Pokemon,0.3,8.5,Water,,50,64,50,38,38,44,284
-Drednaw,Bite Pokemon,1.0,115.5,Water,Rock,90,115,90,48,68,74,485
-Gigantamax Drednaw,Bite Pokemon,24.0,0.0,Water,Rock,90,115,90,48,68,74,485
-Yamper,Puppy Pokemon,0.3,13.5,Electric,,59,45,50,40,50,26,270
-Boltund,Dog Pokemon,1.0,34.0,Electric,,69,90,60,90,60,121,490
-Rolycolt,Coal Pokemon,0.3,12.0,Rock,,30,40,50,40,50,30,240
-Carkol,Coal Pokemon,1.1,78.0,Rock,Fire,80,60,90,60,70,50,410
-Coalossal,Coal Pokemon,2.8,310.5,Rock,Fire,110,80,120,80,90,30,510
-Gigantamax Coalossal,Coal Pokemon,42.0,0.0,Rock,Fire,110,80,120,80,90,30,510
-Applin,Apple Core Pokemon,0.2,0.5,Grass,Dragon,40,40,80,40,40,20,260
-Flapple,Apple Wing Pokemon,0.3,1.0,Grass,Ground,70,110,80,95,60,70,485
-Gigantamax Flapple,Apple Wing Pokemon,24.0,0.0,Grass,Dragon,70,110,80,95,60,70,485
-Appletun,Apple Nectar Pokemon,0.4,13.0,Grass,Dragon,110,85,80,100,80,30,485
-Gigantamax Appletun,Apple Nectar Pokemon,24.0,0.0,Grass,Dragon,110,85,80,100,80,30,485
-Silicobra,Sand Snake Pokemon,2.2,7.6,Ground,,52,57,75,35,50,46,315
-Sandaconda,Sand Snake Pokemon,3.8,65.5,Ground,,72,107,125,65,70,71,510
-Gigantamax Sandaconda,Sand Snake Pokemon,22.0,0.0,Ground,,72,107,125,65,70,71,510
-Cramorant,Gulp Pokemon,0.8,18.0,Flying,Water,70,85,55,85,95,85,475
-Arrokunda,Rush Pokemon,0.5,1.0,Water,,41,63,40,40,30,66,280
-Barraskewda,Skewer Pokemon,1.3,30.0,Water,,61,123,60,60,50,136,490
-Toxel,Baby Pokemon,0.4,11.0,Electric,Poison,40,38,35,54,35,40,242
-Toxtricity,Punk Pokemon,1.6,40.0,Electric,Poison,75,98,70,114,70,75,502
-Low Key Toxtricity,Punk Pokemon,1.6,40.0,Electric,Poison,75,98,70,114,70,75,502
-Gigantamax Toxtricity,Punk Pokemon,24.0,0.0,Electric,Poison,75,98,70,114,70,75,502
-Low Key Gigantamax Toxtricity,Punk Pokemon,24.0,0.0,Electric,Poison,75,98,70,114,70,75,502
-Sizzlipede,Radiator Pokemon,0.7,1.0,Fire,Bug,50,65,45,50,50,45,305
-Centiskorch,Radiator Pokemon,3.0,120.0,Fire,Bug,100,115,65,90,90,65,525
-Gigantamax Centiskorch,Radiator Pokemon,75.0,0.0,Fire,Bug,100,115,65,90,90,65,525
-Clobbopus,Tantrum Pokemon,0.6,4.0,Fighting,,50,68,60,50,50,32,310
-Grapploct,Jujitsu Pokemon,1.6,39.0,Fighting,,80,118,90,70,80,42,480
-Sinistea,Black Tea Pokemon,0.1,0.2,Ghost,,40,45,45,74,54,50,308
-Polteageist,Black Tea Pokemon,0.2,0.4,Ghost,,60,65,65,134,114,70,508
-Hatenna,Calm Pokemon,0.4,3.4,Psychic,,42,30,45,56,53,39,265
-Hattrem,Serene Pokemon,0.6,4.8,Psychic,,57,40,65,86,73,49,370
-Hatterene,Silent Pokemon,2.1,5.1,Psychic,Fairy,57,90,95,136,103,29,510
-Gigantamax Hatterene,Silent Pokemon,26.0,0.0,Psychic,Fairy,57,90,95,136,103,29,510
-Impidimp,Wily Pokemon,0.4,5.5,Dark,Fairy,45,45,30,55,40,50,265
-Morgrem,Devious Pokemon,0.8,12.5,Dark,Fairy,65,60,45,75,55,70,370
-Grimmsnarl,Bulk Up Pokemon,1.5,61.0,Dark,Fairy,95,120,65,95,75,60,510
-Gigantamax Grimmsnarl,Bulk Up Pokemon,32.0,0.0,Dark,Fairy,95,120,65,95,75,60,510
-Obstagoon,Blocking Pokemon,1.6,46.0,Dark,Normal,93,90,101,60,81,95,520
-Perrserker,Viking Pokemon,0.8,28.0,Steel,,70,110,100,50,60,50,440
-Cursola,Coral Pokemon,1.0,0.4,Ghost,,60,95,50,145,130,30,510
-Sirfetch'd,Wild Duck Pokemon,0.8,117.0,Fighting,,62,135,95,68,82,65,507
-Mr. Rime,Comedian Pokemon,1.5,58.2,Ice,Psychic,80,85,75,110,100,70,520
-Runerigus,Grudge Pokemon,1.6,66.6,Ground,Ghost,58,95,145,50,105,30,483
-Milcery,Cream Pokemon,0.2,0.3,Fairy,,45,40,40,50,61,34,270
-Alcremie,Cream Pokemon,0.3,0.5,Fairy,,65,60,75,110,121,64,495
-Gigantamax Alcremie,Cream Pokemon,30.0,0.0,Fairy,,65,60,75,110,121,64,495
-Falinks,Formation Pokemon,3.0,62.0,Fighting,,60,100,100,70,60,75,465
-Pincurchin,Sea Urchin Pokemon,0.3,1.0,Electric,,48,101,95,91,85,15,435
-Snom,Worm Pokemon,0.3,3.8,Ice,Bug,30,25,35,45,30,20,185
-Frosmoth,Frost Moth Pokemon,1.3,42.0,Ice,Bug,70,65,60,125,90,65,475
-Stonjourner,Big Rock Pokemon,2.5,520.0,Rock,,100,125,135,20,20,70,470
-Eiscue,Penguin Pokemon,1.4,89.0,Ice,,75,80,110,65,90,50,470
-Noice Eiscue,Penguin Pokemon,1.4,89.0,Ice,,75,80,70,65,50,130,470
-Indeedee,Emotion Pokemon,0.9,28.0,Psychic,Normal,60,65,55,105,95,95,475
-Female Indeedee,Emotion Pokemon,0.9,28.0,Psychic,Normal,70,55,65,95,105,85,475
-Morpeko,Two-Sided Pokemon,0.3,3.0,Electric,Dark,58,95,58,70,58,97,436
-Cufant,Copperderm Pokemon,1.2,100.0,Steel,,72,80,49,40,49,40,330
-Copperajah,Copperderm Pokemon,3.0,650.0,Steel,,122,130,69,80,69,30,500
-Gigantamax Copperajah,Copperderm Pokemon,23.0,0.0,Steel,,122,130,69,80,69,30,500
-Dracozolt,Fossil Pokemon,1.8,190.0,Electric,Dragon,90,100,90,80,70,75,505
-Arctozolt,Fossil Pokemon,2.3,150.0,Electric,Ice,90,100,90,90,80,55,505
-Dracovish,Fossil Pokemon,2.3,215.0,Water,Dragon,90,90,100,70,80,75,505
-Arctovish,Fossil Pokemon,2.0,175.0,Water,Ice,90,90,100,80,90,55,505
-Duraludon,Alloy Pokemon,1.8,40.0,Steel,Dragon,70,95,115,120,50,85,535
-Gigantamax Duraludon,Alloy Pokemon,43.0,0.0,Steel,Dragon,70,95,115,120,50,85,535
-Dreepy,Lingering Pokemon,0.5,2.0,Dragon,Ghost,28,60,30,40,30,82,270
-Drakloak,Caretaker Pokemon,1.4,11.0,Dragon,Ghost,68,80,50,60,50,102,410
-Dragapult,Stealth Pokemon,3.0,50.0,Dragon,Ghost,88,120,75,100,75,142,600
-Zacian,Warrior Pokemon,2.8,110.0,Fairy,,92,130,115,80,115,138,670
-Crowned Zacian,Warrior Pokemon,2.8,355.0,Fairy,Steel,92,170,115,80,115,148,720
-Zamazenta,Warrior Pokemon,2.9,210.0,Fighting,,92,130,115,80,115,138,670
-Crowned Zamazenta,Warrior Pokemon,2.9,785.0,Fighting,Steel,92,130,145,80,145,128,720
-Eternatus,Gigantic Pokemon,20.0,950.0,Poison,Dragon,140,85,95,145,95,130,690
-Eternamax Eternatus,Gigantic Pokemon,100.0,0.0,Poison,Dragon,255,115,250,125,250,130,1125
+Bulbasaur,Seed Pokémon,0.7,6.9,Grass,Poison,45,49,49,65,65,45,318
+Ivysaur,Seed Pokémon,1.0,13.0,Grass,Poison,60,62,63,80,80,60,405
+Venusaur,Seed Pokémon,2.0,100.0,Grass,Poison,80,82,83,100,100,80,525
+Mega Venusaur,Seed Pokémon,2.4,155.5,Grass,Poison,80,100,123,122,120,80,625
+Charmander,Lizard Pokémon,0.6,8.5,Fire,,39,52,43,60,50,65,309
+Charmeleon,Flame Pokémon,1.1,19.0,Fire,,58,64,58,80,65,80,405
+Charizard,Flame Pokémon,1.7,90.5,Fire,Flying,78,84,78,109,85,100,534
+Mega X Charizard,Flame Pokémon,1.7,110.5,Fire,Dragon,78,130,111,130,85,100,634
+Mega Y Charizard,Flame Pokémon,1.7,100.5,Fire,Flying,78,104,78,159,115,100,634
+Gigantamax Charizard,Flame Pokémon,28.0,0.0,Fire,Flying,78,84,78,109,85,100,534
+Squirtle,Tiny Turtle Pokémon,0.5,9.0,Water,,44,48,65,50,64,43,314
+Wartortle,Turtle Pokémon,1.0,22.5,Water,,59,63,80,65,80,58,405
+Blastoise,Shellfish Pokémon,1.6,85.5,Water,,79,83,100,85,105,78,530
+Mega Blastoise,Shellfish Pokémon,1.6,101.1,Water,,79,103,120,135,115,78,630
+Caterpie,Worm Pokémon,0.3,2.9,Bug,,45,30,35,20,20,45,195
+Metapod,Cocoon Pokémon,0.7,9.9,Bug,,50,20,55,25,25,30,205
+Butterfree,Butterfly Pokémon,1.1,32.0,Bug,Flying,60,45,50,90,80,70,395
+Gigantamax Butterfree,Butterfly Pokémon,17.0,0.0,Bug,Flying,60,45,50,90,80,70,395
+Weedle,Hairy Bug Pokémon,0.3,3.2,Bug,Poison,40,35,30,20,20,50,195
+Kakuna,Cocoon Pokémon,0.6,10.0,Bug,Poison,45,25,50,25,25,35,205
+Beedrill,Poison Bee Pokémon,1.0,29.5,Bug,Poison,65,90,40,45,80,75,395
+Mega Beedrill,Poison Bee Pokémon,1.4,40.5,Bug,Poison,65,150,40,15,80,145,495
+Pidgey,Tiny Bird Pokémon,0.3,1.8,Normal,Flying,40,45,40,35,35,56,251
+Pidgeotto,Bird Pokémon,1.1,30.0,Normal,Flying,63,60,55,50,50,71,349
+Pidgeot,Bird Pokémon,1.5,39.5,Normal,Flying,83,80,75,70,70,101,479
+Mega Pidgeot,Bird Pokémon,2.2,50.5,Normal,Flying,83,80,80,135,80,121,579
+Rattata,Mouse Pokémon,0.3,3.5,Normal,,30,56,35,25,35,72,253
+Alolan Rattata,Mouse Pokémon,0.3,3.8,Dark,Normal,30,56,35,25,35,72,253
+Raticate,Mouse Pokémon,0.7,18.5,Normal,,55,81,60,50,70,97,413
+Alolan Raticate,Mouse Pokémon,0.7,25.5,Dark,Normal,75,71,70,40,80,77,413
+Spearow,Tiny Bird Pokémon,0.3,2.0,Normal,Flying,40,60,30,31,31,70,262
+Fearow,Beak Pokémon,1.2,38.0,Normal,Flying,65,90,65,61,61,100,442
+Ekans,Snake Pokémon,2.0,6.9,Poison,,35,60,44,40,54,55,288
+Arbok,Cobra Pokémon,3.5,65.0,Poison,,60,95,69,65,79,80,448
+Pikachu,Mouse Pokémon,0.4,6.0,Electric,,35,55,40,50,50,90,320
+Gigantamax Pikachu,Mouse Pokémon,21.0,0.0,Electric,,35,55,40,50,50,90,320
+Starter Pikachu,Mouse Pokémon,0.4,6.0,Electric,,45,80,50,75,60,120,430
+Raichu,Mouse Pokémon,0.8,30.0,Electric,,60,90,55,90,80,110,485
+Alolan Raichu,Mouse Pokémon,0.7,21.0,Electric,Psychic,60,85,50,95,85,110,485
+Sandshrew,Mouse Pokémon,0.6,12.0,Ground,,50,75,85,20,30,40,300
+Alolan Sandshrew,Mouse Pokémon,0.7,40.0,Ice,Steel,50,75,90,10,35,40,300
+Sandslash,Mouse Pokémon,1.0,29.5,Ground,,75,100,110,45,55,65,450
+Alolan Sandslash,Mouse Pokémon,1.2,55.0,Ice,Steel,75,100,120,25,65,65,450
+Nidoran (Female),Poison Pin Pokémon,0.4,7.0,Poison,,55,47,52,40,40,41,275
+Nidorina,Poison Pin Pokémon,0.8,20.0,Poison,,70,62,67,55,55,56,365
+Nidoqueen,Drill Pokémon,1.3,60.0,Poison,Ground,90,92,87,75,85,76,505
+Nidoran (Male),Poison Pin Pokémon,0.5,9.0,Poison,,46,57,40,40,40,50,273
+Nidorino,Poison Pin Pokémon,0.9,19.5,Poison,,61,72,57,55,55,65,365
+Nidoking,Drill Pokémon,1.4,62.0,Poison,Ground,81,102,77,85,75,85,505
+Clefairy,Fairy Pokémon,0.6,7.5,Fairy,,70,45,48,60,65,35,323
+Clefable,Fairy Pokémon,1.3,40.0,Fairy,,95,70,73,95,90,60,483
+Vulpix,Fox Pokémon,0.6,9.9,Fire,,38,41,40,50,65,65,299
+Alolan Vulpix,Fox Pokémon,0.6,9.9,Ice,,38,41,40,50,65,65,299
+Ninetales,Fox Pokémon,1.1,19.9,Fire,,73,76,75,81,100,100,505
+Alolan Ninetales,Fox Pokémon,1.1,19.9,Ice,Fairy,73,67,75,81,100,109,505
+Jigglypuff,Balloon Pokémon,0.5,5.5,Normal,Fairy,115,45,20,45,25,20,270
+Wigglytuff,Balloon Pokémon,1.0,12.0,Normal,Fairy,140,70,45,85,50,45,435
+Zubat,Bat Pokémon,0.8,7.5,Poison,Flying,40,45,35,30,40,55,245
+Golbat,Bat Pokémon,1.6,55.0,Poison,Flying,75,80,70,65,75,95,460
+Oddish,Weed Pokémon,0.5,5.4,Grass,Poison,45,50,55,75,65,30,320
+Gloom,Weed Pokémon,0.8,8.6,Grass,Poison,60,65,70,85,75,40,395
+Vileplume,Flower Pokémon,1.2,18.6,Grass,Poison,75,80,85,110,90,50,490
+Paras,Mushroom Pokémon,0.3,5.4,Bug,Grass,35,70,55,45,55,25,285
+Parasect,Mushroom Pokémon,1.0,29.5,Bug,Grass,60,95,80,60,80,30,405
+Venonat,Insect Pokémon,1.0,30.0,Bug,Poison,60,55,50,40,55,45,305
+Venomoth,Poison Moth Pokémon,1.5,12.5,Bug,Poison,70,65,60,90,75,90,450
+Diglett,Mole Pokémon,0.2,0.8,Ground,,10,55,25,35,45,95,265
+Alolan Diglett,Mole Pokémon,0.2,1.0,Ground,Steel,10,55,30,35,45,90,265
+Dugtrio,Mole Pokémon,0.7,33.3,Ground,,35,100,50,50,70,120,425
+Alolan Dugtrio,Mole Pokémon,0.7,66.6,Ground,Steel,35,100,60,50,70,110,425
+Meowth,Scratch Cat Pokémon,0.4,4.2,Normal,,40,45,35,40,40,90,290
+Alolan Meowth,Scratch Cat Pokémon,0.4,4.2,Dark,,40,35,35,50,40,90,290
+Galarian Meowth,Scratch Cat Pokémon,0.4,7.5,Steel,,50,65,55,40,40,40,290
+Gigantamax Meowth,Scratch Cat Pokémon,33.0,0.0,Normal,,40,45,35,40,40,90,290
+Persian,Classy Cat Pokémon,1.0,32.0,Normal,,65,70,60,65,65,115,440
+Alolan Persian,Classy Cat Pokémon,1.1,33.0,Dark,,65,60,60,75,65,115,440
+Psyduck,Duck Pokémon,0.8,19.6,Water,,50,52,48,65,50,55,320
+Golduck,Duck Pokémon,1.7,76.6,Water,,80,82,78,95,80,85,500
+Mankey,Pig Monkey Pokémon,0.5,28.0,Fighting,,40,80,35,35,45,70,305
+Primeape,Pig Monkey Pokémon,1.0,32.0,Fighting,,65,105,60,60,70,95,455
+Growlithe,Puppy Pokémon,0.7,19.0,Fire,,55,70,45,70,50,60,350
+Arcanine,Legendary Pokémon,1.9,155.0,Fire,,90,110,80,100,80,95,555
+Poliwag,Tadpole Pokémon,0.6,12.4,Water,,40,50,40,40,40,90,300
+Poliwhirl,Tadpole Pokémon,1.0,20.0,Water,,65,65,65,50,50,90,385
+Poliwrath,Tadpole Pokémon,1.3,54.0,Water,Fighting,90,95,95,70,90,70,510
+Abra,Psi Pokémon,0.9,19.5,Psychic,,25,20,15,105,55,90,310
+Kadabra,Psi Pokémon,1.3,56.5,Psychic,,40,35,30,120,70,105,400
+Alakazam,Psi Pokémon,1.5,48.0,Psychic,,55,50,45,135,95,120,500
+Mega Alakazam,Psi Pokémon,1.2,48.0,Psychic,,55,50,65,175,105,150,600
+Machop,Superpower Pokémon,0.8,19.5,Fighting,,70,80,50,35,35,35,305
+Machoke,Superpower Pokémon,1.5,70.5,Fighting,,80,100,70,50,60,45,405
+Machamp,Superpower Pokémon,1.6,130.0,Fighting,,90,130,80,65,85,55,505
+Gigantamax Machamp,Superpower Pokémon,25.0,0.0,Fighting,,90,130,80,65,85,55,505
+Bellsprout,Flower Pokémon,0.7,4.0,Grass,Poison,50,75,35,70,30,40,300
+Weepinbell,Flycatcher Pokémon,1.0,6.4,Grass,Poison,65,90,50,85,45,55,390
+Victreebel,Flycatcher Pokémon,1.7,15.5,Grass,Poison,80,105,65,100,70,70,490
+Tentacool,Jellyfish Pokémon,0.9,45.5,Water,Poison,40,40,35,50,100,70,335
+Tentacruel,Jellyfish Pokémon,1.6,55.0,Water,Poison,80,70,65,80,120,100,515
+Geodude,Rock Pokémon,0.4,20.0,Rock,Ground,40,80,100,30,30,20,300
+Alolan Geodude,Rock Pokémon,0.4,20.3,Rock,Electric,40,80,100,30,30,20,300
+Graveler,Rock Pokémon,1.0,105.0,Rock,Ground,55,95,115,45,45,35,390
+Alolan Graveler,Rock Pokémon,1.0,110.0,Rock,Electric,55,95,115,45,45,35,390
+Golem,Megaton Pokémon,1.4,300.0,Rock,Ground,80,120,130,55,65,45,495
+Alolan Golem,Megaton Pokémon,1.7,316.0,Rock,Electric,80,120,130,55,65,45,495
+Ponyta,Fire Horse Pokémon,1.0,30.0,Fire,,50,85,55,65,65,90,410
+Galarian Ponyta,Unique Horn Pokémon,0.8,24.0,Psychic,,50,85,55,65,65,90,410
+Rapidash,Fire Horse Pokémon,1.7,95.0,Fire,,65,100,70,80,80,105,500
+Galarian Rapidash,Unique Horn Pokémon,1.7,80.0,Psychic,Fairy,65,100,70,80,80,105,500
+Slowpoke,Dopey Pokémon,1.2,36.0,Water,Psychic,90,65,65,40,40,15,315
+Galarian Slowpoke,Dopey Pokémon,1.2,36.0,Psychic,,90,65,65,40,40,15,315
+Slowbro,Hermit Crab Pokémon,1.6,78.5,Water,Psychic,95,75,110,100,80,30,490
+Mega Slowbro,Hermit Crab Pokémon,2.0,120.0,Water,Psychic,95,75,180,130,80,30,590
+Magnemite,Magnet Pokémon,0.3,6.0,Electric,Steel,25,35,70,95,55,45,325
+Magneton,Magnet Pokémon,1.0,60.0,Electric,Steel,50,60,95,120,70,70,465
+Farfetch'd,Wild Duck Pokémon,0.8,15.0,Normal,Flying,52,90,55,58,62,60,377
+Galarian Farfetch'd,Wild Bull Pokémon,0.8,42.0,Fighting,,52,95,55,58,62,55,377
+Doduo,Twin Bird Pokémon,1.4,39.2,Normal,Flying,35,85,45,35,35,75,310
+Dodrio,Triple Bird Pokémon,1.8,85.2,Normal,Flying,60,110,70,60,60,110,470
+Seel,Sea Lion Pokémon,1.1,90.0,Water,,65,45,55,45,70,45,325
+Dewgong,Sea Lion Pokémon,1.7,120.0,Water,Ice,90,70,80,70,95,70,475
+Grimer,Sludge Pokémon,0.9,30.0,Poison,,80,80,50,40,50,25,325
+Alolan Grimer,Sludge Pokémon,0.7,42.0,Poison,Dark,80,80,50,40,50,25,325
+Muk,Sludge Pokémon,1.2,30.0,Poison,,105,105,75,65,100,50,500
+Alolan Muk,Sludge Pokémon,1.0,52.0,Poison,Dark,105,105,75,65,100,50,500
+Shellder,Bivalve Pokémon,0.3,4.0,Water,,30,65,100,45,25,40,305
+Cloyster,Bivalve Pokémon,1.5,132.5,Water,,50,95,180,85,45,70,525
+Gastly,Gas Pokémon,1.3,0.1,Ghost,Poison,30,35,30,100,35,80,310
+Haunter,Gas Pokémon,1.6,0.1,Ghost,Poison,45,50,45,115,55,95,405
+Gengar,Shadow Pokémon,1.5,40.5,Ghost,Poison,60,65,60,130,75,110,500
+Mega Gengar,Shadow Pokémon,1.4,40.5,Ghost,Poison,60,65,80,170,95,130,600
+Gigantamax Gengar,Shadow Pokémon,20.0,0.0,Ghost,Poison,60,65,60,130,75,110,500
+Onix,Rock Snake Pokémon,8.8,210.0,Rock,Ground,35,45,160,30,45,70,385
+Drowzee,Hypnosis Pokémon,1.0,32.4,Psychic,,60,48,45,43,90,42,328
+Hypno,Hypnosis Pokémon,1.6,75.6,Psychic,,85,73,70,73,115,67,483
+Krabby,River Crab Pokémon,0.4,6.5,Water,,30,105,90,25,25,50,325
+Kingler,Pincer Pokémon,1.3,60.0,Water,,55,130,115,50,50,75,475
+Gigantamax Kingler,Pincer Pokémon,19.0,0.0,Water,,55,130,115,50,50,75,475
+Voltorb,Ball Pokémon,0.5,10.5,Electric,,40,30,50,55,55,100,330
+Electrode,Ball Pokémon,1.2,66.6,Electric,,60,50,70,80,80,150,490
+Exeggcute,Egg Pokémon,0.4,2.5,Grass,Psychic,60,40,80,60,45,40,325
+Exeggutor,Coconut Pokémon,2.0,120.0,Grass,Psychic,95,95,85,125,75,55,530
+Alolan Exeggutor,Coconut Pokémon,10.9,415.6,Grass,Dragon,95,105,85,125,75,45,530
+Cubone,Lonely Pokémon,0.4,6.5,Ground,,50,50,95,40,50,35,320
+Marowak,Bone Keeper Pokémon,1.0,45.0,Ground,,60,80,110,50,80,45,425
+Alolan Marowak,Bone Keeper Pokémon,1.0,34.0,Ghost,Fire,60,80,110,50,80,45,425
+Hitmonlee,Kicking Pokémon,1.5,49.8,Fighting,,50,120,53,35,110,87,455
+Hitmonchan,Punching Pokémon,1.4,50.2,Fighting,,50,105,79,35,110,76,455
+Lickitung,Licking Pokémon,1.2,65.5,Normal,,90,55,75,60,75,30,385
+Koffing,Poison Gas Pokémon,0.6,1.0,Poison,,40,65,95,60,45,35,340
+Weezing,Poison Gas Pokémon,1.2,9.5,Poison,,65,90,120,85,70,60,490
+Galarian Weezing,Poison Gas Pokémon,3.0,16.0,Poison,Fairy,65,90,120,85,70,60,490
+Rhyhorn,Spikes Pokémon,1.0,115.0,Ground,Rock,80,85,95,30,30,25,345
+Rhydon,Drill Pokémon,1.9,120.0,Ground,Rock,105,130,120,45,45,40,485
+Chansey,Egg Pokémon,1.1,34.6,Normal,,250,5,5,35,105,50,450
+Tangela,Vine Pokémon,1.0,35.0,Grass,,65,55,115,100,40,60,435
+Kangaskhan,Parent Pokémon,2.2,80.0,Normal,,105,95,80,40,80,90,490
+Mega Kangaskhan,Parent Pokémon,2.2,100.0,Normal,,105,125,100,60,100,100,590
+Horsea,Dragon Pokémon,0.4,8.0,Water,,30,40,70,70,25,60,295
+Seadra,Dragon Pokémon,1.2,25.0,Water,,55,65,95,95,45,85,440
+Goldeen,Goldfish Pokémon,0.6,15.0,Water,,45,67,60,35,50,63,320
+Seaking,Goldfish Pokémon,1.3,39.0,Water,,80,92,65,65,80,68,450
+Staryu,Star Shape Pokémon,0.8,34.5,Water,,30,45,55,70,55,85,340
+Starmie,Mysterious Pokémon,1.1,80.0,Water,Psychic,60,75,85,100,85,115,520
+Mr. Mime,Barrier Pokémon,1.3,54.5,Psychic,Fairy,40,45,65,100,120,90,460
+Galarian Mr. Mime,Dancing Pokémon,1.4,56.0,Ice,Psychic,50,65,65,90,90,100,460
+Scyther,Mantis Pokémon,1.5,56.0,Bug,Flying,70,110,80,55,80,105,500
+Jynx,Human Shape Pokémon,1.4,40.6,Ice,Psychic,65,50,35,115,95,95,455
+Electabuzz,Electric Pokémon,1.1,30.0,Electric,,65,83,57,95,85,105,490
+Magmar,Spitfire Pokémon,1.3,44.5,Fire,,65,95,57,100,85,93,495
+Pinsir,Stag Beetle Pokémon,1.5,55.0,Bug,,65,125,100,55,70,85,500
+Mega Pinsir,Stag Beetle Pokémon,1.7,59.0,Bug,Flying,65,155,120,65,90,105,600
+Tauros,Wild Bull Pokémon,1.4,88.4,Normal,,75,100,95,40,70,110,490
+Magikarp,Fish Pokémon,0.9,10.0,Water,,20,10,55,15,20,80,200
+Gyarados,Atrocious Pokémon,6.5,235.0,Water,Flying,95,125,79,60,100,81,540
+Mega Gyarados,Atrocious Pokémon,6.5,305.0,Water,Dark,95,155,109,70,130,81,640
+Lapras,Transport Pokémon,2.5,220.0,Water,Ice,130,85,80,85,95,60,535
+Gigantamax Lapras,Transport Pokémon,24.0,0.0,Water,Ice,130,85,80,85,95,60,535
+Ditto,Transform Pokémon,0.3,4.0,Normal,,48,48,48,48,48,48,288
+Eevee,Evolution Pokémon,0.3,6.5,Normal,,55,55,50,45,65,55,325
+Gigantamax Eevee,Evolution Pokémon,18.0,0.0,Normal,,55,55,50,45,65,55,325
+Starter Eevee,Evolution Pokémon,0.3,6.5,Normal,,65,75,70,65,85,75,435
+Vaporeon,Bubble Jet Pokémon,1.0,29.0,Water,,130,65,60,110,95,65,525
+Jolteon,Lightning Pokémon,0.8,24.5,Electric,,65,65,60,110,95,130,525
+Flareon,Flame Pokémon,0.9,25.0,Fire,,65,130,60,95,110,65,525
+Porygon,Virtual Pokémon,0.8,36.5,Normal,,65,60,70,85,75,40,395
+Omanyte,Spiral Pokémon,0.4,7.5,Rock,Water,35,40,100,90,55,35,355
+Omastar,Spiral Pokémon,1.0,35.0,Rock,Water,70,60,125,115,70,55,495
+Kabuto,Shellfish Pokémon,0.5,11.5,Rock,Water,30,80,90,55,45,55,355
+Kabutops,Shellfish Pokémon,1.3,40.5,Rock,Water,60,115,105,65,70,80,495
+Aerodactyl,Fossil Pokémon,1.8,59.0,Rock,Flying,80,105,65,60,75,130,515
+Mega Aerodactyl,Fossil Pokémon,2.1,79.0,Rock,Flying,80,135,85,70,95,150,615
+Snorlax,Sleeping Pokémon,2.1,460.0,Normal,,160,110,65,65,110,30,540
+Gigantamax Snorlax,Sleeping Pokémon,35.0,0.0,Normal,,160,110,65,65,110,30,540
+Articuno,Freeze Pokémon,1.7,55.4,Ice,Flying,90,85,100,95,125,85,580
+Zapdos,Electric Pokémon,1.6,52.6,Electric,Flying,90,90,85,125,90,100,580
+Moltres,Flame Pokémon,2.0,60.0,Fire,Flying,90,100,90,125,85,90,580
+Dratini,Dragon Pokémon,1.8,3.3,Dragon,,41,64,45,50,50,50,300
+Dragonair,Dragon Pokémon,4.0,16.5,Dragon,,61,84,65,70,70,70,420
+Dragonite,Dragon Pokémon,2.2,210.0,Dragon,Flying,91,134,95,100,100,80,600
+Mewtwo,Genetic Pokémon,2.0,122.0,Psychic,,106,110,90,154,90,130,680
+Mega X Mewtwo,Genetic Pokémon,2.3,127.0,Psychic,,106,190,100,154,100,130,780
+Mega Y Mewtwo,Genetic Pokémon,1.5,33.0,Psychic,,106,150,70,194,120,140,780
+Mew,New Species Pokémon,0.4,4.0,Psychic,,100,100,100,100,100,100,600
+Chikorita,Leaf Pokémon,0.9,6.4,Grass,,45,49,65,49,65,45,318
+Bayleef,Leaf Pokémon,1.2,15.8,Grass,,60,62,80,63,80,60,405
+Meganium,Herb Pokémon,1.8,100.5,Grass,,80,82,100,83,100,80,525
+Cyndaquil,Fire Mouse Pokémon,0.5,7.9,Fire,,39,52,43,60,50,65,309
+Quilava,Volcano Pokémon,0.9,19.0,Fire,,58,64,58,80,65,80,405
+Typhlosion,Volcano Pokémon,1.7,79.5,Fire,,78,84,78,109,85,100,534
+Totodile,Big Jaw Pokémon,0.6,9.5,Water,,50,65,64,44,48,43,314
+Croconaw,Big Jaw Pokémon,1.1,25.0,Water,,65,80,80,59,63,58,405
+Feraligatr,Big Jaw Pokémon,2.3,88.8,Water,,85,105,100,79,83,78,530
+Sentret,Scout Pokémon,0.8,6.0,Normal,,35,46,34,35,45,20,215
+Furret,Long Body Pokémon,1.8,32.5,Normal,,85,76,64,45,55,90,415
+Hoothoot,Owl Pokémon,0.7,21.2,Normal,Flying,60,30,30,36,56,50,262
+Noctowl,Owl Pokémon,1.6,40.8,Normal,Flying,100,50,50,86,96,70,452
+Ledyba,Five Star Pokémon,1.0,10.8,Bug,Flying,40,20,30,40,80,55,265
+Ledian,Five Star Pokémon,1.4,35.6,Bug,Flying,55,35,50,55,110,85,390
+Spinarak,String Spit Pokémon,0.5,8.5,Bug,Poison,40,60,40,40,40,30,250
+Ariados,Long Leg Pokémon,1.1,33.5,Bug,Poison,70,90,70,60,70,40,400
+Crobat,Bat Pokémon,1.8,75.0,Poison,Flying,85,90,80,70,80,130,535
+Chinchou,Angler Pokémon,0.5,12.0,Water,Electric,75,38,38,56,56,67,330
+Lanturn,Light Pokémon,1.2,22.5,Water,Electric,125,58,58,76,76,67,460
+Pichu,Tiny Mouse Pokémon,0.3,2.0,Electric,,20,40,15,35,35,60,205
+Cleffa,Star Shape Pokémon,0.3,3.0,Fairy,,50,25,28,45,55,15,218
+Igglybuff,Balloon Pokémon,0.3,1.0,Normal,Fairy,90,30,15,40,20,15,210
+Togepi,Spike Ball Pokémon,0.3,1.5,Fairy,,35,20,65,40,65,20,245
+Togetic,Happiness Pokémon,0.6,3.2,Fairy,Flying,55,40,85,80,105,40,405
+Natu,Tiny Bird Pokémon,0.2,2.0,Psychic,Flying,40,50,45,70,45,70,320
+Xatu,Mystic Pokémon,1.5,15.0,Psychic,Flying,65,75,70,95,70,95,470
+Mareep,Wool Pokémon,0.6,7.8,Electric,,55,40,40,65,45,35,280
+Flaaffy,Wool Pokémon,0.8,13.3,Electric,,70,55,55,80,60,45,365
+Ampharos,Light Pokémon,1.4,61.5,Electric,,90,75,85,115,90,55,510
+Mega Ampharos,Light Pokémon,1.4,61.5,Electric,Dragon,90,95,105,165,110,45,610
+Bellossom,Flower Pokémon,0.4,5.8,Grass,,75,80,95,90,100,50,490
+Marill,Aqua Mouse Pokémon,0.4,8.5,Water,Fairy,70,20,50,20,50,40,250
+Azumarill,Aqua Rabbit Pokémon,0.8,28.5,Water,Fairy,100,50,80,60,80,50,420
+Sudowoodo,Imitation Pokémon,1.2,38.0,Rock,,70,110,115,30,65,30,420
+Politoed,Frog Pokémon,1.1,33.9,Water,,90,75,75,90,100,70,500
+Hoppip,Cottonweed Pokémon,0.4,0.5,Grass,Flying,35,35,40,35,55,50,250
+Skiploom,Cottonweed Pokémon,0.6,1.0,Grass,Flying,55,45,50,45,65,80,340
+Jumpluff,Cottonweed Pokémon,0.8,3.0,Grass,Flying,75,55,70,55,95,110,460
+Aipom,Long Tail Pokémon,0.8,11.5,Normal,,55,70,55,40,55,85,360
+Sunkern,Seed Pokémon,0.3,1.8,Grass,,30,30,30,30,30,30,180
+Sunflora,Sun Pokémon,0.8,8.5,Grass,,75,75,55,105,85,30,425
+Yanma,Clear Wing Pokémon,1.2,38.0,Bug,Flying,65,65,45,75,45,95,390
+Wooper,Water Fish Pokémon,0.4,8.5,Water,Ground,55,45,45,25,25,15,210
+Quagsire,Water Fish Pokémon,1.4,75.0,Water,Ground,95,85,85,65,65,35,430
+Espeon,Sun Pokémon,0.9,26.5,Psychic,,65,65,60,130,95,110,525
+Umbreon,Moonlight Pokémon,1.0,27.0,Dark,,95,65,110,60,130,65,525
+Murkrow,Darkness Pokémon,0.5,2.1,Dark,Flying,60,85,42,85,42,91,405
+Slowking,Royal Pokémon,2.0,79.5,Water,Psychic,95,75,80,100,110,30,490
+Misdreavus,Screech Pokémon,0.7,1.0,Ghost,,60,60,60,85,85,85,435
+Unown,Symbol Pokémon,0.5,5.0,Psychic,,48,72,48,72,48,48,336
+Wobbuffet,Patient Pokémon,1.3,28.5,Psychic,,190,33,58,33,58,33,405
+Girafarig,Long Neck Pokémon,1.5,41.5,Normal,Psychic,70,80,65,90,65,85,455
+Pineco,Bagworm Pokémon,0.6,7.2,Bug,,50,65,90,35,35,15,290
+Forretress,Bagworm Pokémon,1.2,125.8,Bug,Steel,75,90,140,60,60,40,465
+Dunsparce,Land Snake Pokémon,1.5,14.0,Normal,,100,70,70,65,65,45,415
+Gligar,Fly Scorpion Pokémon,1.1,64.8,Ground,Flying,65,75,105,35,65,85,430
+Steelix,Iron Snake Pokémon,9.2,400.0,Steel,Ground,75,85,200,55,65,30,510
+Mega Steelix,Iron Snake Pokémon,10.5,740.0,Steel,Ground,75,125,230,55,95,30,610
+Snubbull,Fairy Pokémon,0.6,7.8,Fairy,,60,80,50,40,40,30,300
+Granbull,Fairy Pokémon,1.4,48.7,Fairy,,90,120,75,60,60,45,450
+Qwilfish,Balloon Pokémon,0.5,3.9,Water,Poison,65,95,85,55,55,85,440
+Scizor,Pincer Pokémon,1.8,118.0,Bug,Steel,70,130,100,55,80,65,500
+Mega Scizor,Pincer Pokémon,2.0,125.0,Bug,Steel,70,150,140,65,100,75,600
+Shuckle,Mold Pokémon,0.6,20.5,Bug,Rock,20,10,230,10,230,5,505
+Heracross,Single Horn Pokémon,1.5,54.0,Bug,Fighting,80,125,75,40,95,85,500
+Mega Heracross,Abundance Pokémon,1.7,62.5,Bug,Fighting,80,185,115,40,105,75,600
+Sneasel,Sharp Claw Pokémon,0.9,28.0,Dark,Ice,55,95,55,35,75,115,430
+Teddiursa,Little Bear Pokémon,0.6,8.8,Normal,,60,80,50,50,50,40,330
+Ursaring,Hibernator Pokémon,1.8,125.8,Normal,,90,130,75,75,75,55,500
+Slugma,Lava Pokémon,0.7,35.0,Fire,,40,40,40,70,40,20,250
+Magcargo,Lava Pokémon,0.8,55.0,Fire,Rock,60,50,120,90,80,30,430
+Swinub,Pig Pokémon,0.4,6.5,Ice,Ground,50,50,40,30,30,50,250
+Piloswine,Swine Pokémon,1.1,55.8,Ice,Ground,100,100,80,60,60,50,450
+Corsola,Coral Pokémon,0.6,5.0,Water,Rock,65,55,95,65,95,35,410
+Galarian Corsola,Coral Pokémon,0.6,0.5,Ghost,,60,55,100,65,100,30,410
+Remoraid,Jet Pokémon,0.6,12.0,Water,,35,65,35,65,35,65,300
+Octillery,Jet Pokémon,0.9,28.5,Water,,75,105,75,105,75,45,480
+Delibird,Delivery Pokémon,0.9,16.0,Ice,Flying,45,55,45,65,45,75,330
+Mantine,Kite Pokémon,2.1,220.0,Water,Flying,85,40,70,80,140,70,485
+Skarmory,Armor Bird Pokémon,1.7,50.5,Steel,Flying,65,80,140,40,70,70,465
+Houndour,Dark Pokémon,0.6,10.8,Dark,Fire,45,60,30,80,50,65,330
+Houndoom,Dark Pokémon,1.4,35.0,Dark,Fire,75,90,50,110,80,95,500
+Mega Houndoom,Dark Pokémon,1.9,49.5,Dark,Fire,75,90,90,140,90,115,600
+Kingdra,Dragon Pokémon,1.8,152.0,Water,Dragon,75,95,95,95,95,85,540
+Phanpy,Long Nose Pokémon,0.5,33.5,Ground,,90,60,60,40,40,40,330
+Donphan,Armor Pokémon,1.1,120.0,Ground,,90,120,120,60,60,50,500
+Porygon2,Virtual Pokémon,0.6,32.5,Normal,,85,80,90,105,95,60,515
+Stantler,Big Horn Pokémon,1.4,71.2,Normal,,73,95,62,85,65,85,465
+Smeargle,Painter Pokémon,1.2,58.0,Normal,,55,20,35,20,45,75,250
+Tyrogue,Scuffle Pokémon,0.7,21.0,Fighting,,35,35,35,35,35,35,210
+Hitmontop,Handstand Pokémon,1.4,48.0,Fighting,,50,95,95,35,110,70,455
+Smoochum,Kiss Pokémon,0.4,6.0,Ice,Psychic,45,30,15,85,65,65,305
+Elekid,Electric Pokémon,0.6,23.5,Electric,,45,63,37,65,55,95,360
+Magby,Live Coal Pokémon,0.7,21.4,Fire,,45,75,37,70,55,83,365
+Miltank,Milk Cow Pokémon,1.2,75.5,Normal,,95,80,105,40,70,100,490
+Blissey,Happiness Pokémon,1.5,46.8,Normal,,255,10,10,75,135,55,540
+Raikou,Thunder Pokémon,1.9,178.0,Electric,,90,85,75,115,100,115,580
+Entei,Volcano Pokémon,2.1,198.0,Fire,,115,115,85,90,75,100,580
+Suicune,Aurora Pokémon,2.0,187.0,Water,,100,75,115,90,115,85,580
+Larvitar,Rock Skin Pokémon,0.6,72.0,Rock,Ground,50,64,50,45,50,41,300
+Pupitar,Hard Shell Pokémon,1.2,152.0,Rock,Ground,70,84,70,65,70,51,410
+Tyranitar,Armor Pokémon,2.0,202.0,Rock,Dark,100,134,110,95,100,61,600
+Mega Tyranitar,Armor Bird Pokémon,2.5,255.0,Rock,Dark,100,164,150,95,120,71,700
+Lugia,Diving Pokémon,5.2,216.0,Psychic,Flying,106,90,130,90,154,110,680
+Ho-Oh,Rainbow Pokémon,3.8,199.0,Fire,Flying,106,130,90,110,154,90,680
+Celebi,Time Travel Pokémon,0.6,5.0,Psychic,Grass,100,100,100,100,100,100,600
+Treecko,Wood Gecko Pokémon,0.5,5.0,Grass,,40,45,35,65,55,70,310
+Grovyle,Wood Gecko Pokémon,0.9,21.6,Grass,,50,65,45,85,65,95,405
+Sceptile,Forest Pokémon,1.7,52.2,Grass,,70,85,65,105,85,120,530
+Mega Sceptile,Forest Pokémon,1.9,55.2,Grass,Dragon,70,110,75,145,85,145,630
+Torchic,Chick Pokémon,0.4,2.5,Fire,,45,60,40,70,50,45,310
+Combusken,Young Fowl Pokémon,0.9,19.5,Fire,Fighting,60,85,60,85,60,55,405
+Blaziken,Blaze Pokémon,1.9,52.0,Fire,Fighting,80,120,70,110,70,80,530
+Mega Blaziken,Blaze Pokémon,1.9,52.0,Fire,Fighting,80,160,80,130,80,100,630
+Mudkip,Mud Fish Pokémon,0.4,7.6,Water,,50,70,50,50,50,40,310
+Marshtomp,Mud Fish Pokémon,0.7,28.0,Water,Ground,70,85,70,60,70,50,405
+Swampert,Mud Fish Pokémon,1.5,81.9,Water,Ground,100,110,90,85,90,60,535
+Mega Swampert,Mud Fish Pokémon,1.9,102.0,Water,Ground,100,150,110,95,110,70,635
+Poochyena,Bite Pokémon,0.5,13.6,Dark,,35,55,35,30,30,35,220
+Mightyena,Bite Pokémon,1.0,37.0,Dark,,70,90,70,60,60,70,420
+Zigzagoon,Tiny Raccoon Pokémon,0.4,17.5,Normal,,38,30,41,30,41,60,240
+Galarian Zigzagoon,Tiny Raccoon Pokémon,0.4,17.5,Dark,Normal,38,30,41,30,41,60,240
+Linoone,Rushing Pokémon,0.5,32.5,Normal,,78,70,61,50,61,100,420
+Galarian Linoone,Rushing Pokémon,0.5,32.5,Dark,Normal,78,70,61,50,61,100,420
+Wurmple,Worm Pokémon,0.3,3.6,Bug,,45,45,35,20,30,20,195
+Silcoon,Cocoon Pokémon,0.6,10.0,Bug,,50,35,55,25,25,15,205
+Beautifly,Butterfly Pokémon,1.0,28.4,Bug,Flying,60,70,50,100,50,65,395
+Cascoon,Cocoon Pokémon,0.7,11.5,Bug,,50,35,55,25,25,15,205
+Dustox,Poison Moth Pokémon,1.2,31.6,Bug,Poison,60,50,70,50,90,65,385
+Lotad,Water Weed Pokémon,0.5,2.6,Water,Grass,40,30,30,40,50,30,220
+Lombre,Jolly Pokémon,1.2,32.5,Water,Grass,60,50,50,60,70,50,340
+Ludicolo,Carefree Pokémon,1.5,55.0,Water,Grass,80,70,70,90,100,70,480
+Seedot,Acorn Pokémon,0.5,4.0,Grass,,40,40,50,30,30,30,220
+Nuzleaf,Wily Pokémon,1.0,28.0,Grass,Dark,70,70,40,60,40,60,340
+Shiftry,Wicked Pokémon,1.3,59.6,Grass,Dark,90,100,60,90,60,80,480
+Taillow,Tiny Swallow Pokémon,0.3,2.3,Normal,Flying,40,55,30,30,30,85,270
+Swellow,Swallow Pokémon,0.7,19.8,Normal,Flying,60,85,60,75,50,125,455
+Wingull,Seagull Pokémon,0.6,9.5,Water,Flying,40,30,30,55,30,85,270
+Pelipper,Water Bird Pokémon,1.2,28.0,Water,Flying,90,50,100,95,70,65,470
+Ralts,Feeling Pokémon,0.4,6.6,Psychic,Fairy,28,25,25,45,35,40,198
+Kirlia,Emotion Pokémon,0.8,20.2,Psychic,Fairy,38,35,35,65,55,50,278
+Gardevoir,Embrace Pokémon,1.6,48.4,Psychic,Fairy,68,65,65,125,115,80,518
+Mega Gardevoir,Embrace Pokémon,1.6,48.4,Psychic,Fairy,68,85,65,165,135,100,618
+Surskit,Pond Skater Pokémon,0.5,1.7,Bug,Water,40,30,32,50,52,65,269
+Masquerain,Eyeball Pokémon,0.8,3.6,Bug,Flying,70,60,62,100,82,80,454
+Shroomish,Mushroom Pokémon,0.4,4.5,Grass,,60,40,60,40,60,35,295
+Breloom,Mushroom Pokémon,1.2,39.2,Grass,Fighting,60,130,80,60,60,70,460
+Slakoth,Slacker Pokémon,0.8,24.0,Normal,,60,60,60,35,35,30,280
+Vigoroth,Wild Monkey Pokémon,1.4,46.5,Normal,,80,80,80,55,55,90,440
+Slaking,Lazy Pokémon,2.0,130.5,Normal,,150,160,100,95,65,100,670
+Nincada,Trainee Pokémon,0.5,5.5,Bug,Ground,31,45,90,30,30,40,266
+Ninjask,Ninja Pokémon,0.8,12.0,Bug,Flying,61,90,45,50,50,160,456
+Shedinja,Shed Pokémon,0.8,1.2,Bug,Ghost,1,90,45,30,30,40,236
+Whismur,Whisper Pokémon,0.6,16.3,Normal,,64,51,23,51,23,28,240
+Loudred,Big Voice Pokémon,1.0,40.5,Normal,,84,71,43,71,43,48,360
+Exploud,Loud Noise Pokémon,1.5,84.0,Normal,,104,91,63,91,73,68,490
+Makuhita,Guts Pokémon,1.0,86.4,Fighting,,72,60,30,20,30,25,237
+Hariyama,Arm Thrust Pokémon,2.3,253.8,Fighting,,144,120,60,40,60,50,474
+Azurill,Polka Dot Pokémon,0.2,2.0,Normal,Fairy,50,20,40,20,40,20,190
+Nosepass,Compass Pokémon,1.0,97.0,Rock,,30,45,135,45,90,30,375
+Skitty,Kitten Pokémon,0.6,11.0,Normal,,50,45,45,35,35,50,260
+Delcatty,Prim Pokémon,1.1,32.6,Normal,,70,65,65,55,55,90,400
+Sableye,Darkness Pokémon,0.5,11.0,Dark,Ghost,50,75,75,65,65,50,380
+Mega Sableye,Darkness Pokémon,0.5,161.0,Dark,Ghost,50,85,125,85,115,20,480
+Mawile,Deceiver Pokémon,0.6,11.5,Steel,Fairy,50,85,85,55,55,50,380
+Mega Mawile,Deceiver Pokémon,1.0,23.5,Steel,Fairy,50,105,125,55,95,50,480
+Aron,Iron Armor Pokémon,0.4,60.0,Steel,Rock,50,70,100,40,40,30,330
+Lairon,Iron Armor Pokémon,0.9,120.0,Steel,Rock,60,90,140,50,50,40,430
+Aggron,Iron Armor Pokémon,2.1,360.0,Steel,Rock,70,110,180,60,60,50,530
+Mega Aggron,Iron Armor Pokémon,2.2,395.0,Steel,,70,140,230,60,80,50,630
+Meditite,Meditate Pokémon,0.6,11.2,Fighting,Psychic,30,40,55,40,55,60,280
+Medicham,Meditate Pokémon,1.3,31.5,Fighting,Psychic,60,60,75,60,75,80,410
+Mega Medicham,Meditate Pokémon,1.3,31.5,Fighting,Psychic,60,100,85,80,85,100,510
+Electrike,Lightning Pokémon,0.6,15.2,Electric,,40,45,40,65,40,65,295
+Manectric,Discharge Pokémon,1.5,40.2,Electric,,70,75,60,105,60,105,475
+Mega Manectric,Discharge Pokémon,1.8,44.0,Electric,,70,75,80,135,80,135,575
+Plusle,Cheering Pokémon,0.4,4.2,Electric,,60,50,40,85,75,95,405
+Minun,Cheering Pokémon,0.4,4.2,Electric,,60,40,50,75,85,95,405
+Volbeat,Firefly Pokémon,0.7,17.7,Bug,,65,73,75,47,85,85,430
+Illumise,Firefly Pokémon,0.6,17.7,Bug,,65,47,75,73,85,85,430
+Roselia,Thorn Pokémon,0.3,2.0,Grass,Poison,50,60,45,100,80,65,400
+Gulpin,Stomach Pokémon,0.4,10.3,Poison,,70,43,53,43,53,40,302
+Swalot,Poison Bag Pokémon,1.7,80.0,Poison,,100,73,83,73,83,55,467
+Carvanha,Savage Pokémon,0.8,20.8,Water,Dark,45,90,20,65,20,65,305
+Sharpedo,Brutal Pokémon,1.8,88.8,Water,Dark,70,120,40,95,40,95,460
+Mega Sharpedo,Brutal Pokémon,2.5,130.3,Water,Dark,70,140,70,110,65,105,560
+Wailmer,Ball Whale Pokémon,2.0,130.0,Water,,130,70,35,70,35,60,400
+Wailord,Float Whale Pokémon,14.5,398.0,Water,,170,90,45,90,45,60,500
+Numel,Numb Pokémon,0.7,24.0,Fire,Ground,60,60,40,65,45,35,305
+Camerupt,Eruption Pokémon,1.9,220.0,Fire,Ground,70,100,70,105,75,40,460
+Mega Camerupt,Eruption Pokémon,2.5,320.5,Fire,Ground,70,120,100,145,105,20,560
+Torkoal,Coal Pokémon,0.5,80.4,Fire,,70,85,140,85,70,20,470
+Spoink,Bounce Pokémon,0.7,30.6,Psychic,,60,25,35,70,80,60,330
+Grumpig,Manipulate Pokémon,0.9,71.5,Psychic,,80,45,65,90,110,80,470
+Spinda,Spot Panda Pokémon,1.1,5.0,Normal,,60,60,60,60,60,60,360
+Trapinch,Ant Pit Pokémon,0.7,15.0,Ground,,45,100,45,45,45,10,290
+Vibrava,Vibration Pokémon,1.1,15.3,Ground,Dragon,50,70,50,50,50,70,340
+Flygon,Mystic Pokémon,2.0,82.0,Ground,Dragon,80,100,80,80,80,100,520
+Cacnea,Cactus Pokémon,0.4,51.3,Grass,,50,85,40,85,40,35,335
+Cacturne,Scarecrow Pokémon,1.3,77.4,Grass,Dark,70,115,60,115,60,55,475
+Swablu,Cotton Bird Pokémon,0.4,1.2,Normal,Flying,45,40,60,40,75,50,310
+Altaria,Humming Pokémon,1.1,20.6,Dragon,Flying,75,70,90,70,105,80,490
+Mega Altaria,Humming Pokémon,1.5,20.6,Dragon,Fairy,75,110,110,110,105,80,590
+Zangoose,Cat Ferret Pokémon,1.3,40.3,Normal,,73,115,60,60,60,90,458
+Seviper,Fang Snake Pokémon,2.7,52.5,Poison,,73,100,60,100,60,65,458
+Lunatone,Meteorite Pokémon,1.0,168.0,Rock,Psychic,90,55,65,95,85,70,460
+Solrock,Meteorite Pokémon,1.2,154.0,Rock,Psychic,90,95,85,55,65,70,460
+Barboach,Whiskers Pokémon,0.4,1.9,Water,Ground,50,48,43,46,41,60,288
+Whiscash,Whiskers Pokémon,0.9,23.6,Water,Ground,110,78,73,76,71,60,468
+Corphish,Ruffian Pokémon,0.6,11.5,Water,,43,80,65,50,35,35,308
+Crawdaunt,Rogue Pokémon,1.1,32.8,Water,Dark,63,120,85,90,55,55,468
+Baltoy,Clay Doll Pokémon,0.5,21.5,Ground,Psychic,40,40,55,40,70,55,300
+Claydol,Clay Doll Pokémon,1.5,107.9,Ground,Psychic,60,70,105,70,120,75,500
+Lileep,Sea Lily Pokémon,1.0,23.8,Rock,Grass,66,41,77,61,87,23,355
+Cradily,Barnacle Pokémon,1.5,60.4,Rock,Grass,86,81,97,81,107,43,495
+Anorith,Old Shrimp Pokémon,0.7,12.5,Rock,Bug,45,95,50,40,50,75,355
+Armaldo,Plate Pokémon,1.5,68.2,Rock,Bug,75,125,100,70,80,45,495
+Feebas,Fish Pokémon,0.6,7.4,Water,,20,15,20,10,55,80,200
+Milotic,Tender Pokémon,6.2,162.0,Water,,95,60,79,100,125,81,540
+Castform,Weather Pokémon,0.3,0.8,Normal,,70,70,70,70,70,70,420
+Sunny Castform,Weather Pokémon,0.3,0.8,Fire,,70,70,70,70,70,70,420
+Rainy Castform,Weather Pokémon,0.3,0.8,Water,,70,70,70,70,70,70,420
+Snowy Castform,Weather Pokémon,0.3,0.8,Ice,,70,70,70,70,70,70,420
+Kecleon,Color Swap Pokémon,1.0,22.0,Normal,,60,90,70,60,120,40,440
+Shuppet,Puppet Pokémon,0.6,2.3,Ghost,,44,75,35,63,33,45,295
+Banette,Marionette Pokémon,1.1,12.5,Ghost,,64,115,65,83,63,65,455
+Mega Banette,Marionette Pokémon,1.2,13.0,Ghost,,64,165,75,93,83,75,555
+Duskull,Requiem Pokémon,0.8,15.0,Ghost,,20,40,90,30,90,25,295
+Dusclops,Beckon Pokémon,1.6,30.6,Ghost,,40,70,130,60,130,25,455
+Tropius,Fruit Pokémon,2.0,100.0,Grass,Flying,99,68,83,72,87,51,460
+Chimecho,Wind Chime Pokémon,0.6,1.0,Psychic,,75,50,80,95,90,65,455
+Absol,Disaster Pokémon,1.2,47.0,Dark,,65,130,60,75,60,75,465
+Mega Absol,Disaster Pokémon,1.2,49.0,Dark,,65,150,60,115,60,115,565
+Wynaut,Bright Pokémon,0.6,14.0,Psychic,,95,23,48,23,48,23,260
+Snorunt,Snow Hat Pokémon,0.7,16.8,Ice,,50,50,50,50,50,50,300
+Glalie,Face Pokémon,1.5,256.5,Ice,,80,80,80,80,80,80,480
+Mega Glalie,Face Pokémon,2.1,350.2,Ice,,80,120,80,120,80,100,580
+Spheal,Clap Pokémon,0.8,39.5,Ice,Water,70,40,50,55,50,25,290
+Sealeo,Ball Roll Pokémon,1.1,87.6,Ice,Water,90,60,70,75,70,45,410
+Walrein,Ice Break Pokémon,1.4,150.6,Ice,Water,110,80,90,95,90,65,530
+Clamperl,Bivalve Pokémon,0.4,52.5,Water,,35,64,85,74,55,32,345
+Huntail,Deep Sea Pokémon,1.7,27.0,Water,,55,104,105,94,75,52,485
+Gorebyss,South Sea Pokémon,1.8,22.6,Water,,55,84,105,114,75,52,485
+Relicanth,Longevity Pokémon,1.0,23.4,Water,Rock,100,90,130,45,65,55,485
+Luvdisc,Rendezvous Pokémon,0.6,8.7,Water,,43,30,55,40,65,97,330
+Bagon,Rock Head Pokémon,0.6,42.1,Dragon,,45,75,60,40,30,50,300
+Shelgon,Endurance Pokémon,1.1,110.5,Dragon,,65,95,100,60,50,50,420
+Salamence,Dragon Pokémon,1.5,102.6,Dragon,Flying,95,135,80,110,80,100,600
+Mega Salamence,Dragon Pokémon,1.8,112.6,Dragon,Flying,95,145,130,120,90,120,700
+Beldum,Iron Ball Pokémon,0.6,95.2,Steel,Psychic,40,55,80,35,60,30,300
+Metang,Iron Claw Pokémon,1.2,202.5,Steel,Psychic,60,75,100,55,80,50,420
+Metagross,Iron Leg Pokémon,1.6,550.0,Steel,Psychic,80,135,130,95,90,70,600
+Mega Metagross,Iron Leg Pokémon,2.5,942.9,Steel,Psychic,80,145,150,105,110,110,700
+Regirock,Rock Peak Pokémon,1.7,230.0,Rock,,80,100,200,50,100,50,580
+Regice,Iceberg Pokémon,1.8,175.0,Ice,,80,50,100,100,200,50,580
+Registeel,Iron Pokémon,1.9,205.0,Steel,,80,75,150,75,150,50,580
+Latias,Eon Pokémon,1.4,40.0,Dragon,Psychic,80,80,90,110,130,110,600
+Mega Latias,Eon Pokémon,1.8,52.0,Dragon,Psychic,80,100,120,140,150,110,700
+Latios,Eon Pokémon,2.0,60.0,Dragon,Psychic,80,90,80,130,110,110,600
+Mega Latios,Eon Pokémon,2.3,70.0,Dragon,Psychic,80,130,100,160,120,110,700
+Kyogre,Sea Basin Pokémon,4.5,352.0,Water,,100,100,90,150,140,90,670
+Primal Kyogre,Sea Basin Pokémon,9.8,430.0,Water,,100,150,90,180,160,90,770
+Groudon,Continent Pokémon,3.5,950.0,Ground,,100,150,140,100,90,90,670
+Primal Groudon,Continent Pokémon,5.0,999.7,Ground,Fire,100,180,160,150,90,90,770
+Rayquaza,Sky High Pokémon,7.0,206.5,Dragon,Flying,105,150,90,150,90,95,680
+Mega Rayquaza,Sky High Pokémon,10.8,392.0,Dragon,Flying,105,180,100,180,100,115,780
+Jirachi,Wish Pokémon,0.3,1.1,Steel,Psychic,100,100,100,100,100,100,600
+Deoxys,DNA Pokémon,1.7,60.8,Psychic,,50,150,50,150,50,150,600
+Attack Deoxys,DNA Pokémon,1.7,60.8,Psychic,,50,180,20,180,20,150,600
+Defense Deoxys,DNA Pokémon,1.7,60.8,Psychic,,50,70,160,70,160,90,600
+Speed Deoxys,DNA Pokémon,1.7,60.8,Psychic,,50,95,90,95,90,180,600
+Turtwig,Tiny Leaf Pokémon,0.4,10.2,Grass,,55,68,64,45,55,31,318
+Grotle,Grove Pokémon,1.1,97.0,Grass,,75,89,85,55,65,36,405
+Torterra,Continent Pokémon,2.2,310.0,Grass,Ground,95,109,105,75,85,56,525
+Chimchar,Chimp Pokémon,0.5,6.2,Fire,,44,58,44,58,44,61,309
+Monferno,Playful Pokémon,0.9,22.0,Fire,Fighting,64,78,52,78,52,81,405
+Infernape,Flame Pokémon,1.2,55.0,Fire,Fighting,76,104,71,104,71,108,534
+Piplup,Penguin Pokémon,0.4,5.2,Water,,53,51,53,61,56,40,314
+Prinplup,Penguin Pokémon,0.8,23.0,Water,,64,66,68,81,76,50,405
+Empoleon,Emperor Pokémon,1.7,84.5,Water,Steel,84,86,88,111,101,60,530
+Starly,Starling Pokémon,0.3,2.0,Normal,Flying,40,55,30,30,30,60,245
+Staravia,Starling Pokémon,0.6,15.5,Normal,Flying,55,75,50,40,40,80,340
+Staraptor,Predator Pokémon,1.2,24.9,Normal,Flying,85,120,70,50,60,100,485
+Bidoof,Plump Mouse Pokémon,0.5,20.0,Normal,,59,45,40,35,40,31,250
+Bibarel,Beaver Pokémon,1.0,31.5,Normal,Water,79,85,60,55,60,71,410
+Kricketot,Cricket Pokémon,0.3,2.2,Bug,,37,25,41,25,41,25,194
+Kricketune,Cricket Pokémon,1.0,25.5,Bug,,77,85,51,55,51,65,384
+Shinx,Flash Pokémon,0.5,9.5,Electric,,45,65,34,40,34,45,263
+Luxio,Spark Pokémon,0.9,30.5,Electric,,60,85,49,60,49,60,363
+Luxray,Gleam Eyes Pokémon,1.4,42.0,Electric,,80,120,79,95,79,70,523
+Budew,Bud Pokémon,0.2,1.2,Grass,Poison,40,30,35,50,70,55,280
+Roserade,Bouquet Pokémon,0.9,14.5,Grass,Poison,60,70,65,125,105,90,515
+Cranidos,Head Butt Pokémon,0.9,31.5,Rock,,67,125,40,30,30,58,350
+Rampardos,Head Butt Pokémon,1.6,102.5,Rock,,97,165,60,65,50,58,495
+Shieldon,Shield Pokémon,0.5,57.0,Rock,Steel,30,42,118,42,88,30,350
+Bastiodon,Shield Pokémon,1.3,149.5,Rock,Steel,60,52,168,47,138,30,495
+Burmy,Bagworm Pokémon,0.2,3.4,Bug,,40,29,45,29,45,36,224
+Wormadam,Bagworm Pokémon,0.5,6.5,Bug,Grass,60,59,85,79,105,36,424
+Sandy Wormadam,Bagworm Pokémon,0.5,6.5,Bug,Ground,60,79,105,59,85,36,424
+Trash Wormadam,Bagworm Pokémon,0.5,6.5,Bug,Steel,60,69,95,69,95,36,424
+Mothim,Moth Pokémon,0.9,23.3,Bug,Flying,70,94,50,94,50,66,424
+Combee,Tiny Bee Pokémon,0.3,5.5,Bug,Flying,30,30,42,30,42,70,244
+Vespiquen,Beehive Pokémon,1.2,38.5,Bug,Flying,70,80,102,80,102,40,474
+Pachirisu,EleSquirrel Pokémon,0.4,3.9,Electric,,60,45,70,45,90,95,405
+Buizel,Sea Weasel Pokémon,0.7,29.5,Water,,55,65,35,60,30,85,330
+Floatzel,Sea Weasel Pokémon,1.1,33.5,Water,,85,105,55,85,50,115,495
+Cherubi,Cherry Pokémon,0.4,3.3,Grass,,45,35,45,62,53,35,275
+Cherrim,Blossom Pokémon,0.5,9.3,Grass,,70,60,70,87,78,85,450
+Shellos,Sea Slug Pokémon,0.3,6.3,Water,,76,48,48,57,62,34,325
+Gastrodon,Sea Slug Pokémon,0.9,29.9,Water,Ground,111,83,68,92,82,39,475
+Ambipom,Long Tail Pokémon,1.2,20.3,Normal,,75,100,66,60,66,115,482
+Drifloon,Balloon Pokémon,0.4,1.2,Ghost,Flying,90,50,34,60,44,70,348
+Drifblim,Blimp Pokémon,1.2,15.0,Ghost,Flying,150,80,44,90,54,80,498
+Buneary,Rabbit Pokémon,0.4,5.5,Normal,,55,66,44,44,56,85,350
+Lopunny,Rabbit Pokémon,1.2,33.3,Normal,,65,76,84,54,96,105,480
+Mega Lopunny,Rabbit Pokémon,1.3,28.3,Normal,Fighting,65,136,94,54,96,135,580
+Mismagius,Magical Pokémon,0.9,4.4,Ghost,,60,60,60,105,105,105,495
+Honchkrow,Big Boss Pokémon,0.9,27.3,Dark,Flying,100,125,52,105,52,71,505
+Glameow,Catty Pokémon,0.5,3.9,Normal,,49,55,42,42,37,85,310
+Purugly,Tiger Cat Pokémon,1.0,43.8,Normal,,71,82,64,64,59,112,452
+Chingling,Bell Pokémon,0.2,0.6,Psychic,,45,30,50,65,50,45,285
+Stunky,Skunk Pokémon,0.4,19.2,Poison,Dark,63,63,47,41,41,74,329
+Skuntank,Skunk Pokémon,1.0,38.0,Poison,Dark,103,93,67,71,61,84,479
+Bronzor,Bronze Pokémon,0.5,60.5,Steel,Psychic,57,24,86,24,86,23,300
+Bronzong,Bronze Bell Pokémon,1.3,187.0,Steel,Psychic,67,89,116,79,116,33,500
+Bonsly,Bonsai Pokémon,0.5,15.0,Rock,,50,80,95,10,45,10,290
+Mime Jr.,Mime Pokémon,0.6,13.0,Psychic,Fairy,20,25,45,70,90,60,310
+Happiny,Playhouse Pokémon,0.6,24.4,Normal,,100,5,5,15,65,30,220
+Chatot,Music Note Pokémon,0.5,1.9,Normal,Flying,76,65,45,92,42,91,411
+Spiritomb,Forbidden Pokémon,1.0,108.0,Ghost,Dark,50,92,108,92,108,35,485
+Gible,Land Shark Pokémon,0.7,20.5,Dragon,Ground,58,70,45,40,45,42,300
+Gabite,Cave Pokémon,1.4,56.0,Dragon,Ground,68,90,65,50,55,82,410
+Garchomp,Mach Pokémon,1.9,95.0,Dragon,Ground,108,130,95,80,85,102,600
+Mega Garchomp,Mach Pokémon,1.9,95.0,Dragon,Ground,108,170,115,120,95,92,700
+Munchlax,Big Eater Pokémon,0.6,105.0,Normal,,135,85,40,40,85,5,390
+Riolu,Emanation Pokémon,0.7,20.2,Fighting,,40,70,40,35,40,60,285
+Lucario,Aura Pokémon,1.2,54.0,Fighting,Steel,70,110,70,115,70,90,525
+Mega Lucario,Aura Pokémon,1.3,57.5,Fighting,Steel,70,145,88,140,70,112,625
+Hippopotas,Hippo Pokémon,0.8,49.5,Ground,,68,72,78,38,42,32,330
+Hippowdon,Heavyweight Pokémon,2.0,300.0,Ground,,108,112,118,68,72,47,525
+Skorupi,Scorpion Pokémon,0.8,12.0,Poison,Bug,40,50,90,30,55,65,330
+Drapion,Ogre Scorpion Pokémon,1.3,61.5,Poison,Dark,70,90,110,60,75,95,500
+Croagunk,Toxic Mouth Pokémon,0.7,23.0,Poison,Fighting,48,61,40,61,40,50,300
+Toxicroak,Toxic Mouth Pokémon,1.3,44.4,Poison,Fighting,83,106,65,86,65,85,490
+Carnivine,Bug Catcher Pokémon,1.4,27.0,Grass,,74,100,72,90,72,46,454
+Finneon,Wing Fish Pokémon,0.4,7.0,Water,,49,49,56,49,61,66,330
+Lumineon,Neon Pokémon,1.2,24.0,Water,,69,69,76,69,86,91,460
+Mantyke,Kite Pokémon,1.0,65.0,Water,Flying,45,20,50,60,120,50,345
+Snover,Frost Tree Pokémon,1.0,50.5,Grass,Ice,60,62,50,62,60,40,334
+Abomasnow,Frost Tree Pokémon,2.2,135.5,Grass,Ice,90,92,75,92,85,60,494
+Mega Abomasnow,Frost Tree Pokémon,2.7,185.0,Grass,Ice,90,132,105,132,105,30,594
+Weavile,Sharp Claw Pokémon,1.1,34.0,Dark,Ice,70,120,65,45,85,125,510
+Magnezone,Magnet Area Pokémon,1.2,180.0,Electric,Steel,70,70,115,130,90,60,535
+Lickilicky,Licking Pokémon,1.7,140.0,Normal,,110,85,95,80,95,50,515
+Rhyperior,Drill Pokémon,2.4,282.8,Ground,Rock,115,140,130,55,55,40,535
+Tangrowth,Vine Pokémon,2.0,128.6,Grass,,100,100,125,110,50,50,535
+Electivire,Thunderbolt Pokémon,1.8,138.6,Electric,,75,123,67,95,85,95,540
+Magmortar,Blast Pokémon,1.6,68.0,Fire,,75,95,67,125,95,83,540
+Togekiss,Jubilee Pokémon,1.5,38.0,Fairy,Flying,85,50,95,120,115,80,545
+Yanmega,Ogre Darner Pokémon,1.9,51.5,Bug,Flying,86,76,86,116,56,95,515
+Leafeon,Verdant Pokémon,1.0,25.5,Grass,,65,110,130,60,65,95,525
+Glaceon,Fresh Snow Pokémon,0.8,25.9,Ice,,65,60,110,130,95,65,525
+Gliscor,Fang Scorpion Pokémon,2.0,42.5,Ground,Flying,75,95,125,45,75,95,510
+Mamoswine,Twin Tusk Pokémon,2.5,291.0,Ice,Ground,110,130,80,70,60,80,530
+Porygon-Z,Virtual Pokémon,0.9,34.0,Normal,,85,80,70,135,75,90,535
+Gallade,Blade Pokémon,1.6,52.0,Psychic,Fighting,68,125,65,65,115,80,518
+Mega Gallade,Blade Pokémon,1.6,56.4,Psychic,Fighting,68,165,95,65,115,110,618
+Probopass,Compass Pokémon,1.4,340.0,Rock,Steel,60,55,145,75,150,40,525
+Dusknoir,Gripper Pokémon,2.2,106.6,Ghost,,45,100,135,65,135,45,525
+Froslass,Snow Land Pokémon,1.3,26.6,Ice,Ghost,70,80,70,80,70,110,480
+Rotom,Plasma Pokémon,0.3,0.3,Electric,Ghost,50,50,77,95,77,91,440
+Heat Rotom,Plasma Pokémon,0.3,0.3,Electric,Fire,50,65,107,105,107,86,520
+Wash Rotom,Plasma Pokémon,0.3,0.3,Electric,Water,50,65,107,105,107,86,520
+Frost Rotom,Plasma Pokémon,0.3,0.3,Electric,Ice,50,65,107,105,107,86,520
+Fan Rotom,Plasma Pokémon,0.3,0.3,Electric,Flying,50,65,107,105,107,86,520
+Mow Rotom,Plasma Pokémon,0.3,0.3,Electric,Grass,50,65,107,105,107,86,520
+Uxie,Knowledge Pokémon,0.3,0.3,Psychic,,75,75,130,75,130,95,580
+Mesprit,Emotion Pokémon,0.3,0.3,Psychic,,80,105,105,105,105,80,580
+Azelf,Willpower Pokémon,0.3,0.3,Psychic,,75,125,70,125,70,115,580
+Dialga,Temporal Pokémon,5.4,683.0,Steel,Dragon,100,120,120,150,100,90,680
+Palkia,Spatial Pokémon,4.2,336.0,Water,Dragon,90,120,100,150,120,100,680
+Heatran,Lava Dome Pokémon,1.7,430.0,Fire,Steel,91,90,106,130,106,77,600
+Regigigas,Colossal Pokémon,3.7,420.0,Normal,,110,160,110,80,110,100,670
+Giratina,Renegade Pokémon,4.5,750.0,Ghost,Dragon,150,100,120,100,120,90,680
+Origin Giratina,Renegade Pokémon,6.9,650.0,Ghost,Dragon,150,120,100,120,100,90,680
+Cresselia,Lunar Pokémon,1.5,85.6,Psychic,,120,70,120,75,130,85,600
+Phione,Sea Drifter Pokémon,0.4,3.1,Water,,80,80,80,80,80,80,480
+Manaphy,Seafaring Pokémon,0.3,1.4,Water,,100,100,100,100,100,100,600
+Darkrai,Pitch-Black Pokémon,1.5,50.5,Dark,,70,90,90,135,90,125,600
+Shaymin,Gratitude Pokémon,0.2,2.1,Grass,,100,100,100,100,100,100,600
+Sky Shaymin,Gratitude Pokémon,0.4,5.2,Grass,Flying,100,103,75,120,75,127,600
+Arceus,Alpha Pokémon,3.2,320.0,Normal,,120,120,120,120,120,120,720
+Victini,Victory Pokémon,0.4,4.0,Psychic,Fire,100,100,100,100,100,100,600
+Snivy,Grass Snake Pokémon,0.6,8.1,Grass,,45,45,55,45,55,63,308
+Servine,Grass Snake Pokémon,0.8,16.0,Grass,,60,60,75,60,75,83,413
+Serperior,Regal Pokémon,3.3,63.0,Grass,,75,75,95,75,95,113,528
+Tepig,Fire Pig Pokémon,0.5,9.9,Fire,,65,63,45,45,45,45,308
+Pignite,Fire Pig Pokémon,1.0,55.5,Fire,Fighting,90,93,55,70,55,55,418
+Emboar,Mega Fire Pig Pokémon,1.6,150.0,Fire,Fighting,110,123,65,100,65,65,528
+Oshawott,Sea Otter Pokémon,0.5,5.9,Water,,55,55,45,63,45,45,308
+Dewott,Discipline Pokémon,0.8,24.5,Water,,75,75,60,83,60,60,413
+Samurott,Formidable Pokémon,1.5,94.6,Water,,95,100,85,108,70,70,528
+Patrat,Scout Pokémon,0.5,11.6,Normal,,45,55,39,35,39,42,255
+Watchog,Lookout Pokémon,1.1,27.0,Normal,,60,85,69,60,69,77,420
+Lillipup,Puppy Pokémon,0.4,4.1,Normal,,45,60,45,25,45,55,275
+Herdier,Loyal Dog Pokémon,0.9,14.7,Normal,,65,80,65,35,65,60,370
+Stoutland,Big-Hearted Pokémon,1.2,61.0,Normal,,85,110,90,45,90,80,500
+Purrloin,Devious Pokémon,0.4,10.1,Dark,,41,50,37,50,37,66,281
+Liepard,Cruel Pokémon,1.1,37.5,Dark,,64,88,50,88,50,106,446
+Pansage,Grass Monkey Pokémon,0.6,10.5,Grass,,50,53,48,53,48,64,316
+Simisage,Thorn Monkey Pokémon,1.1,30.5,Grass,,75,98,63,98,63,101,498
+Pansear,High Temp Pokémon,0.6,11.0,Fire,,50,53,48,53,48,64,316
+Simisear,Ember Pokémon,1.0,28.0,Fire,,75,98,63,98,63,101,498
+Panpour,Spray Pokémon,0.6,13.5,Water,,50,53,48,53,48,64,316
+Simipour,Geyser Pokémon,1.0,29.0,Water,,75,98,63,98,63,101,498
+Munna,Dream Eater Pokémon,0.6,23.3,Psychic,,76,25,45,67,55,24,292
+Musharna,Drowsing Pokémon,1.1,60.5,Psychic,,116,55,85,107,95,29,487
+Pidove,Tiny Pigeon Pokémon,0.3,2.1,Normal,Flying,50,55,50,36,30,43,264
+Tranquill,Wild Pigeon Pokémon,0.6,15.0,Normal,Flying,62,77,62,50,42,65,358
+Unfezant,Proud Pokémon,1.2,29.0,Normal,Flying,80,115,80,65,55,93,488
+Blitzle,Electrified Pokémon,0.8,29.8,Electric,,45,60,32,50,32,76,295
+Zebstrika,Thunderbolt Pokémon,1.6,79.5,Electric,,75,100,63,80,63,116,497
+Roggenrola,Mantle Pokémon,0.4,18.0,Rock,,55,75,85,25,25,15,280
+Boldore,Ore Pokémon,0.9,102.0,Rock,,70,105,105,50,40,20,390
+Gigalith,Compressed Pokémon,1.7,260.0,Rock,,85,135,130,60,80,25,515
+Woobat,Bat Pokémon,0.4,2.1,Psychic,Flying,65,45,43,55,43,72,323
+Swoobat,Courting Pokémon,0.9,10.5,Psychic,Flying,67,57,55,77,55,114,425
+Drilbur,Mole Pokémon,0.3,8.5,Ground,,60,85,40,30,45,68,328
+Excadrill,Subterrene Pokémon,0.7,40.4,Ground,Steel,110,135,60,50,65,88,508
+Audino,Hearing Pokémon,1.1,31.0,Normal,,103,60,86,60,86,50,445
+Mega Audino,Hearing Pokémon,1.5,32.0,Normal,Fairy,103,60,126,80,126,50,545
+Timburr,Muscular Pokémon,0.6,12.5,Fighting,,75,80,55,25,35,35,305
+Gurdurr,Muscular Pokémon,1.2,40.0,Fighting,,85,105,85,40,50,40,405
+Conkeldurr,Muscular Pokémon,1.4,87.0,Fighting,,105,140,95,55,65,45,505
+Tympole,Tadpole Pokémon,0.5,4.5,Water,,50,50,40,50,40,64,294
+Palpitoad,Vibration Pokémon,0.8,17.0,Water,Ground,75,65,55,65,55,69,384
+Seismitoad,Vibration Pokémon,1.5,62.0,Water,Ground,105,95,75,85,75,74,509
+Throh,Judo Pokémon,1.3,55.5,Fighting,,120,100,85,30,85,45,465
+Sawk,Karate Pokémon,1.4,41.0,Fighting,,75,125,75,30,75,85,465
+Sewaddle,Sewing Pokémon,0.3,2.5,Bug,Grass,45,53,70,40,60,42,310
+Swadloon,Leaf-Wrapped Pokémon,0.5,7.3,Bug,Grass,55,63,90,50,80,42,380
+Leavanny,Nurturing Pokémon,1.2,20.5,Bug,Grass,75,103,80,70,80,92,500
+Venipede,Centipede Pokémon,0.4,5.3,Bug,Poison,30,45,59,30,39,57,260
+Whirlipede,Curlipede Pokémon,1.2,58.5,Bug,Poison,40,55,99,40,79,47,360
+Scolipede,Megapede Pokémon,2.5,200.5,Bug,Poison,60,100,89,55,69,112,485
+Cottonee,Cotton Puff Pokémon,0.3,0.6,Grass,Fairy,40,27,60,37,50,66,280
+Whimsicott,Windveiled Pokémon,0.7,6.6,Grass,Fairy,60,67,85,77,75,116,480
+Petilil,Bulb Pokémon,0.5,6.6,Grass,,45,35,50,70,50,30,280
+Lilligant,Flowering Pokémon,1.1,16.3,Grass,,70,60,75,110,75,90,480
+Basculin,Hostile Pokémon,1.0,18.0,Water,,70,92,65,80,55,98,460
+Blue-Striped Basculin,Hostile Pokémon,1.0,18.0,Water,,70,92,65,80,55,98,460
+Sandile,Desert Croc Pokémon,0.7,15.2,Ground,Dark,50,72,35,35,35,65,292
+Krokorok,Desert Croc Pokémon,1.0,33.4,Ground,Dark,60,82,45,45,45,74,351
+Krookodile,Intimidation Pokémon,1.5,96.3,Ground,Dark,95,117,80,65,70,92,519
+Darumaka,Zen Charm Pokémon,0.6,37.5,Fire,,70,90,45,15,45,50,315
+Galarian Darumaka,Zen Charm Pokémon,0.7,40.0,Ice,,70,90,45,15,45,50,315
+Darmanitan,Blazing Pokémon,1.3,92.9,Fire,,105,140,55,30,55,95,480
+Zen Darmanitan,Blazing Pokémon,1.3,92.9,Fire,Psychic,105,30,105,140,105,55,540
+Galarian Darmanitan,Zen Charm Pokémon,1.7,120.0,Ice,,105,140,55,30,55,95,480
+Galar Zen Darmanitan,Zen Charm Pokémon,1.7,120.0,Ice,Fire,105,160,55,30,55,135,540
+Maractus,Cactus Pokémon,1.0,28.0,Grass,,75,86,67,106,67,60,461
+Dwebble,Rock Inn Pokémon,0.3,14.5,Bug,Rock,50,65,85,35,35,55,325
+Crustle,Stone Home Pokémon,1.4,200.0,Bug,Rock,70,105,125,65,75,45,485
+Scraggy,Shedding Pokémon,0.6,11.8,Dark,Fighting,50,75,70,35,70,48,348
+Scrafty,Hoodlum Pokémon,1.1,30.0,Dark,Fighting,65,90,115,45,115,58,488
+Sigilyph,Avianoid Pokémon,1.4,14.0,Psychic,Flying,72,58,80,103,80,97,490
+Yamask,Spirit Pokémon,0.5,1.5,Ghost,,38,30,85,55,65,30,303
+Galarian Yamask,Spirit Pokémon,0.5,1.5,Ground,Ghost,38,55,85,30,65,30,303
+Cofagrigus,Coffin Pokémon,1.7,76.5,Ghost,,58,50,145,95,105,30,483
+Tirtouga,Prototurtle Pokémon,0.7,16.5,Water,Rock,54,78,103,53,45,22,355
+Carracosta,Prototurtle Pokémon,1.2,81.0,Water,Rock,74,108,133,83,65,32,495
+Archen,First Bird Pokémon,0.5,9.5,Rock,Flying,55,112,45,74,45,70,401
+Archeops,First Bird Pokémon,1.4,32.0,Rock,Flying,75,140,65,112,65,110,567
+Trubbish,Trash Bag Pokémon,0.6,31.0,Poison,,50,50,62,40,62,65,329
+Garbodor,Trash Heap Pokémon,1.9,107.3,Poison,,80,95,82,60,82,75,474
+Gigantamax Garbodor,Trash Heap Pokémon,21.0,0.0,Poison,,80,95,82,60,82,75,474
+Zorua,Tricky Fox Pokémon,0.7,12.5,Dark,,40,65,40,80,40,65,330
+Zoroark,Illusion Fox Pokémon,1.6,81.1,Dark,,60,105,60,120,60,105,510
+Minccino,Chinchilla Pokémon,0.4,5.8,Normal,,55,50,40,40,40,75,300
+Cinccino,Scarf Pokémon,0.5,7.5,Normal,,75,95,60,65,60,115,470
+Gothita,Fixation Pokémon,0.4,5.8,Psychic,,45,30,50,55,65,45,290
+Gothorita,Manipulate Pokémon,0.7,18.0,Psychic,,60,45,70,75,85,55,390
+Gothitelle,Astral Body Pokémon,1.5,44.0,Psychic,,70,55,95,95,110,65,490
+Solosis,Cell Pokémon,0.3,1.0,Psychic,,45,30,40,105,50,20,290
+Duosion,Mitosis Pokémon,0.6,8.0,Psychic,,65,40,50,125,60,30,370
+Reuniclus,Multiplying Pokémon,1.0,20.1,Psychic,,110,65,75,125,85,30,490
+Ducklett,Water Bird Pokémon,0.5,5.5,Water,Flying,62,44,50,44,50,55,305
+Swanna,White Bird Pokémon,1.3,24.2,Water,Flying,75,87,63,87,63,98,473
+Vanillite,Fresh Snow Pokémon,0.4,5.7,Ice,,36,50,50,65,60,44,305
+Vanillish,Icy Snow Pokémon,1.1,41.0,Ice,,51,65,65,80,75,59,395
+Vanilluxe,Snowstorm Pokémon,1.3,57.5,Ice,,71,95,85,110,95,79,535
+Deerling,Season Pokémon,0.6,19.5,Normal,Grass,60,60,50,40,50,75,335
+Sawsbuck,Season Pokémon,1.9,92.5,Normal,Grass,80,100,70,60,70,95,475
+Emolga,Sky Squirrel Pokémon,0.4,5.0,Electric,Flying,55,75,60,75,60,103,428
+Karrablast,Clamping Pokémon,0.5,5.9,Bug,,50,75,45,40,45,60,315
+Escavalier,Cavalry Pokémon,1.0,33.0,Bug,Steel,70,135,105,60,105,20,495
+Foongus,Mushroom Pokémon,0.2,1.0,Grass,Poison,69,55,45,55,55,15,294
+Amoonguss,Mushroom Pokémon,0.6,10.5,Grass,Poison,114,85,70,85,80,30,464
+Frillish,Floating Pokémon,1.2,33.0,Water,Ghost,55,40,50,65,85,40,335
+Jellicent,Floating Pokémon,2.2,135.0,Water,Ghost,100,60,70,85,105,60,480
+Alomomola,Caring Pokémon,1.2,31.6,Water,,165,75,80,40,45,65,470
+Joltik,Attaching Pokémon,0.1,0.6,Bug,Electric,50,47,50,57,50,65,319
+Galvantula,EleSpider Pokémon,0.8,14.3,Bug,Electric,70,77,60,97,60,108,472
+Ferroseed,Thorn Seed Pokémon,0.6,18.8,Grass,Steel,44,50,91,24,86,10,305
+Ferrothorn,Thorn Pod Pokémon,1.0,110.0,Grass,Steel,74,94,131,54,116,20,489
+Klink,Gear Pokémon,0.3,21.0,Steel,,40,55,70,45,60,30,300
+Klang,Gear Pokémon,0.6,51.0,Steel,,60,80,95,70,85,50,440
+Klinklang,Gear Pokémon,0.6,81.0,Steel,,60,100,115,70,85,90,520
+Tynamo,EleFish Pokémon,0.2,0.3,Electric,,35,55,40,45,40,60,275
+Eelektrik,EleFish Pokémon,1.2,22.0,Electric,,65,85,70,75,70,40,405
+Eelektross,EleFish Pokémon,2.1,80.5,Electric,,85,115,80,105,80,50,515
+Elgyem,Cerebral Pokémon,0.5,9.0,Psychic,,55,55,55,85,55,30,335
+Beheeyem,Cerebral Pokémon,1.0,34.5,Psychic,,75,75,75,125,95,40,485
+Litwick,Candle Pokémon,0.3,3.1,Ghost,Fire,50,30,55,65,55,20,275
+Lampent,Lamp Pokémon,0.6,13.0,Ghost,Fire,60,40,60,95,60,55,370
+Chandelure,Luring Pokémon,1.0,34.3,Ghost,Fire,60,55,90,145,90,80,520
+Axew,Tusk Pokémon,0.6,18.0,Dragon,,46,87,60,30,40,57,320
+Fraxure,Axe Jaw Pokémon,1.0,36.0,Dragon,,66,117,70,40,50,67,410
+Haxorus,Axe Jaw Pokémon,1.8,105.5,Dragon,,76,147,90,60,70,97,540
+Cubchoo,Chill Pokémon,0.5,8.5,Ice,,55,70,40,60,40,40,305
+Beartic,Freezing Pokémon,2.6,260.0,Ice,,95,130,80,70,80,50,505
+Cryogonal,Crystallizing Pokémon,1.1,148.0,Ice,,80,50,50,95,135,105,515
+Shelmet,Snail Pokémon,0.4,7.7,Bug,,50,40,85,40,65,25,305
+Accelgor,Shell Out Pokémon,0.8,25.3,Bug,,80,70,40,100,60,145,495
+Stunfisk,Trap Pokémon,0.7,11.0,Ground,Electric,109,66,84,81,99,32,471
+Galarian Stunfisk,Trap Pokémon,0.7,20.5,Ground,Steel,109,81,99,66,84,32,471
+Mienfoo,Martial Arts Pokémon,0.9,20.0,Fighting,,45,85,50,55,50,65,350
+Mienshao,Martial Arts Pokémon,1.4,35.5,Fighting,,65,125,60,95,60,105,510
+Druddigon,Cave Pokémon,1.6,139.0,Dragon,,77,120,90,60,90,48,485
+Golett,Automaton Pokémon,1.0,92.0,Ground,Ghost,59,74,50,35,50,35,303
+Golurk,Automaton Pokémon,2.8,330.0,Ground,Ghost,89,124,80,55,80,55,483
+Pawniard,Sharp Blade Pokémon,0.5,10.2,Dark,Steel,45,85,70,40,40,60,340
+Bisharp,Sword Blade Pokémon,1.6,70.0,Dark,Steel,65,125,100,60,70,70,490
+Bouffalant,Bash Buffalo Pokémon,1.6,94.5,Normal,,95,110,95,40,95,55,490
+Rufflet,Eaglet Pokémon,0.5,10.5,Normal,Flying,70,83,50,37,50,60,350
+Braviary,Valiant Pokémon,1.5,41.0,Normal,Flying,100,123,75,57,75,80,510
+Vullaby,Diapered Pokémon,0.5,9.0,Dark,Flying,70,55,75,45,65,60,370
+Mandibuzz,Bone Vulture Pokémon,1.2,39.5,Dark,Flying,110,65,105,55,95,80,510
+Heatmor,Anteater Pokémon,1.4,58.0,Fire,,85,97,66,105,66,65,484
+Durant,Iron Ant Pokémon,0.3,33.0,Bug,Steel,58,109,112,48,48,109,484
+Deino,Irate Pokémon,0.8,17.3,Dark,Dragon,52,65,50,45,50,38,300
+Zweilous,Hostile Pokémon,1.4,50.0,Dark,Dragon,72,85,70,65,70,58,420
+Hydreigon,Brutal Pokémon,1.8,160.0,Dark,Dragon,92,105,90,125,90,98,600
+Larvesta,Torch Pokémon,1.1,28.8,Bug,Fire,55,85,55,50,55,60,360
+Volcarona,Sun Pokémon,1.6,46.0,Bug,Fire,85,60,65,135,105,100,550
+Cobalion,Iron Will Pokémon,2.1,250.0,Steel,Fighting,91,90,129,90,72,108,580
+Terrakion,Cavern Pokémon,1.9,260.0,Rock,Fighting,91,129,90,72,90,108,580
+Virizion,Grassland Pokémon,2.0,200.0,Grass,Fighting,91,90,72,90,129,108,580
+Tornadus,Cyclone Pokémon,1.5,63.0,Flying,,79,115,70,125,80,111,580
+Therian Tornadus,Cyclone Pokémon,1.5,63.0,Flying,,79,100,80,110,90,121,580
+Thundurus,Bolt Strike Pokémon,1.5,61.0,Electric,Flying,79,115,70,125,80,111,580
+Therian Thundurus,Bolt Strike Pokémon,3.0,61.0,Electric,Flying,79,105,70,145,80,101,580
+Reshiram,Vast White Pokémon,3.2,330.0,Dragon,Fire,100,120,100,150,120,90,680
+Zekrom,Deep Black Pokémon,2.9,345.0,Dragon,Electric,100,150,120,120,100,90,680
+Landorus,Abundance Pokémon,1.5,68.0,Ground,Flying,89,125,90,115,80,101,600
+Therian Landorus,Abundance Pokémon,1.3,68.0,Ground,Flying,89,145,90,105,80,91,600
+Kyurem,Boundary Pokémon,3.0,325.0,Dragon,Ice,125,130,90,130,90,95,660
+White Kyurem,Boundary Pokémon,3.6,325.0,Dragon,Ice,125,120,90,170,100,95,700
+Black Kyurem,Boundary Pokémon,3.3,325.0,Dragon,Ice,125,170,100,120,90,95,700
+Keldeo,Colt Pokémon,1.4,48.5,Water,Fighting,91,72,90,129,90,108,580
+Meloetta,Melody Pokémon,0.6,6.5,Normal,Psychic,100,77,77,128,128,90,600
+Pirouette Meloetta,Melody Pokémon,0.6,6.5,Normal,Fighting,100,128,90,77,77,128,600
+Genesect,Melody Pokémon,1.5,82.5,Bug,Steel,71,120,95,120,95,99,600
+Chespin,Spiky Nut Pokémon,0.4,9.0,Grass,,56,61,65,48,45,38,313
+Quilladin,Spiky Armor Pokémon,0.7,29.0,Grass,,61,78,95,56,58,57,405
+Chesnaught,Spiky Armor Pokémon,1.6,90.0,Grass,Fighting,88,107,122,74,75,64,530
+Fennekin,Fox Pokémon,0.4,9.4,Fire,,40,45,40,62,60,60,307
+Braixen,Fox Pokémon,1.0,14.5,Fire,,59,59,58,90,70,73,409
+Delphox,Fox Pokémon,1.5,39.0,Fire,Psychic,75,69,72,114,100,104,534
+Froakie,Bubble Frog Pokémon,0.3,7.0,Water,,41,56,40,62,44,71,314
+Frogadier,Bubble Frog Pokémon,0.6,10.9,Water,,54,63,52,83,56,97,405
+Greninja,Ninja Pokémon,1.5,40.0,Water,Dark,72,95,67,103,71,122,530
+Ash Greninja,Ninja Pokémon,1.5,40.0,Water,Dark,72,145,67,153,71,132,640
+Bunnelby,Digging Pokémon,0.4,5.0,Normal,,38,36,38,32,36,57,237
+Diggersby,Digging Pokémon,1.0,42.4,Normal,Ground,85,56,77,50,77,78,423
+Fletchling,Tiny Robin Pokémon,0.3,1.7,Normal,Flying,45,50,43,40,38,62,278
+Fletchinder,Ember Pokémon,0.7,16.0,Fire,Flying,62,73,55,56,52,84,382
+Talonflame,Scorching Pokémon,1.2,24.5,Fire,Flying,78,81,71,74,69,126,499
+Scatterbug,Scatterdust Pokémon,0.3,2.5,Bug,,38,35,40,27,25,35,200
+Spewpa,Scatterdust Pokémon,0.3,8.4,Bug,,45,22,60,27,30,29,213
+Vivillon,Scale Pokémon,1.2,17.0,Bug,Flying,80,52,50,90,50,89,411
+Litleo,Lion Cub Pokémon,0.6,13.5,Fire,Normal,62,50,58,73,54,72,369
+Pyroar,Royal Pokémon,1.5,81.5,Fire,Normal,86,68,72,109,66,106,507
+Flabébé,Single Bloom Pokémon,0.1,0.1,Fairy,,44,38,39,61,79,42,303
+Floette,Single Bloom Pokémon,0.2,0.9,Fairy,,54,45,47,75,98,52,371
+Florges,Garden Pokémon,1.1,10.0,Fairy,,78,65,68,112,154,75,552
+Skiddo,Mount Pokémon,0.9,31.0,Grass,,66,65,48,62,57,52,350
+Gogoat,Mount Pokémon,1.7,91.0,Grass,,123,100,62,97,81,68,531
+Pancham,Playful Pokémon,0.6,8.0,Fighting,,67,82,62,46,48,43,348
+Pangoro,Daunting Pokémon,2.1,136.0,Fighting,Dark,95,124,78,69,71,58,495
+Furfrou,Poodle Pokémon,1.2,28.0,Normal,,75,80,60,65,90,102,472
+Espurr,Restraint Pokémon,0.3,3.5,Psychic,,62,48,54,63,60,68,355
+Meowstic,Constraint Pokémon,0.6,8.5,Psychic,,74,48,76,83,81,104,466
+Female Meowstic,Constraint Pokémon,0.6,8.5,Psychic,,74,48,76,83,81,104,466
+Honedge,Sword Pokémon,0.8,2.0,Steel,Ghost,45,80,100,35,37,28,325
+Doublade,Sword Pokémon,0.8,4.5,Steel,Ghost,59,110,150,45,49,35,448
+Aegislash,Royal Sword Pokémon,1.7,53.0,Steel,Ghost,60,50,140,50,140,60,500
+Blade Aegislash,Royal Sword Pokémon,1.7,53.0,Steel,Ghost,60,140,50,140,50,60,500
+Spritzee,Perfume Pokémon,0.2,0.5,Fairy,,78,52,60,63,65,23,341
+Aromatisse,Fragrance Pokémon,0.8,15.5,Fairy,,101,72,72,99,89,29,462
+Swirlix,Cotton Candy Pokémon,0.4,3.5,Fairy,,62,48,66,59,57,49,341
+Slurpuff,Meringue Pokémon,0.8,5.0,Fairy,,82,80,86,85,75,72,480
+Inkay,Revolving Pokémon,0.4,3.5,Dark,Psychic,53,54,53,37,46,45,288
+Malamar,Overturning Pokémon,1.5,47.0,Dark,Psychic,86,92,88,68,75,73,482
+Binacle,Two-Handed Pokémon,0.5,31.0,Rock,Water,42,52,67,39,56,50,306
+Barbaracle,Collective Pokémon,1.3,96.0,Rock,Water,72,105,115,54,86,68,500
+Skrelp,Mock Kelp Pokémon,0.5,7.3,Poison,Water,50,60,60,60,60,30,320
+Dragalge,Mock Kelp Pokémon,1.8,81.5,Poison,Dragon,65,75,90,97,123,44,494
+Clauncher,Water Gun Pokémon,0.5,8.3,Water,,50,53,62,58,63,44,330
+Clawitzer,Howitzer Pokémon,1.3,35.3,Water,,71,73,88,120,89,59,500
+Helioptile,Generator Pokémon,0.5,6.0,Electric,Normal,44,38,33,61,43,70,289
+Heliolisk,Generator Pokémon,1.0,21.0,Electric,Normal,62,55,52,109,94,109,481
+Tyrunt,Royal Heir Pokémon,0.8,26.0,Rock,Dragon,58,89,77,45,45,48,362
+Tyrantrum,Despot Pokémon,2.5,270.0,Rock,Dragon,82,121,119,69,59,71,521
+Amaura,Tundra Pokémon,1.3,25.2,Rock,Ice,77,59,50,67,63,46,362
+Aurorus,Tundra Pokémon,2.7,225.0,Rock,Ice,123,77,72,99,92,58,521
+Sylveon,Interwining Pokémon,1.0,23.5,Fairy,,95,65,65,110,130,60,525
+Hawlucha,Wrestling Pokémon,0.8,21.5,Fighting,Flying,78,92,75,74,63,118,500
+Dedenne,Antenna Pokémon,0.2,2.2,Electric,Fairy,67,58,57,81,67,101,431
+Carbink,Jewel Pokémon,0.3,5.7,Rock,Fairy,50,50,150,50,150,50,500
+Goomy,Soft Tissue Pokémon,0.3,2.8,Dragon,,45,50,35,55,75,40,300
+Sliggoo,Soft Tissue Pokémon,0.8,17.5,Dragon,,68,75,53,83,113,60,452
+Goodra,Dragon Pokémon,2.0,150.5,Dragon,,90,100,70,110,150,80,600
+Klefki,Key Ring Pokémon,0.2,3.0,Steel,Fairy,57,80,91,80,87,75,470
+Phantump,Stump Pokémon,0.4,7.0,Ghost,Grass,43,70,48,50,60,38,309
+Trevenant,Elder Tree Pokémon,1.5,71.0,Ghost,Grass,85,110,76,65,82,56,474
+Pumpkaboo,Pumpkin Pokémon,0.4,5.0,Ghost,Grass,49,66,70,44,55,51,335
+Small Pumpkaboo,Pumpkin Pokémon,0.3,3.5,Ghost,Grass,44,66,70,44,55,56,335
+Large Pumpkaboo,Pumpkin Pokémon,0.5,7.5,Ghost,Grass,54,66,70,44,55,46,335
+Super Pumpkaboo,Pumpkin Pokémon,0.8,15.0,Ghost,Grass,59,66,70,44,55,41,335
+Gourgeist,Pumpkin Pokémon,0.9,12.5,Ghost,Grass,65,90,122,58,75,84,494
+Small Gourgeist,Pumpkin Pokémon,0.7,9.5,Ghost,Grass,55,85,122,58,75,99,494
+Large Gourgeist,Pumpkin Pokémon,1.1,14.0,Ghost,Grass,75,95,122,58,75,69,494
+Super Gourgeist,Pumpkin Pokémon,1.7,39.0,Ghost,Grass,85,100,122,58,75,54,494
+Bergmite,Ice Chunk Pokémon,1.0,99.5,Ice,,55,69,85,32,35,28,304
+Avalugg,Iceberg Pokémon,2.0,505.0,Ice,,95,117,184,44,46,28,514
+Noibat,Sound Wave Pokémon,0.5,8.0,Flying,Dragon,40,30,35,45,40,55,245
+Noivern,Sound Wave Pokémon,1.5,85.0,Flying,Dragon,85,70,80,97,80,123,535
+Xerneas,Life Pokémon,3.0,215.0,Fairy,,126,131,95,131,98,99,680
+Yveltal,Destruction Pokémon,5.8,203.0,Dark,Flying,126,131,95,131,98,99,680
+Zygarde,Order Pokémon,5.0,305.0,Dragon,Ground,108,100,121,81,95,95,600
+10% Zygarde,Order Pokémon,1.2,33.5,Dragon,Ground,54,100,71,61,85,115,486
+Complete Zygarde,Order Pokémon,4.5,610.0,Dragon,Ground,216,100,121,91,95,85,708
+Diancie,Jewel Pokémon,0.7,8.8,Rock,Fairy,50,100,150,100,150,50,600
+Mega Diancie,Jewel Pokémon,1.1,27.8,Rock,Fairy,50,160,110,160,110,110,700
+Hoopa,Mischief Pokémon,0.5,9.0,Psychic,Ghost,80,110,60,150,130,70,600
+Unbound Hoopa,Djinn Pokémon,6.5,490.0,Psychic,Dark,80,160,60,170,130,80,680
+Volcanion,Steam Pokémon,1.7,195.0,Fire,Water,80,110,120,130,90,70,600
+Rowlet,Grass Quill Pokémon,0.3,1.5,Grass,Flying,68,55,55,50,50,40,318
+Dartrix,Blade Quill Pokémon,0.7,16.0,Grass,Flying,78,75,75,70,70,52,420
+Decidueye,Arrow Quill Pokémon,1.6,36.6,Grass,Ghost,78,107,75,100,100,70,530
+Litten,Fire Cat Pokémon,0.4,4.3,Fire,,45,65,40,60,40,70,320
+Torracat,Fire Cat Pokémon,0.7,25.0,Fire,,65,85,50,80,50,90,420
+Incineroar,Heel Pokémon,1.8,83.0,Fire,Dark,95,115,90,80,90,60,530
+Popplio,Sea Lion Pokémon,0.4,7.5,Water,,50,54,54,66,56,40,320
+Brionne,Pop Star Pokémon,0.6,17.5,Water,,60,69,69,91,81,50,420
+Primarina,Soloist Pokémon,1.8,44.0,Water,Fairy,80,74,74,126,116,60,530
+Pikipek,Woodpecker Pokémon,0.3,1.2,Normal,Flying,35,75,30,30,30,65,265
+Trumbeak,Bugle Beak Pokémon,0.6,14.8,Normal,Flying,55,85,50,40,50,75,355
+Toucannon,Cannon Pokémon,1.1,26.0,Normal,Flying,80,120,75,75,75,60,485
+Yungoos,Loitering Pokémon,0.4,6.0,Normal,,48,70,30,30,30,45,253
+Gumshoos,Stakeout Pokémon,0.7,14.2,Normal,,88,110,60,55,60,45,418
+Grubbin,Larva Pokémon,0.4,4.4,Bug,,47,62,45,55,45,46,300
+Charjabug,Battery Pokémon,0.5,10.5,Bug,Electric,57,82,95,55,75,36,400
+Vikavolt,Stag Beetle Pokémon,1.5,45.0,Bug,Electric,77,70,90,145,75,43,500
+Crabrawler,Boxing Pokémon,0.6,7.0,Fighting,,47,82,57,42,47,63,338
+Crabominable,Woolly Crab Pokémon,1.7,180.0,Fighting,Ice,97,132,77,62,67,43,478
+Oricorio,Dancing Pokémon,0.6,3.4,Fire,Flying,75,70,70,98,70,93,476
+Pom-Pom Oricorio,Dancing Pokémon,0.6,3.4,Electric,Flying,75,70,70,98,70,93,476
+Pa'u Oricorio,Dancing Pokémon,0.6,3.4,Psychic,Flying,75,70,70,98,70,93,476
+Sensu Oricorio,Dancing Pokémon,0.6,3.4,Ghost,Flying,75,70,70,98,70,93,476
+Cutiefly,Bee Fly Pokémon,0.1,0.2,Bug,Fairy,40,45,40,55,40,84,304
+Ribombee,Bee Fly Pokémon,0.2,0.5,Bug,Fairy,60,55,60,96,70,124,465
+Rockruff,Puppy Pokémon,0.5,9.2,Rock,,45,65,40,30,40,60,280
+Lycanroc,Wolf Pokémon,0.8,25.0,Rock,,75,115,65,55,65,112,487
+Midnight Lycanroc,Wolf Pokémon,1.1,25.0,Rock,,85,115,75,55,75,82,487
+Dusk Lycanroc,Wolf Pokémon,0.8,25.0,Rock,,75,117,65,55,65,110,487
+Wishiwashi,Small Fry Pokémon,0.2,0.3,Water,,45,20,20,25,25,40,175
+School Wishiwashi,Small Fry Pokémon,8.2,78.6,Water,,45,140,130,140,135,30,620
+Mareanie,Brutal Pokémon,0.4,8.0,Poison,Water,50,53,62,43,52,45,305
+Toxapex,Brutal Pokémon,0.7,14.5,Poison,Water,50,63,152,53,142,35,495
+Mudbray,Donkey Pokémon,1.0,110.0,Ground,,70,100,70,45,55,45,385
+Mudsdale,Draft Horse Pokémon,2.5,920.0,Ground,,100,125,100,55,85,35,500
+Dewpider,Water Bubble Pokémon,0.3,4.0,Water,Bug,38,40,52,40,72,27,269
+Araquanid,Water Bubble Pokémon,1.8,82.0,Water,Bug,68,70,92,50,132,42,454
+Fomantis,Sickle Grass Pokémon,0.3,1.5,Grass,,40,55,35,50,35,35,250
+Lurantis,Bloom Sickle Pokémon,0.9,18.5,Grass,,70,105,90,80,90,45,480
+Morelull,Illuminating Pokémon,0.2,1.5,Grass,Fairy,40,35,55,65,75,15,285
+Shiinotic,Illuminating Pokémon,1.0,11.5,Grass,Fairy,60,45,80,90,100,30,405
+Salandit,Toxic Lizard Pokémon,0.6,4.8,Poison,Fire,48,44,40,71,40,77,320
+Salazzle,Toxic Lizard Pokémon,1.2,22.2,Poison,Fire,68,64,60,111,60,117,480
+Stufful,Flailing Pokémon,0.5,6.8,Normal,Fighting,70,75,50,45,50,50,340
+Bewear,Strong Arm Pokémon,2.1,135.0,Normal,Fighting,120,125,80,55,60,60,500
+Bounsweet,Fruit Pokémon,0.3,3.2,Grass,,42,30,38,30,38,32,210
+Steenee,Fruit Pokémon,0.7,8.2,Grass,,52,40,48,40,48,62,290
+Tsareena,Fruit Pokémon,1.2,21.4,Grass,,72,120,98,50,98,72,510
+Comfey,Posy Picker Pokémon,0.1,0.3,Fairy,,51,52,90,82,110,100,485
+Oranguru,Sage Pokémon,1.5,76.0,Normal,Psychic,90,60,80,90,110,60,490
+Passimian,Teamwork Pokémon,2.0,82.8,Fighting,,100,120,90,40,60,80,490
+Wimpod,Turn Tail Pokémon,0.5,12.0,Bug,Water,25,35,40,20,30,80,230
+Golisopod,Hard Scale Pokémon,2.0,108.0,Bug,Water,75,125,140,60,90,40,530
+Sandygast,Sand Heap Pokémon,0.5,70.0,Ghost,Ground,55,55,80,70,45,15,320
+Palossand,Sand Castle Pokémon,1.3,250.0,Ghost,Ground,85,75,110,100,75,35,480
+Pyukumuku,Sea Cucumber Pokémon,0.3,1.2,Water,,55,60,130,30,130,5,410
+Type: Null,Synthetic Pokémon,1.9,120.5,Normal,,95,95,95,95,95,59,534
+Silvally,Synthetic Pokémon,2.3,100.5,Normal,,95,95,95,95,95,95,570
+Minior,Meteor Pokémon,0.3,40.0,Rock,Flying,60,60,100,60,100,60,440
+Core Minior,Meteor Pokémon,0.3,0.3,Rock,Flying,60,100,60,100,60,120,500
+Komala,Drowsing Pokémon,0.4,19.9,Normal,,65,115,65,75,95,65,480
+Turtonator,Blast Turtle Pokémon,2.0,212.0,Fire,Dragon,60,78,135,91,85,36,485
+Togedemaru,Roly-Poly Pokémon,0.3,3.3,Electric,Steel,65,98,63,40,73,96,435
+Mimikyu,Disguise Pokémon,0.2,0.7,Ghost,Fairy,55,90,80,50,105,96,476
+Bruxish,Gnash Teeth Pokémon,0.9,19.0,Water,Psychic,68,105,70,70,70,92,475
+Drampa,Placid Pokémon,3.0,185.0,Normal,Dragon,78,60,85,135,91,36,485
+Dhelmise,Sea Creeper Pokémon,3.9,210.0,Ghost,Grass,70,131,100,86,90,40,517
+Jangmo-o,Scaly Pokémon,0.6,29.7,Dragon,,45,55,65,45,45,45,300
+Hakamo-o,Scaly Pokémon,1.2,47.0,Dragon,Fighting,55,75,90,65,70,65,420
+Kommo-o,Scaly Pokémon,1.6,78.2,Dragon,Fighting,75,110,125,100,105,85,600
+Tapu Koko,Land Spirit Pokémon,1.8,20.5,Electric,Fairy,70,115,85,95,75,130,570
+Tapu Lele,Land Spirit Pokémon,1.2,18.6,Psychic,Fairy,70,85,75,130,115,95,570
+Tapu Bulu,Land Spirit Pokémon,1.9,45.5,Grass,Fairy,70,130,115,85,95,75,570
+Tapu Fini,Land Spirit Pokémon,1.3,21.2,Water,Fairy,70,75,115,95,130,85,570
+Cosmog,Nebula Pokémon,0.2,0.1,Psychic,,43,29,31,29,31,37,200
+Cosmoem,Protostar Pokémon,0.1,999.9,Psychic,,43,29,131,29,131,37,400
+Solgaleo,Sunne Pokémon,3.4,230.0,Psychic,Steel,137,137,107,113,89,97,680
+Lunala,Moone Pokémon,4.0,120.0,Psychic,Ghost,137,113,89,137,107,97,680
+Nihilego,Parasite Pokémon,1.2,55.5,Rock,Poison,109,53,47,127,131,103,570
+Buzzwole,Swollen Pokémon,2.4,333.6,Bug,Fighting,107,139,139,53,53,79,570
+Pheromosa,Lissome Pokémon,1.8,25.0,Bug,Fighting,71,137,37,137,37,151,570
+Xurkitree,Glowing Pokémon,3.8,100.0,Electric,,83,89,71,173,71,83,570
+Celesteela,Launch Pokémon,9.2,999.9,Steel,Flying,97,101,103,107,101,61,570
+Kartana,Drawn Sword Pokémon,0.3,0.1,Grass,Steel,59,181,131,59,31,109,570
+Guzzlord,Junkivore Pokémon,5.5,888.0,Dark,Dragon,223,101,53,97,53,43,570
+Necrozma,Prism Pokémon,2.4,230.0,Psychic,,97,107,101,127,89,79,600
+Dusk Mane Necrozma,Prism Pokémon,3.8,460.0,Psychic,Steel,97,157,127,113,109,77,680
+Dawn Wings Necrozma,Prism Pokémon,4.2,350.0,Psychic,Ghost,97,113,109,157,127,77,680
+Ultra Necrozma,Prism Pokémon,7.5,230.0,Psychic,Dragon,97,167,97,167,97,129,754
+Magearna,Artificial Pokémon,1.0,80.5,Steel,Fairy,80,95,115,130,115,65,600
+Marshadow,Gloomdweller Pokémon,0.7,22.2,Fighting,Ghost,90,125,80,90,90,125,600
+Poipole,Poison Pin Pokémon,0.6,1.8,Poison,,67,73,67,73,67,73,420
+Naganadel,Poison Pin Pokémon,3.6,150.0,Poison,Dragon,73,73,73,127,73,121,540
+Stakataka,Rampart Pokémon,5.5,820.0,Rock,Steel,61,131,211,53,101,13,570
+Blacephalon,Fireworks Pokémon,1.8,13.0,Fire,Ghost,53,127,53,151,79,107,570
+Zeraora,Thunderclap Pokémon,1.5,44.5,Electric,,88,112,75,102,80,143,600
+Meltan,Hex Nut Pokémon,0.2,8.0,Steel,,46,65,65,55,35,34,300
+Melmetal,Hex Nut Pokémon,2.5,800.0,Steel,,135,143,143,80,65,34,600
+Grookey,Chimp Pokémon,0.3,5.0,Grass,,50,65,50,40,40,65,310
+Thwackey,Beat Pokémon,0.7,14.0,Grass,,70,85,70,55,60,80,420
+Rillaboom,Drummer Pokémon,2.1,90.0,Grass,,100,125,90,60,70,85,530
+Scorbunny,Rabbit Pokémon,0.3,4.5,Fire,,50,71,40,40,40,69,310
+Raboot,Rabbit Pokémon,0.6,9.0,Fire,,65,86,50,55,60,94,410
+Cinderace,Striker Pokémon,1.4,33.0,Fire,,80,116,75,65,75,119,530
+Sobble,Water Lizard Pokémon,0.3,4.0,Water,,50,40,40,70,40,70,310
+Drizzile,Water Lizard Pokémon,0.7,11.5,Water,,65,60,55,95,55,90,420
+Inteleon,Secret Agent Pokémon,1.9,45.2,Water,,70,85,65,125,65,120,530
+Skwovet,Cheeky Pokémon,0.3,2.5,Normal,,70,55,55,35,35,25,275
+Greedent,Greedy Pokémon,0.6,6.0,Normal,,120,95,95,55,75,20,460
+Rookidee,Tiny Bird Pokémon,0.2,1.8,Flying,,38,47,35,33,35,57,245
+Corvisquire,Raven Pokémon,0.8,16.0,Flying,,68,67,55,43,55,77,365
+Corviknight,Raven Pokémon,2.2,75.0,Flying,Steel,98,87,105,53,85,67,495
+Gigantamax Corviknight,Raven Pokémon,14.0,0.0,Flying,Steel,98,87,105,53,85,67,495
+Blipbug,Larva Pokémon,0.4,8.0,Bug,,25,20,20,25,45,45,180
+Dottler,Radome Pokémon,0.4,19.5,Bug,Psychic,50,35,80,50,90,30,335
+Orbeetle,Seven Spot Pokémon,0.4,40.8,Bug,Psychic,60,45,110,80,120,90,505
+Gigantamax Orbeetle,Seven Spot Pokémon,14.0,0.0,Bug,Psychic,60,45,110,80,120,90,505
+Nickit,Fox Pokémon,0.6,8.9,Dark,,40,28,28,47,52,50,245
+Thievul,Fox Pokémon,1.2,19.9,Dark,,70,58,58,87,92,90,455
+Gossifleur,Flowering Pokémon,0.4,2.2,Grass,,40,40,60,40,60,10,250
+Eldegoss,Cotton Bloom Pokémon,0.5,2.5,Grass,,60,50,90,80,120,60,460
+Wooloo,Sheep Pokémon,0.6,6.0,Normal,,42,40,55,40,45,48,270
+Dubwool,Sheep Pokémon,1.3,43.0,Normal,,72,80,100,60,90,88,490
+Chewtle,Snapping Pokémon,0.3,8.5,Water,,50,64,50,38,38,44,284
+Drednaw,Bite Pokémon,1.0,115.5,Water,Rock,90,115,90,48,68,74,485
+Gigantamax Drednaw,Bite Pokémon,24.0,0.0,Water,Rock,90,115,90,48,68,74,485
+Yamper,Puppy Pokémon,0.3,13.5,Electric,,59,45,50,40,50,26,270
+Boltund,Dog Pokémon,1.0,34.0,Electric,,69,90,60,90,60,121,490
+Rolycolt,Coal Pokémon,0.3,12.0,Rock,,30,40,50,40,50,30,240
+Carkol,Coal Pokémon,1.1,78.0,Rock,Fire,80,60,90,60,70,50,410
+Coalossal,Coal Pokémon,2.8,310.5,Rock,Fire,110,80,120,80,90,30,510
+Gigantamax Coalossal,Coal Pokémon,42.0,0.0,Rock,Fire,110,80,120,80,90,30,510
+Applin,Apple Core Pokémon,0.2,0.5,Grass,Dragon,40,40,80,40,40,20,260
+Flapple,Apple Wing Pokémon,0.3,1.0,Grass,Ground,70,110,80,95,60,70,485
+Gigantamax Flapple,Apple Wing Pokémon,24.0,0.0,Grass,Dragon,70,110,80,95,60,70,485
+Appletun,Apple Nectar Pokémon,0.4,13.0,Grass,Dragon,110,85,80,100,80,30,485
+Gigantamax Appletun,Apple Nectar Pokémon,24.0,0.0,Grass,Dragon,110,85,80,100,80,30,485
+Silicobra,Sand Snake Pokémon,2.2,7.6,Ground,,52,57,75,35,50,46,315
+Sandaconda,Sand Snake Pokémon,3.8,65.5,Ground,,72,107,125,65,70,71,510
+Gigantamax Sandaconda,Sand Snake Pokémon,22.0,0.0,Ground,,72,107,125,65,70,71,510
+Cramorant,Gulp Pokémon,0.8,18.0,Flying,Water,70,85,55,85,95,85,475
+Arrokunda,Rush Pokémon,0.5,1.0,Water,,41,63,40,40,30,66,280
+Barraskewda,Skewer Pokémon,1.3,30.0,Water,,61,123,60,60,50,136,490
+Toxel,Baby Pokémon,0.4,11.0,Electric,Poison,40,38,35,54,35,40,242
+Toxtricity,Punk Pokémon,1.6,40.0,Electric,Poison,75,98,70,114,70,75,502
+Low Key Toxtricity,Punk Pokémon,1.6,40.0,Electric,Poison,75,98,70,114,70,75,502
+Gigantamax Toxtricity,Punk Pokémon,24.0,0.0,Electric,Poison,75,98,70,114,70,75,502
+Low Key Gigantamax Toxtricity,Punk Pokémon,24.0,0.0,Electric,Poison,75,98,70,114,70,75,502
+Sizzlipede,Radiator Pokémon,0.7,1.0,Fire,Bug,50,65,45,50,50,45,305
+Centiskorch,Radiator Pokémon,3.0,120.0,Fire,Bug,100,115,65,90,90,65,525
+Gigantamax Centiskorch,Radiator Pokémon,75.0,0.0,Fire,Bug,100,115,65,90,90,65,525
+Clobbopus,Tantrum Pokémon,0.6,4.0,Fighting,,50,68,60,50,50,32,310
+Grapploct,Jujitsu Pokémon,1.6,39.0,Fighting,,80,118,90,70,80,42,480
+Sinistea,Black Tea Pokémon,0.1,0.2,Ghost,,40,45,45,74,54,50,308
+Polteageist,Black Tea Pokémon,0.2,0.4,Ghost,,60,65,65,134,114,70,508
+Hatenna,Calm Pokémon,0.4,3.4,Psychic,,42,30,45,56,53,39,265
+Hattrem,Serene Pokémon,0.6,4.8,Psychic,,57,40,65,86,73,49,370
+Hatterene,Silent Pokémon,2.1,5.1,Psychic,Fairy,57,90,95,136,103,29,510
+Gigantamax Hatterene,Silent Pokémon,26.0,0.0,Psychic,Fairy,57,90,95,136,103,29,510
+Impidimp,Wily Pokémon,0.4,5.5,Dark,Fairy,45,45,30,55,40,50,265
+Morgrem,Devious Pokémon,0.8,12.5,Dark,Fairy,65,60,45,75,55,70,370
+Grimmsnarl,Bulk Up Pokémon,1.5,61.0,Dark,Fairy,95,120,65,95,75,60,510
+Gigantamax Grimmsnarl,Bulk Up Pokémon,32.0,0.0,Dark,Fairy,95,120,65,95,75,60,510
+Obstagoon,Blocking Pokémon,1.6,46.0,Dark,Normal,93,90,101,60,81,95,520
+Perrserker,Viking Pokémon,0.8,28.0,Steel,,70,110,100,50,60,50,440
+Cursola,Coral Pokémon,1.0,0.4,Ghost,,60,95,50,145,130,30,510
+Sirfetch'd,Wild Duck Pokémon,0.8,117.0,Fighting,,62,135,95,68,82,65,507
+Mr. Rime,Comedian Pokémon,1.5,58.2,Ice,Psychic,80,85,75,110,100,70,520
+Runerigus,Grudge Pokémon,1.6,66.6,Ground,Ghost,58,95,145,50,105,30,483
+Milcery,Cream Pokémon,0.2,0.3,Fairy,,45,40,40,50,61,34,270
+Alcremie,Cream Pokémon,0.3,0.5,Fairy,,65,60,75,110,121,64,495
+Gigantamax Alcremie,Cream Pokémon,30.0,0.0,Fairy,,65,60,75,110,121,64,495
+Falinks,Formation Pokémon,3.0,62.0,Fighting,,60,100,100,70,60,75,465
+Pincurchin,Sea Urchin Pokémon,0.3,1.0,Electric,,48,101,95,91,85,15,435
+Snom,Worm Pokémon,0.3,3.8,Ice,Bug,30,25,35,45,30,20,185
+Frosmoth,Frost Moth Pokémon,1.3,42.0,Ice,Bug,70,65,60,125,90,65,475
+Stonjourner,Big Rock Pokémon,2.5,520.0,Rock,,100,125,135,20,20,70,470
+Eiscue,Penguin Pokémon,1.4,89.0,Ice,,75,80,110,65,90,50,470
+Noice Eiscue,Penguin Pokémon,1.4,89.0,Ice,,75,80,70,65,50,130,470
+Indeedee,Emotion Pokémon,0.9,28.0,Psychic,Normal,60,65,55,105,95,95,475
+Female Indeedee,Emotion Pokémon,0.9,28.0,Psychic,Normal,70,55,65,95,105,85,475
+Morpeko,Two-Sided Pokémon,0.3,3.0,Electric,Dark,58,95,58,70,58,97,436
+Cufant,Copperderm Pokémon,1.2,100.0,Steel,,72,80,49,40,49,40,330
+Copperajah,Copperderm Pokémon,3.0,650.0,Steel,,122,130,69,80,69,30,500
+Gigantamax Copperajah,Copperderm Pokémon,23.0,0.0,Steel,,122,130,69,80,69,30,500
+Dracozolt,Fossil Pokémon,1.8,190.0,Electric,Dragon,90,100,90,80,70,75,505
+Arctozolt,Fossil Pokémon,2.3,150.0,Electric,Ice,90,100,90,90,80,55,505
+Dracovish,Fossil Pokémon,2.3,215.0,Water,Dragon,90,90,100,70,80,75,505
+Arctovish,Fossil Pokémon,2.0,175.0,Water,Ice,90,90,100,80,90,55,505
+Duraludon,Alloy Pokémon,1.8,40.0,Steel,Dragon,70,95,115,120,50,85,535
+Gigantamax Duraludon,Alloy Pokémon,43.0,0.0,Steel,Dragon,70,95,115,120,50,85,535
+Dreepy,Lingering Pokémon,0.5,2.0,Dragon,Ghost,28,60,30,40,30,82,270
+Drakloak,Caretaker Pokémon,1.4,11.0,Dragon,Ghost,68,80,50,60,50,102,410
+Dragapult,Stealth Pokémon,3.0,50.0,Dragon,Ghost,88,120,75,100,75,142,600
+Zacian,Warrior Pokémon,2.8,110.0,Fairy,,92,130,115,80,115,138,670
+Crowned Zacian,Warrior Pokémon,2.8,355.0,Fairy,Steel,92,170,115,80,115,148,720
+Zamazenta,Warrior Pokémon,2.9,210.0,Fighting,,92,130,115,80,115,138,670
+Crowned Zamazenta,Warrior Pokémon,2.9,785.0,Fighting,Steel,92,130,145,80,145,128,720
+Eternatus,Gigantic Pokémon,20.0,950.0,Poison,Dragon,140,85,95,145,95,130,690
+Eternamax Eternatus,Gigantic Pokémon,100.0,0.0,Poison,Dragon,255,115,250,125,250,130,1125

@@ -61,6 +61,7 @@ def main():
     df.columns = snake_case(df.columns)
     df = rename_alternate_forms(df)
     df = prune(df)
+    df["classification"] = df["classification"].str.replace("Pokemon", "Pokémon", regex=False)
 
     df.to_csv("pokemon_modified.csv", index=False)
 
