@@ -15,13 +15,13 @@ def csv_to_2d_dict(package, csv_file, index, lambda_function=lambda x: x):
     """
     with resources.open_text(package, csv_file) as f:
         data_iterator = csv.DictReader(f)
-        data_dictionary = {
-            row[index]: {
-                k: lambda_function(v)
-                for k, v in row.items() if k not in [index]
-            }
-            for row in data_iterator
-        }
+        data_dictionary = {}
+        for row in data_iterator:
+            current_dict = {}
+            for k, v in row.items():
+                if k != index:
+                    current_dict[k] = lambda_function(v)
+            data_dictionary[row[index]] = current_dict
     return data_dictionary
 
 
