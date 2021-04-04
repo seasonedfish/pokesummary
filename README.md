@@ -22,9 +22,11 @@ optional arguments:
 
 ### Requirements
 - Python 3.7+
-- A terminal supporting ANSI escape codes (most Linux and MacOS terminals, Windows Terminal on Windows)
+- A terminal supporting ANSI escape codes
+(most Linux and macOS terminals,
+see [here](https://superuser.com/questions/413073/windows-console-with-ansi-colors-handling) for Windows)
 
-## Manual Install
+### Manual Install
 1. Clone or download the repository
 2. Install using pip or Poetry
 
