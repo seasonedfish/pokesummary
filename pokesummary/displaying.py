@@ -6,7 +6,6 @@ from pokesummary import parsing
 class Color(str, Enum):
     GREEN = "\033[49;32m"
     RED = "\033[49;31m"
-    IMMUNE = "\033[49;34m"
 
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
@@ -35,17 +34,29 @@ def get_base_stats_chart(pokemon_stats):
     highest_stat = max(base_stats.values())
     lowest_stat = min(base_stats.values())
 
+    stat_names = {
+        "health_stat": "HP",
+        "attack_stat": "Attack",
+        "defense_stat": "Defense",
+        "special_attack_stat": "Sp. Atk",
+        "special_defense_stat": "Sp. Def",
+        "speed_stat": "Speed",
+    }
+
     string_list = []
     for key, value in base_stats.items():
-        string_list.append(f"{key:<21}")
-        string_list.append("*" * (int(value) // 10))
+        string_list.append(f"{stat_names[key]:<9}")
+
         if value == highest_stat:
             color = Color.GREEN
         elif value == lowest_stat:
             color = Color.RED
         else:
             color = ""
-        string_list.append(f" {color}{value}{Color.END}\n")
+        string_list.append(f"{color}{value:>3}{Color.END}")
+        string_list.append(f" {'*' * (int(value) // 10)}\n")
+
+    string_list.append(f"{'Total':<9}{Color.BOLD}{pokemon_stats['base_stat_total']:>3}{Color.END}\n")
     return "".join(string_list)
 
 
