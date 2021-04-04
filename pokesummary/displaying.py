@@ -61,15 +61,15 @@ def get_base_stats_chart(pokemon_stats):
 
 
 def calculate_type_defenses(pokemon_stats):
-    primary_type = pokemon_stats["primary_type"]
-    secondary_type = pokemon_stats["secondary_type"]
+    type1 = pokemon_stats["primary_type"]
+    type2 = pokemon_stats["secondary_type"]
 
-    if secondary_type == "":
-        return all_type_defenses[primary_type]
+    if type2 == "":
+        return all_type_defenses[type1]
     else:
         return {
-            k: all_type_defenses[primary_type][k] * all_type_defenses[secondary_type][k]
-            for k in all_type_defenses[primary_type].keys()
+            k: all_type_defenses[type1][k] * all_type_defenses[type2][k]
+            for k in all_type_defenses[type1].keys()
         }
 
 
