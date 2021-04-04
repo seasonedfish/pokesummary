@@ -12,11 +12,11 @@ exclude = [
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-pandas = "^1.2.2"
+pandas = {version = "^1.2.2", python = "^3.7.1"}
 render50 = "^4.2.1"
 
 [build-system]
