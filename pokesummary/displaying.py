@@ -12,7 +12,7 @@ class Color(str, Enum):
     END = '\033[0m'
 
 
-all_type_defenses = parsing.csv_to_2d_dict(
+all_type_defenses = parsing.csv_to_nested_dict(
     "pokesummary.data",
     "type_defenses_modified.csv",
     "defending_type",

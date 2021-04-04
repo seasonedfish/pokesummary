@@ -48,7 +48,7 @@ def main():
     Driver code.
     """
     args = prepare_args()
-    data_dictionary = parsing.csv_to_2d_dict(
+    data_dictionary = parsing.csv_to_nested_dict(
         "pokesummary.data",
         "pokemon_modified.csv",
         "pokemon_name"

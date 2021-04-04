@@ -2,7 +2,7 @@ import csv
 from importlib import resources
 
 
-def csv_to_2d_dict(package, csv_file, index, lambda_function=lambda x: x):
+def csv_to_nested_dict(package, csv_file, index, lambda_function=lambda x: x):
     """
     Parses a CSV file to a dictionary of dictionaries.
 
@@ -14,19 +14,21 @@ def csv_to_2d_dict(package, csv_file, index, lambda_function=lambda x: x):
     index column, and the values being dictionaries of each row's other values.
     """
     with resources.open_text(package, csv_file) as f:
-        data_iterator = csv.DictReader(f)
-        data_dictionary = {}
-        for row in data_iterator:
-            current_dict = {}
-            for k, v in row.items():
+        csv_iterator = csv.DictReader(f)
+
+        nested_dict = {}
+        for csv_row in csv_iterator:
+            row_dict = {}
+            for k, v in csv_row.items():
                 if k != index:
-                    current_dict[k] = lambda_function(v)
-            data_dictionary[row[index]] = current_dict
-    return data_dictionary
+                    row_dict[k] = lambda_function(v)
+            nested_dict[csv_row[index]] = row_dict
+
+    return nested_dict
 
 
 if __name__ == "__main__":
-    data = csv_to_2d_dict("pokesummary.data", "type_defenses_modified.csv", "defending_type", lambda x: float(x))
+    data = csv_to_nested_dict("pokesummary.data", "type_defenses_modified.csv", "defending_type", lambda x: float(x))
     print(data)
-    data2 = csv_to_2d_dict("pokesummary.data", "pokemon_modified.csv", "pokemon_name")
+    data2 = csv_to_nested_dict("pokesummary.data", "pokemon_modified.csv", "pokemon_name")
     print(data2)
