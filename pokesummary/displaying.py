@@ -1,5 +1,6 @@
-from enum import Enum
 import itertools
+from enum import Enum
+
 from pokesummary import parsing
 
 
