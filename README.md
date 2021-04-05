@@ -5,8 +5,7 @@ for accessing Pokémon summaries.
 Currently in development.
 
 ## Screenshot
-![mintty 2021-04-05_12-46-21](https://user-images.githubusercontent.com/29507110/113599782-1a9a6780-960d-11eb-81b7-7f024d6672a3.png)
-
+![image](https://user-images.githubusercontent.com/29507110/113600322-d52a6a00-960d-11eb-8813-ed86f394adf2.png)
 
 ## Usage
 ```
