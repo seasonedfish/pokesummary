@@ -75,12 +75,16 @@ def calculate_type_defenses(pokemon_stats):
 
 
 def print_type_matchups(type_defenses):
-    abbreviations = [k[0:3] for k in type_defenses]
+    abbreviations = [
+        attacking_type[0:3]
+        for attacking_type in type_defenses
+    ]
     print("|".join(abbreviations))
 
-    multipliers = []
-    for attacking_type in type_defenses:
-        multipliers.append(f"{format_multiplier(type_defenses[attacking_type])}")
+    multipliers = [
+        f"{format_multiplier(type_defenses[attacking_type])}"
+        for attacking_type in type_defenses
+    ]
     print("|".join(multipliers))
 
 
