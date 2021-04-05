@@ -93,7 +93,7 @@ def format_multiplier(multiplier):
 
 def display_summary(pokemon_name, pokemon_stats):
     print(
-        f"{Color.BOLD}{pokemon_name.upper()}, "
+        f"{Color.BOLD}{Color.UNDERLINE}{pokemon_name.upper()}, "
         f"{pokemon_stats['classification'].upper()}{Color.END}"
     )
     print(
@@ -112,3 +112,4 @@ def display_summary(pokemon_name, pokemon_stats):
     type_defenses = calculate_type_defenses(pokemon_stats)
     for attacking_type in type_defenses:
         print(f"{attacking_type:<10}{format_multiplier(type_defenses[attacking_type])}")
+    print()
