@@ -74,18 +74,20 @@ def calculate_type_defenses(pokemon_stats):
         }
 
 
-def print_type_matchups(type_defenses):
+def get_type_defenses_chart(type_defenses):
     abbreviations = [
         attacking_type[0:3]
         for attacking_type in type_defenses
     ]
-    print("|".join(abbreviations))
+    row1 = "|".join(abbreviations)
 
     multipliers = [
         f"{format_multiplier(type_defenses[attacking_type])}"
         for attacking_type in type_defenses
     ]
-    print("|".join(multipliers))
+    row2 = "|".join(multipliers)
+
+    return "\n".join([row1, row2])
 
 
 def format_multiplier(multiplier):
@@ -124,5 +126,5 @@ def display_summary(pokemon_name, pokemon_stats):
 
     print(f"{Color.BOLD}TYPE DEFENSES{Color.END}")
     type_defenses = calculate_type_defenses(pokemon_stats)
-    print_type_matchups(type_defenses)
+    print(get_type_defenses_chart(type_defenses))
     print()
