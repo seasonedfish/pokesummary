@@ -55,7 +55,7 @@ def get_base_stats_chart(pokemon_stats):
         else:
             color = ""
         string_list.append(f"{color}{value:>3}{Color.END}")
-        string_list.append(f" {'*' * (value // 10)}\n")
+        string_list.append(f" {'*' * (value // 5)}\n")
 
     string_list.append(f"{'Total':<9}{Color.BOLD}{pokemon_stats['base_stat_total']:>3}{Color.END}\n")
     return "".join(string_list)
@@ -74,19 +74,29 @@ def calculate_type_defenses(pokemon_stats):
         }
 
 
+def print_type_matchups(type_defenses):
+    abbreviations = [k[0:3].upper() for k in type_defenses]
+    print("|".join(abbreviations))
+
+    multipliers = []
+    for attacking_type in type_defenses:
+        multipliers.append(f"{format_multiplier(type_defenses[attacking_type])}")
+    print("|".join(multipliers))
+
+
 def format_multiplier(multiplier):
     if multiplier == 0:
-        return f"{Color.GREEN}0×{Color.END}"
+        return f"{Color.GREEN} 0 {Color.END}"
     elif multiplier == 0.25:
-        return f"{Color.GREEN}¼×{Color.END}"
+        return f"{Color.GREEN} ¼ {Color.END}"
     elif multiplier == 0.5:
-        return f"{Color.GREEN}½×{Color.END}"
+        return f"{Color.GREEN} ½ {Color.END}"
     elif multiplier == 1:
-        return ""
+        return "   "
     elif multiplier == 2:
-        return f"{Color.RED}2×{Color.END}"
+        return f"{Color.RED} 2 {Color.END}"
     elif multiplier == 4:
-        return f"{Color.RED}4×{Color.END}"
+        return f"{Color.RED} 4 {Color.END}"
     else:
         raise ValueError("Multiplier must be 0, 0.25, 0.5, 1, 2, or 4")
 
@@ -110,6 +120,5 @@ def display_summary(pokemon_name, pokemon_stats):
 
     print(f"{Color.BOLD}TYPE DEFENSES{Color.END}")
     type_defenses = calculate_type_defenses(pokemon_stats)
-    for attacking_type in type_defenses:
-        print(f"{attacking_type:<10}{format_multiplier(type_defenses[attacking_type])}")
+    print_type_matchups(type_defenses)
     print()
