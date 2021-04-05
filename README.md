@@ -4,6 +4,10 @@ for accessing Pokémon summaries.
 
 Currently in development.
 
+## Screenshot
+![mintty 2021-04-05_12-46-21](https://user-images.githubusercontent.com/29507110/113599782-1a9a6780-960d-11eb-81b7-7f024d6672a3.png)
+
+
 ## Usage
 ```
 usage: pokesummary [-h] [-i] [pokemon [pokemon ...]]
