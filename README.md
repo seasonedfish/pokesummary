@@ -29,18 +29,23 @@ optional arguments:
 (most Linux and macOS terminals,
 see [here](https://superuser.com/questions/413073/windows-console-with-ansi-colors-handling) for Windows)
 
-### Manual Install
-1. Clone or download the repository
-2. Install using pip or Poetry
+### Install from PyPI
+1. Install using pip
+```sh
+pip install pokesummary
+```
 
-Using pip:
+### Install from Source Code
+1. Clone or download the repository
+2. Install using pip
 ```sh
 pip3 install .
 ```
 
-Using poetry:
+### Uninstall
+1. Uninstall using pip
 ```sh
-poetry install
+pip3 uninstall pokesummary
 ```
 
 ## Acknowledgements
