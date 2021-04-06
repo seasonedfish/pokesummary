@@ -7,7 +7,8 @@ for displaying Pokémon height, weight, types, base stats, and type defenses.
 It works completely offline, opting to use local datasets instead of APIs.
 It requires no third-party libraries.
 
-![image](https://user-images.githubusercontent.com/29507110/113600322-d52a6a00-960d-11eb-8813-ed86f394adf2.png)
+![image](https://user-images.githubusercontent.com/29507110/113649578-adaebe00-965c-11eb-992f-7a0e2b051967.png)
+
 
 ## Usage
 ```
