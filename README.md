@@ -1,4 +1,8 @@
 # Pokésummary
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pokesummary)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/tactlessfish/pokesummary)
+![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/tactlessfish/pokesummary)
+
 An easy-to-use, informative command line interface (CLI)
 for accessing Pokémon summaries.
 
