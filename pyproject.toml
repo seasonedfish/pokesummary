@@ -1,15 +1,17 @@
 [tool.poetry]
 name = "pokesummary"
 version = "0.1.0"
-description = ""
+description = "An easy-to-use, informative command line interface (CLI) for accessing Pokémon summaries."
 authors = ["Fisher Sun <fisher521.fs@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/tactlessfish/pokesummary"
 exclude = [
     "pokesummary/data/modify_pokemon.py",
     "pokesummary/data/pokemon_original.csv",
     "pokesummary/data/modify_type_defenses.py",
     "pokesummary/data/type_defenses_original.csv"
 ]
-license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.7"
