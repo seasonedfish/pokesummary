@@ -33,14 +33,13 @@ def safe_print(dictionary, pokemon):
 
     :param dictionary: the dict of Pokémon/Pokémon info pairs
     :param pokemon: the key to access
-    :return: True if accessed, False if not accessed
     """
     try:
-        displaying.display_summary(pokemon, dictionary[pokemon])
-        return True
+        pokemon_stats = dictionary[pokemon]
     except KeyError:
-        print(f"Invalid Pokémon {pokemon}")
-        return False
+        print(f"Invalid Pokémon {pokemon}\n")
+        return
+    displaying.display_summary(pokemon, pokemon_stats)
 
 
 def main():
