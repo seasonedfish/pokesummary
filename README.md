@@ -1,15 +1,11 @@
 # Pokésummary
 **In the heat of a Pokémon battle,
-Pokésummary lets you quickly get the information you need to know!**
+Pokésummary lets you quickly get the information you need!**
 
 Pokésummary is an easy-to-use, informative command line interface (CLI)
 for displaying Pokémon height, weight, types, base stats, and type defenses.
 It works completely offline, opting to use local datasets instead of APIs.
 It requires no third-party libraries.
-
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pokesummary)
-![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/tactlessfish/pokesummary)
-![LGTM Alerts](https://img.shields.io/lgtm/alerts/github/tactlessfish/pokesummary)
 
 ![image](https://user-images.githubusercontent.com/29507110/113600322-d52a6a00-960d-11eb-8813-ed86f394adf2.png)
 
