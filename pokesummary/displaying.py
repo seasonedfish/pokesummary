@@ -112,6 +112,14 @@ def format_multiplier(multiplier):
 
 
 def display_summary(pokemon_name, pokemon_stats):
+    """
+    Given a Pokémon's name and a dictionary of its stats,
+    format and print its classification, height, weight,
+    base stat chart, and type defenses chart.
+
+    :param pokemon_name: the name of the Pokémon
+    :param pokemon_stats: a dictionary of the Pokémon's stats
+    """
     print(
         f"{Color.BOLD}{Color.UNDERLINE}{pokemon_name.upper()}, "
         f"{pokemon_stats['classification'].upper()}{Color.END}"
