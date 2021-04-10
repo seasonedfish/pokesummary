@@ -69,7 +69,7 @@ If we have a file `pokemon_names.txt`
 filled with Pokémon names (each separated by newline),
 we can use the following to display each of their summaries.
 
-    cat pokemon_names.txt | pokesummary
+    cat pokemon_names.txt | pokesummary -i
     """
     print(examples)
 
