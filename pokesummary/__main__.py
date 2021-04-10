@@ -41,8 +41,7 @@ def print_examples():
     Print example uses of the program,
     along with commentary.
     """
-    examples = """
-The simplest example is passing a Pokémon as an argument.
+    examples = """The simplest example is passing a Pokémon as an argument.
 Here, we want to display Bulbasaur's summary,
 so we pass `bulbasaur` as an argument.
     
