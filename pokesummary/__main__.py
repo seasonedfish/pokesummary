@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-from pokesummary import displaying, parsing, __version__
+from pokesummary import __version__, displaying, parsing
 
 
 def prepare_args():
