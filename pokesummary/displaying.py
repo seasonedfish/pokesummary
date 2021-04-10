@@ -13,6 +13,10 @@ class Color(str, Enum):
     END = '\033[0m'
 
 
+# Parses the grid of type defenses.
+# The csv file is modified from the
+# visual chart on Pokémon Database.
+# https://pokemondb.net/type
 all_type_defenses = parsing.csv_to_nested_dict(
     "pokesummary.data",
     "type_defenses_modified.csv",

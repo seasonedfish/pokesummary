@@ -47,6 +47,11 @@ def main():
     Driver code.
     """
     args = prepare_args()
+
+    # Parses the data of every Pokémon.
+    # The csv file is modified from
+    # Yu-Chi Chiang's dataset.
+    # https://www.kaggle.com/mrdew25/pokemon-database/discussion/165031
     data_dictionary = parsing.csv_to_nested_dict(
         "pokesummary.data",
         "pokemon_modified.csv",
