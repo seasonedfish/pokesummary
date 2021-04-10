@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/pokesummary/__main__.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/pokesummary/data/modify.py">
           <value>
             <Attribute>
