@@ -4,7 +4,7 @@ from importlib import resources
 
 def csv_to_nested_dict(package, csv_file, index, lambda_function=lambda x: x):
     """
-    Parses a CSV file to a dictionary of dictionaries.
+    Parse a CSV file to a dictionary of dictionaries.
 
     :param package: the package in which the CSV file is located
     :param csv_file: the CSV file to parse
