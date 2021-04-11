@@ -364,7 +364,7 @@ python-versions = "*"
 
 [[package]]
 name = "render50"
-version = "4.2.1"
+version = "5.0.0"
 description = "This is render50, with which you can render source code as PDFs."
 category = "dev"
 optional = false
@@ -514,7 +514,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "dfc8209d531c1073d382efcba28a6a77e6585aa74d1c97bf37698323cfacfc05"
+content-hash = "cb1ab395bda55c8ab1ee2b2dc73d8df67abc62d169c21f4b9ba52a14904e64dd"
 
 [metadata.files]
 atomicwrites = [
@@ -751,7 +751,7 @@ pytz = [
     {file = "pytz-2021.1.tar.gz", hash = "sha256:83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da"},
 ]
 render50 = [
-    {file = "render50-4.2.1.tar.gz", hash = "sha256:8c2f5e776931cde2013c8ca2954536657af5259a8176827b6f30a78167cfd478"},
+    {file = "render50-5.0.0.tar.gz", hash = "sha256:3d6d1e4fda2f4f948c5a011d8044619bd702e18d0f5e930d65ac4e4cbd0a768c"},
 ]
 requests = [
     {file = "requests-2.25.1-py2.py3-none-any.whl", hash = "sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e"},
