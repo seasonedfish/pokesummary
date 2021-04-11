@@ -25,10 +25,3 @@ def csv_to_nested_dict(package, csv_file, index, lambda_function=lambda x: x):
             nested_dict[csv_row[index]] = row_dict
 
     return nested_dict
-
-
-if __name__ == "__main__":
-    data = csv_to_nested_dict("pokesummary.data", "type_defenses_modified.csv", "defending_type", lambda x: float(x))
-    print(data)
-    data2 = csv_to_nested_dict("pokesummary.data", "pokemon_modified.csv", "pokemon_name")
-    print(data2)
