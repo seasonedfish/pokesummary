@@ -61,7 +61,11 @@ def get_base_stats_chart(pokemon_stats):
         string_list.append(f"{color}{value:>4}{Color.END}")
         string_list.append(f" {'*' * (value // 5)}\n")
 
-    string_list.append(f"{'Total':<9}{Color.BOLD}{pokemon_stats['base_stat_total']:>4}{Color.END}\n")
+    string_list.append(
+        f"{'Total':<9}"
+        f"{Color.BOLD}{pokemon_stats['base_stat_total']:>4}"
+        f"{Color.END}\n"
+    )
     return "".join(string_list)
 
 
@@ -129,7 +133,8 @@ def display_summary(pokemon_name, pokemon_stats):
         f"{pokemon_stats['pokemon_weight']}kg")
     print(
         f"{pokemon_stats['primary_type']}"
-        f"{', ' + pokemon_stats['secondary_type'] if pokemon_stats['secondary_type'] != '' else ''}"
+        f"{', ' if pokemon_stats['secondary_type'] != '' else ''}"
+        f"{pokemon_stats['secondary_type']}"
     )
     print()
 
