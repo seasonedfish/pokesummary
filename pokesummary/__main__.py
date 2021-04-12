@@ -44,22 +44,22 @@ def print_examples():
     examples = """The simplest example is passing a Pokémon as an argument.
 Here, we want to display Bulbasaur's summary,
 so we pass `bulbasaur` as an argument.
-    
+
     pokesummary bulbasaur
-    
+
 Multiple Pokémon can be chained.
 Now, we pass Bulbasaur's whole evolution line.
 Note that Pokémon with multi-word names
 (e.g. Mega Venusaur) must be surrounded by quotation marks.
-    
+
     pokesummary bulbasaur ivysaur venusaur "mega venusaur"
-    
+
 If you would like to run pokesummary interactively,
 use the `-i` flag.
 Now we can type several Pokémon names,
 hitting Enter after each one.
 Use Ctrl-D (EOF) to exit.
-    
+
     pokesummary -i
 
 Since the `-i` flag reads from standard input,
