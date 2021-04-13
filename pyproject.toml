@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pokesummary"
-version = "0.2.1"
+version = "0.3.0"
 description = "An easy-to-use, informative command line interface (CLI) for accessing Pokémon summaries."
 authors = ["Fisher Sun <fisher521.fs@gmail.com>"]
 license = "MIT"
