@@ -41,7 +41,10 @@ def rename_alternate_forms(df):
     for dictionary in regional_demonyms:
         alt_pokemon["alternate_form_name"].replace(dictionary, inplace=True)
     # Append all form names
-    alt_pokemon["pokemon_name"] = alt_pokemon["alternate_form_name"] + " " + alt_pokemon["pokemon_name"]
+    alt_pokemon["pokemon_name"] = alt_pokemon["alternate_form_name"].str.cat(
+        alt_pokemon["pokemon_name"],
+        sep=" "
+    )
     # Fix order of Mega forms (e.g. Mega Charizard X, not Mega X Charizard)
     alt_pokemon["pokemon_name"] = alt_pokemon["pokemon_name"].str.replace(
         r"(\bMega\b)\s(X|Y)\s(\w+)",
@@ -66,7 +69,11 @@ def main():
     df.columns = snake_case(df.columns)
     df = rename_alternate_forms(df)
     df = prune(df)
-    df["classification"] = df["classification"].str.replace("Pokemon", "Pokémon", regex=False)
+    df["classification"] = df["classification"].str.replace(
+        "Pokemon",
+        "Pokémon",
+        regex=False
+    )
 
     df.to_csv("pokemon_modified.csv", index=False)
 
