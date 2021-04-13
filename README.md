@@ -11,17 +11,19 @@ It requires no third-party libraries.
 
 
 ## Usage
-```
-usage: pokesummary [-h] [-i] [pokemon [pokemon ...]]
+```txt
+usage: pokesummary [-h] [-i] [-s] [-v] [pokemon [pokemon ...]]
 
 Get summaries for a Pokémon or multiple Pokémon.
 
 positional arguments:
-  pokemon            the Pokémon to look up
+  pokemon              the Pokémon to look up
 
 optional arguments:
-  -h, --help         show this help message and exit
-  -i, --interactive  run interactively
+  -h, --help           show this help message and exit
+  -i, --interactive    run interactively
+  -s, --show-examples  show example uses of the program
+  -v, --version        show program's version number and exit
 ```
 
 ## Installation
