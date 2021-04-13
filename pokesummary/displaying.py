@@ -117,6 +117,8 @@ def format_multiplier(multiplier):
 
 def display_summary(pokemon_name, pokemon_stats):
     """
+    Display a Pokémon's summary from its stats.
+
     Given a Pokémon's name and a dictionary of its stats,
     format and print its classification, height, weight,
     base stat chart, and type defenses chart.

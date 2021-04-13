@@ -38,8 +38,7 @@ def prepare_args():
 
 def print_examples():
     """
-    Print example uses of the program,
-    along with commentary.
+    Print example uses of the program, along with commentary.
     """
     examples = """The simplest example is passing a Pokémon as an argument.
 Here, we want to display Bulbasaur's summary,
@@ -75,17 +74,20 @@ we can use the following to display each of their summaries.
 
 def safe_print(dictionary, pokemon):
     """
-    Try to print a summary of the Pokémon specified by string ``pokemon``.
-    If ``pokemon`` is not a key in the dictionary, return gracefully.
+    Try to print a summary of a Pokémon.
 
-    :param dictionary: the dict of Pokémon/Pokémon info pairs
-    :param pokemon: the key to access
+    If the given dictionary lacks the given Pokémon name as one of its keys,
+    handle it gracefully.
+
+    :param dictionary: the dict of Pokémon name/Pokémon info pairs
+    :param pokemon: the Pokémon name to look up
     """
     try:
         pokemon_stats = dictionary[pokemon]
     except KeyError:
         print(f"Invalid Pokémon {pokemon}\n")
         return
+
     displaying.display_summary(pokemon, pokemon_stats)
 
 
