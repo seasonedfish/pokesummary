@@ -91,12 +91,12 @@ def safe_print(dictionary, pokemon):
     displaying.display_summary(pokemon, pokemon_stats)
 
 
-def main():
+def run_program(args):
     """
-    Driver code.
-    """
-    args = prepare_args()
+    Run the program.
 
+    :param args: a Namespace of program arguments
+    """
     if args.show_examples:
         print_examples()
         return
@@ -117,6 +117,14 @@ def main():
             data_dictionary,
             pokemon.rstrip().title()
         )
+
+
+def main():
+    """
+    Driver code.
+    """
+    cli_args = prepare_args()
+    run_program(cli_args)
 
 
 if __name__ == "__main__":
