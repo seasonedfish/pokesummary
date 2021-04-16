@@ -4,10 +4,12 @@ import sys
 from pokesummary import __version__, displaying, parsing
 
 
-def prepare_args():
+def prepare_args(args=None):
     """
     Use argparse to create the command-line interface.
 
+    :param args: a list of arguments passed to the program.
+    If no value is given, use the sys.argv[1:] arguments.
     :return: the namespace of program arguments
     """
     parser = argparse.ArgumentParser(
@@ -33,7 +35,7 @@ def prepare_args():
         action="version",
         version=f"pokesummary {__version__}",
     )
-    return parser.parse_args()
+    return parser.parse_args(args)
 
 
 def print_examples():
@@ -91,13 +93,15 @@ def safe_print(dictionary, pokemon):
     displaying.display_summary(pokemon, pokemon_stats)
 
 
-def run_program(args):
+def run_program(pokemon, interactive, show_examples):
     """
     Run the program.
 
-    :param args: a Namespace of program arguments
+    :param pokemon: a list of Pokémon names to look up
+    :param interactive: if the program should read from standard input
+    :param show_examples: if the program should print example uses
     """
-    if args.show_examples:
+    if show_examples:
         print_examples()
         return
 
@@ -111,7 +115,7 @@ def run_program(args):
         "pokemon_name"
     )
 
-    input_pokemon = sys.stdin if args.interactive else args.pokemon
+    input_pokemon = sys.stdin if interactive else pokemon
     for pokemon in input_pokemon:
         safe_print(
             data_dictionary,
@@ -124,7 +128,7 @@ def main():
     Driver code.
     """
     cli_args = prepare_args()
-    run_program(cli_args)
+    run_program(**vars(cli_args))
 
 
 if __name__ == "__main__":
