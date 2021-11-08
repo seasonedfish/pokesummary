@@ -11,7 +11,7 @@ def expected_single_pokemon_output():
 
 
 def test_single_pokemon(expected_single_pokemon_output):
-    output = subprocess.check_output(["pokesummary", "bulbasaur"])
+    output = subprocess.check_output(["pokesummary", "sirfetch'd"])
     assert output == expected_single_pokemon_output
 
 
