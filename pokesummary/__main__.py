@@ -1,4 +1,5 @@
 import argparse
+import string
 import sys
 
 from pokesummary import __version__, displaying, parsing
@@ -119,7 +120,7 @@ def run_program(pokemon, interactive, show_examples):
     for pokemon in input_pokemon:
         safe_print(
             data_dictionary,
-            pokemon.rstrip().title()
+            string.capwords(pokemon)
         )
 
 
