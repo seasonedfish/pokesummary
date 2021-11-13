@@ -139,7 +139,6 @@ def display_summary(pokemon_name, pokemon_stats):
         f"{pokemon_stats['secondary_type']}"
     )
     print()
-    print(pokemon_stats)
 
     print(f"{Color.BOLD}BASE STATS{Color.END}")
     print(get_base_stats_chart(pokemon_stats))
