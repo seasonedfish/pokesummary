@@ -139,6 +139,7 @@ def display_summary(pokemon_name, pokemon_stats):
         f"{pokemon_stats['secondary_type']}"
     )
     print()
+    print(pokemon_stats)
 
     print(f"{Color.BOLD}BASE STATS{Color.END}")
     print(get_base_stats_chart(pokemon_stats))
@@ -147,3 +148,22 @@ def display_summary(pokemon_name, pokemon_stats):
     type_defenses = calculate_type_defenses(pokemon_stats)
     print(get_type_defenses_chart(type_defenses))
     print()
+
+    #show pokemon pre evolution
+    while(pokemon_stats["pre_evo_id"]):
+        pre_evo = display_pre_evo(pokemon_stats["pre_evo_id"])
+        pre_evo_name = pre_evo["pokemon_name"]
+        pre_evo_details = pokemon_stats["evo_details"]
+        print(f"{pre_evo_name} evolves into {pokemon_name} at {pre_evo_details or 'trade'}")
+        pokemon_stats=pre_evo
+        pokemon_name=pre_evo_name
+
+
+def display_pre_evo(pre_evo):
+    data_dictionary = parsing.csv_to_nested_dict(
+        "pokesummary.data",
+        "pokemon_modified.csv",
+        "pokemon_id"
+    )
+    evo_details = data_dictionary[pre_evo]
+    return evo_details
