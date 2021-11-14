@@ -148,7 +148,20 @@ def display_summary(pokemon_name, pokemon_stats):
     print(get_type_defenses_chart(type_defenses))
     print()
 
+    #shows abilities
+    print(f"{Color.BOLD}PRIMARY ABILITY{Color.END}")
+    print(f"{pokemon_stats['primary_ability']}: {pokemon_stats['primary_ability_desc']}")
+    if pokemon_stats['secondary_ability'] != '':
+        print(f"{Color.BOLD}SECONDARY ABILITY{Color.END}")
+        print(f"{pokemon_stats['secondary_ability']}: {pokemon_stats['secondary_ability_desc']}")
+    if pokemon_stats['hidden_ability'] != '':
+        print(f"{Color.BOLD}HIDDEN ABILITY{Color.END}")
+        print(f"{pokemon_stats['hidden_ability']}: {pokemon_stats['hidden_ability_desc']}")
+    print()
+
     #show pokemon pre evolution
+    if pokemon_stats['pre_evo_id'] != '':
+        print(f"{Color.BOLD}EVOLUTIONS{Color.END}")
     while(pokemon_stats["pre_evo_id"]):
         pre_evo = display_pre_evo(pokemon_stats["pre_evo_id"])
         pre_evo_name = pre_evo["pokemon_name"]
@@ -156,7 +169,6 @@ def display_summary(pokemon_name, pokemon_stats):
         print(f"{pre_evo_name} evolves into {pokemon_name} at {pre_evo_details or 'trade'}")
         pokemon_stats=pre_evo
         pokemon_name=pre_evo_name
-
 
 def display_pre_evo(pre_evo):
     data_dictionary = parsing.csv_to_nested_dict(
@@ -166,3 +178,11 @@ def display_pre_evo(pre_evo):
     )
     evo_details = data_dictionary[pre_evo]
     return evo_details
+
+#display abilities
+def display_abilities(pokemon_name):
+    data_dictionary = parsing.csv_to_nested_dict(
+        "pokesummary.data",
+        "pokemon_modified_new.csv",
+        "pokemon_name"
+    )
