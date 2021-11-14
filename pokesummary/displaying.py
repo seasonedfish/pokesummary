@@ -156,7 +156,7 @@ def display_summary(pokemon_name, pokemon_stats):
         print(f"{pokemon_stats['secondary_ability']}: {pokemon_stats['secondary_ability_desc']}")
     if pokemon_stats['hidden_ability'] != '':
         print(f"{Color.BOLD}HIDDEN ABILITY{Color.END}")
-        print(f"{pokemon_stats['hidden_ability']}: {pokemon_stats['hidden_ability_desc']}")
+        print(f"{pokemon_stats['hidden_ability']}: {pokemon_stats['h idden_ability_desc']}")
     print()
 
     #show pokemon pre evolution
