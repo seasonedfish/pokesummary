@@ -112,7 +112,7 @@ def run_program(pokemon, interactive, show_examples):
     # https://www.kaggle.com/mrdew25/pokemon-database/discussion/165031
     data_dictionary = parsing.csv_to_nested_dict(
         "pokesummary.data",
-        "pokemon_modified.csv",
+        "pokemon_modified_new.csv",
         "pokemon_name"
     )
 

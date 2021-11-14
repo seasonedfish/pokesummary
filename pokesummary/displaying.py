@@ -161,7 +161,7 @@ def display_summary(pokemon_name, pokemon_stats):
 def display_pre_evo(pre_evo):
     data_dictionary = parsing.csv_to_nested_dict(
         "pokesummary.data",
-        "pokemon_modified.csv",
+        "pokemon_modified_new.csv",
         "pokemon_id"
     )
     evo_details = data_dictionary[pre_evo]
