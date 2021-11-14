@@ -166,7 +166,7 @@ def display_summary(pokemon_name, pokemon_stats):
         pre_evo = display_pre_evo(pokemon_stats["pre_evo_id"])
         pre_evo_name = pre_evo["pokemon_name"]
         pre_evo_details = pokemon_stats["evo_details"]
-        print(f"{pre_evo_name} evolves into {pokemon_name} at {pre_evo_details or 'trade'}")
+        print(f"{pre_evo_name} evolves into {pokemon_name} at {pre_evo_details or 'trade/friendship'}")
         pokemon_stats=pre_evo
         pokemon_name=pre_evo_name
 
