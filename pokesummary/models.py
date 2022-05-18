@@ -8,6 +8,7 @@ from pokesummary import data
 
 @dataclass(frozen=True)
 class BaseStats:
+    hp: int
     attack: int
     defense: int
     special_attack: int
@@ -48,6 +49,7 @@ class PokemonDict(UserDict):
                     primary_type=csv_row["primary_type"],
                     secondary_type=csv_row["secondary_type"],
                     base_stats=BaseStats(
+                        hp=int(csv_row["health_stat"]),
                         attack=int(csv_row["attack_stat"]),
                         defense=int(csv_row["defense_stat"]),
                         special_attack=int(csv_row["special_attack_stat"]),
