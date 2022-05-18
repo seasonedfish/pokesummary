@@ -1,6 +1,9 @@
+import csv
+import itertools
 from enum import Enum
+from importlib import resources
 
-from pokesummary import parsing
+from pokesummary import data
 from pokesummary.models import Pokemon
 
 
@@ -17,12 +20,12 @@ class Color(str, Enum):
 # The csv file is modified from the
 # visual chart on Pokémon Database.
 # https://pokemondb.net/type
-all_type_defenses = parsing.csv_to_nested_dict(
-    "pokesummary.data",
-    "type_defenses_modified.csv",
-    "defending_type",
-    lambda x: float(x)
-)
+with resources.open_text(data, "type_defenses_modified.csv") as f:
+    data_iterator = csv.DictReader(f, quoting=csv.QUOTE_NONNUMERIC)
+    all_type_defenses = {
+        row["defending_type"]: dict(itertools.islice(row.items(), 1, len(row)))
+        for row in data_iterator
+    }
 
 
 def get_base_stats_chart(pokemon: Pokemon):
