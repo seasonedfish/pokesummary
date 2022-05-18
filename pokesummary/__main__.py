@@ -18,7 +18,7 @@ def prepare_args(args=None):
         description="Get summaries for a Pokémon or multiple Pokémon."
     )
     parser.add_argument(
-        "pokemon",
+        "pokemon_names",
         nargs="*",
         help="the Pokémon to look up"
     )
@@ -95,11 +95,11 @@ def safe_print(dictionary, pokemon_name):
     displaying.display_summary(pokemon)
 
 
-def run_program(pokemon, interactive, show_examples):
+def run_program(pokemon_names, interactive, show_examples):
     """
     Run the program.
 
-    :param pokemon: a list of Pokémon names to look up
+    :param pokemon_names: a list of Pokémon names to look up
     :param interactive: if the program should read from standard input
     :param show_examples: if the program should print example uses
     """
@@ -109,7 +109,7 @@ def run_program(pokemon, interactive, show_examples):
 
     data_dictionary = PokemonDict().data
 
-    input_pokemon = sys.stdin if interactive else pokemon
+    input_pokemon = sys.stdin if interactive else pokemon_names
     for pokemon in input_pokemon:
         safe_print(data_dictionary, string.capwords(pokemon))
 
