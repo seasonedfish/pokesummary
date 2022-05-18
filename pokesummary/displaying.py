@@ -86,7 +86,9 @@ def calculate_type_defenses(pokemon: Pokemon):
         }
 
 
-def get_type_defenses_chart(type_defenses):
+def get_type_defenses_chart(pokemon: Pokemon):
+    type_defenses = calculate_type_defenses(pokemon)
+
     abbreviations = [
         attacking_type[0:3]
         for attacking_type in type_defenses
@@ -130,6 +132,5 @@ def display_summary(pokemon: Pokemon):
     print(get_base_stats_chart(pokemon))
 
     print(f"{Color.BOLD}TYPE DEFENSES{Color.END}")
-    type_defenses = calculate_type_defenses(pokemon)
-    print(get_type_defenses_chart(type_defenses))
+    print(get_type_defenses_chart(pokemon))
     print()
