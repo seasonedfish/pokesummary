@@ -31,8 +31,8 @@ def read_dataset_to_dictionary():
                 weight=csv_row["pokemon_weight"],
                 primary_type=csv_row["primary_type"],
                 secondary_type=csv_row["secondary_type"],
-                # TODO base_stats
-                # TODO type_defenses
+                base_stats=None,
+                type_defenses=None
             )
             dataset_dict[current_pokemon.name] = current_pokemon
 
@@ -45,3 +45,6 @@ class PokemonDict(UserDict):
         UserDict.__init__(self, pokemon_dictionary)
 
 
+if __name__ == "__main__":
+    pokemon_dict = PokemonDict()
+    print("It worked!!")
