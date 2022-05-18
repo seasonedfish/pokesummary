@@ -16,6 +16,15 @@ class Color(str, Enum):
     END = '\033[0m'
 
 
+multiplier_strings = {
+    0.00: f"{Color.GREEN} 0 {Color.END}",
+    0.25: f"{Color.GREEN} ¼ {Color.END}",
+    0.50: f"{Color.GREEN} ½ {Color.END}",
+    1.00: "   ",
+    2.00: f"{Color.RED} 2 {Color.END}",
+    4.00: f"{Color.RED} 4 {Color.END}"
+}
+
 # Parses the grid of type defenses.
 # The csv file is modified from the
 # visual chart on Pokémon Database.
@@ -85,29 +94,12 @@ def get_type_defenses_chart(type_defenses):
     row1 = "|".join(abbreviations)
 
     multipliers = [
-        f"{format_multiplier(type_defenses[attacking_type])}"
+        f"{multiplier_strings[type_defenses[attacking_type]]}"
         for attacking_type in type_defenses
     ]
     row2 = "|".join(multipliers)
 
     return "\n".join([row1, row2])
-
-
-def format_multiplier(multiplier):
-    if multiplier == 0:
-        return f"{Color.GREEN} 0 {Color.END}"
-    elif multiplier == 0.25:
-        return f"{Color.GREEN} ¼ {Color.END}"
-    elif multiplier == 0.5:
-        return f"{Color.GREEN} ½ {Color.END}"
-    elif multiplier == 1:
-        return "   "
-    elif multiplier == 2:
-        return f"{Color.RED} 2 {Color.END}"
-    elif multiplier == 4:
-        return f"{Color.RED} 4 {Color.END}"
-    else:
-        raise ValueError("Multiplier must be 0, 0.25, 0.5, 1, 2, or 4")
 
 
 def display_summary(pokemon: Pokemon):
