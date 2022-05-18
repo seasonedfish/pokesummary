@@ -13,7 +13,6 @@ class BaseStats:
     special_attack: int
     special_defense: int
     speed: int
-    total: int
 
 
 @dataclass(frozen=True)
@@ -54,7 +53,6 @@ class PokemonDict(UserDict):
                         special_attack=int(csv_row["special_attack_stat"]),
                         special_defense=int(csv_row["special_defense_stat"]),
                         speed=int(csv_row["speed_stat"]),
-                        total=int(csv_row["base_stat_total"])
                     ),
                 )
                 dataset_dict[current_pokemon.name] = current_pokemon
