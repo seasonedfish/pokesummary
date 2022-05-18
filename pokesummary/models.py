@@ -15,7 +15,15 @@ class Pokemon:
     primary_type: str
     secondary_type: str
 
-    base_stats: dict[str, int]
+    @dataclass(frozen=True)
+    class BaseStats:
+        attack: int
+        defense: int
+        special_attack: int
+        special_defense: int
+        speed: int
+        total: int
+
     type_defenses: dict[str, float]
 
 
