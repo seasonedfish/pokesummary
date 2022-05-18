@@ -47,7 +47,14 @@ class PokemonDict(UserDict):
                     weight=float(csv_row["pokemon_weight"]),
                     primary_type=csv_row["primary_type"],
                     secondary_type=csv_row["secondary_type"],
-                    base_stats=None,
+                    base_stats=Pokemon.BaseStats(
+                        attack=int(csv_row["attack_stat"]),
+                        defense=int(csv_row["defense_stat"]),
+                        special_attack=int(csv_row["special_attack_stat"]),
+                        special_defense=int(csv_row["special_defense_stat"]),
+                        speed=int(csv_row["speed_stat"]),
+                        total=int(csv_row["base_stat_total"])
+                    ),
                 )
                 dataset_dict[current_pokemon.name] = current_pokemon
 
