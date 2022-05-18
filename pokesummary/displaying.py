@@ -37,7 +37,7 @@ with resources.open_text(data, "type_defenses_modified.csv") as f:
     }
 
 
-def get_base_stats_chart(pokemon: Pokemon):
+def get_base_stats_chart(pokemon: Pokemon) -> str:
     base_stats = vars(pokemon.base_stats)
 
     highest_stat = max(base_stats.values())
@@ -73,7 +73,7 @@ def get_base_stats_chart(pokemon: Pokemon):
     return "".join(string_list)
 
 
-def calculate_type_defenses(pokemon: Pokemon):
+def calculate_type_defenses(pokemon: Pokemon) -> dict[str, float]:
     type1 = pokemon.primary_type
     type2 = pokemon.secondary_type
 
@@ -86,7 +86,7 @@ def calculate_type_defenses(pokemon: Pokemon):
         }
 
 
-def get_type_defenses_chart(pokemon: Pokemon):
+def get_type_defenses_chart(pokemon: Pokemon) -> str:
     type_defenses = calculate_type_defenses(pokemon)
 
     abbreviations = [
@@ -104,7 +104,7 @@ def get_type_defenses_chart(pokemon: Pokemon):
     return "\n".join([row1, row2])
 
 
-def display_summary(pokemon: Pokemon):
+def display_summary(pokemon: Pokemon) -> None:
     """
     Display a Pokémon's summary.
 
