@@ -5,7 +5,7 @@ from importlib import resources
 from pokesummary import data
 
 
-@dataclass
+@dataclass(frozen=True)
 class Pokemon:
     name: str
     classification: str
