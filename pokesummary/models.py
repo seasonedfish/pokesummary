@@ -25,6 +25,7 @@ class Pokemon:
         speed: int
         total: int
 
+    base_stats: BaseStats
     type_defenses: dict[str, float]
 
 
