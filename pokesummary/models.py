@@ -7,6 +7,16 @@ from pokesummary import data
 
 
 @dataclass(frozen=True)
+class BaseStats:
+    attack: int
+    defense: int
+    special_attack: int
+    special_defense: int
+    speed: int
+    total: int
+
+
+@dataclass(frozen=True)
 class Pokemon:
     name: str
     classification: str
@@ -15,15 +25,6 @@ class Pokemon:
 
     primary_type: str
     secondary_type: str
-
-    @dataclass(frozen=True)
-    class BaseStats:
-        attack: int
-        defense: int
-        special_attack: int
-        special_defense: int
-        speed: int
-        total: int
 
     base_stats: BaseStats
 
@@ -47,7 +48,7 @@ class PokemonDict(UserDict):
                     weight=float(csv_row["pokemon_weight"]),
                     primary_type=csv_row["primary_type"],
                     secondary_type=csv_row["secondary_type"],
-                    base_stats=Pokemon.BaseStats(
+                    base_stats=BaseStats(
                         attack=int(csv_row["attack_stat"]),
                         defense=int(csv_row["defense_stat"]),
                         special_attack=int(csv_row["special_attack_stat"]),
