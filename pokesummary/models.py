@@ -1,7 +1,8 @@
-from dataclasses import dataclass
-from collections import UserDict
 import csv
+from collections import UserDict
+from dataclasses import dataclass
 from importlib import resources
+
 from pokesummary import data
 
 
