@@ -4,6 +4,7 @@ import csv
 from importlib import resources
 from pokesummary import data
 
+
 @dataclass
 class Pokemon:
     name: str
@@ -18,31 +19,31 @@ class Pokemon:
     type_defenses: dict[str, float]
 
 
-def read_dataset_to_dictionary():
-    with resources.open_text(data, "pokemon_modified.csv") as f:
-        csv_iterator = csv.DictReader(f)
-
-        dataset_dict = {}
-        for csv_row in csv_iterator:
-            current_pokemon = Pokemon(
-                name=csv_row["pokemon_name"],
-                classification=csv_row["classification"],
-                height=float(csv_row["pokemon_height"]),
-                weight=float(csv_row["pokemon_weight"]),
-                primary_type=csv_row["primary_type"],
-                secondary_type=csv_row["secondary_type"],
-                base_stats=None,
-                type_defenses=None
-            )
-            dataset_dict[current_pokemon.name] = current_pokemon
-
-    return dataset_dict
-
-
 class PokemonDict(UserDict):
     def __init__(self):
-        pokemon_dictionary = read_dataset_to_dictionary()
+        pokemon_dictionary = self.read_dataset_to_dictionary()
         UserDict.__init__(self, pokemon_dictionary)
+
+    @staticmethod
+    def read_dataset_to_dictionary():
+        with resources.open_text(data, "pokemon_modified.csv") as f:
+            csv_iterator = csv.DictReader(f)
+
+            dataset_dict = {}
+            for csv_row in csv_iterator:
+                current_pokemon = Pokemon(
+                    name=csv_row["pokemon_name"],
+                    classification=csv_row["classification"],
+                    height=float(csv_row["pokemon_height"]),
+                    weight=float(csv_row["pokemon_weight"]),
+                    primary_type=csv_row["primary_type"],
+                    secondary_type=csv_row["secondary_type"],
+                    base_stats=None,
+                    type_defenses=None
+                )
+                dataset_dict[current_pokemon.name] = current_pokemon
+
+        return dataset_dict
 
 
 if __name__ == "__main__":
