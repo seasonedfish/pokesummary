@@ -27,8 +27,8 @@ def read_dataset_to_dictionary():
             current_pokemon = Pokemon(
                 name=csv_row["pokemon_name"],
                 classification=csv_row["classification"],
-                height=csv_row["pokemon_height"],
-                weight=csv_row["pokemon_weight"],
+                height=float(csv_row["pokemon_height"]),
+                weight=float(csv_row["pokemon_weight"]),
                 primary_type=csv_row["primary_type"],
                 secondary_type=csv_row["secondary_type"],
                 base_stats=None,
