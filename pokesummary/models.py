@@ -26,7 +26,6 @@ class Pokemon:
         total: int
 
     base_stats: BaseStats
-    type_defenses: dict[str, float]
 
 
 class PokemonDict(UserDict):
@@ -49,7 +48,6 @@ class PokemonDict(UserDict):
                     primary_type=csv_row["primary_type"],
                     secondary_type=csv_row["secondary_type"],
                     base_stats=None,
-                    type_defenses=None
                 )
                 dataset_dict[current_pokemon.name] = current_pokemon
 
