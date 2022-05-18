@@ -39,9 +39,8 @@ class PokemonDict(UserDict):
         with resources.open_text(data, "pokemon_modified.csv") as f:
             csv_iterator = csv.DictReader(f)
 
-            dataset_dict = {}
-            for csv_row in csv_iterator:
-                current_pokemon = Pokemon(
+            dataset_dict = {
+                csv_row["pokemon_name"]: Pokemon(
                     name=csv_row["pokemon_name"],
                     classification=csv_row["classification"],
                     height=float(csv_row["pokemon_height"]),
@@ -55,9 +54,10 @@ class PokemonDict(UserDict):
                         special_attack=int(csv_row["special_attack_stat"]),
                         special_defense=int(csv_row["special_defense_stat"]),
                         speed=int(csv_row["speed_stat"]),
-                    ),
+                    )
                 )
-                dataset_dict[current_pokemon.name] = current_pokemon
+                for csv_row in csv_iterator
+            }
 
         return dataset_dict
 
