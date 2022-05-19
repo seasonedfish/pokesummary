@@ -1,6 +1,5 @@
 import csv
 import itertools
-from enum import Enum
 from importlib import resources
 from typing import cast, Iterable
 
@@ -8,7 +7,7 @@ from pokesummary import data
 from pokesummary.models import Pokemon
 
 
-class Color(str, Enum):
+class Color:
     GREEN = "\033[49;32m"
     RED = "\033[49;31m"
 
