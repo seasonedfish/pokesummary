@@ -1,7 +1,7 @@
 import csv
 import itertools
 from importlib import resources
-from typing import cast, Iterable
+from typing import cast, Dict, Iterable, Tuple
 
 from pokesummary import data
 from pokesummary.models import Pokemon
@@ -36,7 +36,7 @@ with resources.open_text(data, "type_defenses_modified.csv") as f:
             # The inner tuple must be cast to [str, float];
             # otherwise, mypy will think that it's [str, str].
             cast(
-                Iterable[tuple[str, float]],
+                Iterable[Tuple[str, float]],
                 itertools.islice(row.items(), 1, len(row))
             )
         )
@@ -80,7 +80,7 @@ def get_base_stats_chart(pokemon: Pokemon) -> str:
     return "".join(string_list)
 
 
-def calculate_type_defenses(pokemon: Pokemon) -> dict[str, float]:
+def calculate_type_defenses(pokemon: Pokemon) -> Dict[str, float]:
     type1 = pokemon.primary_type
     type2 = pokemon.secondary_type
 
