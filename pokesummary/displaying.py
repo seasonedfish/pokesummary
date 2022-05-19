@@ -11,9 +11,9 @@ class Color:
     GREEN = "\033[49;32m"
     RED = "\033[49;31m"
 
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    END = '\033[0m'
+    BOLD = "\033[1m"
+    UNDERLINE = "\033[4m"
+    END = "\033[0m"
 
 
 multiplier_strings = {
@@ -22,7 +22,7 @@ multiplier_strings = {
     0.50: f"{Color.GREEN} ½ {Color.END}",
     1.00: "   ",
     2.00: f"{Color.RED} 2 {Color.END}",
-    4.00: f"{Color.RED} 4 {Color.END}"
+    4.00: f"{Color.RED} 4 {Color.END}",
 }
 
 # Parses the grid of type defenses.
@@ -127,7 +127,8 @@ def display_summary(pokemon: Pokemon) -> None:
     )
     print(
         f"{pokemon.height}m, "
-        f"{pokemon.weight}kg")
+        f"{pokemon.weight}kg"
+    )
     print(
         f"{pokemon.primary_type}"
         f"{', ' if pokemon.secondary_type != '' else ''}"
