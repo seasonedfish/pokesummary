@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import pandas as pd
+import csv
 
 
 def main():
@@ -17,7 +18,7 @@ def main():
     df = df.transpose()
     df.index.name = "defending_type"
 
-    df.to_csv("type_defenses_modified.csv")
+    df.to_csv("type_defenses_modified.csv", quoting=csv.QUOTE_NONNUMERIC)
 
 
 if __name__ == "__main__":

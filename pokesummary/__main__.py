@@ -2,7 +2,8 @@ import argparse
 import string
 import sys
 
-from pokesummary import __version__, displaying, parsing
+from pokesummary import __version__, displaying
+from pokesummary.models import PokemonDict
 
 
 def prepare_args(args=None):
@@ -17,7 +18,7 @@ def prepare_args(args=None):
         description="Get summaries for a Pokémon or multiple Pokémon."
     )
     parser.add_argument(
-        "pokemon",
+        "pokemon_names",
         nargs="*",
         help="the Pokémon to look up"
     )
@@ -75,7 +76,7 @@ we can use the following to display each of their summaries.
     print(examples)
 
 
-def safe_print(dictionary, pokemon):
+def safe_print(dictionary, pokemon_name):
     """
     Try to print a summary of a Pokémon.
 
@@ -83,22 +84,22 @@ def safe_print(dictionary, pokemon):
     handle it gracefully.
 
     :param dictionary: the dict of Pokémon name/Pokémon info pairs
-    :param pokemon: the Pokémon name to look up
+    :param pokemon_name: the Pokémon name to look up
     """
     try:
-        pokemon_stats = dictionary[pokemon]
+        pokemon = dictionary[pokemon_name]
     except KeyError:
-        print(f"Invalid Pokémon {pokemon}\n")
+        print(f"Invalid Pokémon {pokemon_name}\n")
         return
 
-    displaying.display_summary(pokemon, pokemon_stats)
+    displaying.display_summary(pokemon)
 
 
-def run_program(pokemon, interactive, show_examples):
+def run_program(pokemon_names, interactive, show_examples):
     """
     Run the program.
 
-    :param pokemon: a list of Pokémon names to look up
+    :param pokemon_names: a list of Pokémon names to look up
     :param interactive: if the program should read from standard input
     :param show_examples: if the program should print example uses
     """
@@ -106,22 +107,11 @@ def run_program(pokemon, interactive, show_examples):
         print_examples()
         return
 
-    # Parses the data of every Pokémon.
-    # The csv file is modified from
-    # Yu-Chi Chiang's dataset.
-    # https://www.kaggle.com/mrdew25/pokemon-database/discussion/165031
-    data_dictionary = parsing.csv_to_nested_dict(
-        "pokesummary.data",
-        "pokemon_modified.csv",
-        "pokemon_name"
-    )
+    data_dictionary = PokemonDict().data
 
-    input_pokemon = sys.stdin if interactive else pokemon
+    input_pokemon = sys.stdin if interactive else pokemon_names
     for pokemon in input_pokemon:
-        safe_print(
-            data_dictionary,
-            string.capwords(pokemon)
-        )
+        safe_print(data_dictionary, string.capwords(pokemon))
 
 
 def main():
