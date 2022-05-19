@@ -2,6 +2,7 @@ import csv
 import itertools
 from enum import Enum
 from importlib import resources
+from typing import cast, Iterable
 
 from pokesummary import data
 from pokesummary.models import Pokemon
@@ -32,7 +33,14 @@ multiplier_strings = {
 with resources.open_text(data, "type_defenses_modified.csv") as f:
     data_iterator = csv.DictReader(f, quoting=csv.QUOTE_NONNUMERIC)
     all_type_defenses = {
-        row["defending_type"]: dict(itertools.islice(row.items(), 1, len(row)))
+        row["defending_type"]: dict(
+            # The inner tuple must be cast to [str, float];
+            # otherwise, mypy will think that it's [str, str].
+            cast(
+                Iterable[tuple[str, float]],
+                itertools.islice(row.items(), 1, len(row))
+            )
+        )
         for row in data_iterator
     }
 
