@@ -1,9 +1,38 @@
 import csv
 from collections import UserDict
 from dataclasses import dataclass
+from enum import Enum
 from importlib import resources
+from typing import Optional
 
 from pokesummary import data
+
+
+class PokemonType(Enum):
+    NORMAL = "Normal"
+    FIRE = "Fire"
+    WATER = "Water"
+    ELECTRIC = "Electric"
+    GRASS = "Grass"
+    ICE = "Ice"
+    FIGHTING = "Fighting"
+    POISON = "Poison"
+    GROUND = "Ground"
+    FLYING = "Flying"
+    PSYCHIC = "Psychic"
+    BUG = "Bug"
+    ROCK = "Rock"
+    GHOST = "Ghost"
+    DRAGON = "Dragon"
+    DARK = "Dark"
+    STEEL = "Steel"
+    FAIRY = "Fairy"
+
+    @staticmethod
+    def optional_pokemon_type(s: str):
+        if s == "":
+            return None
+        return PokemonType(s)
 
 
 @dataclass(frozen=True)
@@ -23,8 +52,8 @@ class Pokemon:
     height: float
     weight: float
 
-    primary_type: str
-    secondary_type: str
+    primary_type: PokemonType
+    secondary_type: Optional[PokemonType]
 
     base_stats: BaseStats
 
@@ -45,8 +74,8 @@ class PokemonDict(UserDict):
                     classification=csv_row["classification"],
                     height=float(csv_row["pokemon_height"]),
                     weight=float(csv_row["pokemon_weight"]),
-                    primary_type=csv_row["primary_type"],
-                    secondary_type=csv_row["secondary_type"],
+                    primary_type=PokemonType(csv_row["primary_type"]),
+                    secondary_type=PokemonType.optional_pokemon_type(csv_row["secondary_type"]),
                     base_stats=BaseStats(
                         hp=int(csv_row["health_stat"]),
                         attack=int(csv_row["attack_stat"]),
