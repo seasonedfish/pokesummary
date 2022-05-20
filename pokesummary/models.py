@@ -3,6 +3,7 @@ from collections import UserDict
 from dataclasses import dataclass
 from importlib import resources
 from enum import Enum
+from typing import Optional
 
 from pokesummary import data
 
@@ -26,7 +27,12 @@ class PokemonType(Enum):
     DARK = "Dark"
     STEEL = "Steel"
     FAIRY = "Fairy"
-    NO_TYPE = ""
+
+    @staticmethod
+    def optional_pokemon_type(s: str):
+        if s == "":
+            return None
+        return PokemonType(s)
 
 
 @dataclass(frozen=True)
@@ -47,7 +53,7 @@ class Pokemon:
     weight: float
 
     primary_type: PokemonType
-    secondary_type: PokemonType
+    secondary_type: Optional[PokemonType]
 
     base_stats: BaseStats
 
@@ -69,7 +75,7 @@ class PokemonDict(UserDict):
                     height=float(csv_row["pokemon_height"]),
                     weight=float(csv_row["pokemon_weight"]),
                     primary_type=PokemonType(csv_row["primary_type"]),
-                    secondary_type=PokemonType(csv_row["secondary_type"]),
+                    secondary_type=PokemonType.optional_pokemon_type(csv_row["secondary_type"]),
                     base_stats=BaseStats(
                         hp=int(csv_row["health_stat"]),
                         attack=int(csv_row["attack_stat"]),

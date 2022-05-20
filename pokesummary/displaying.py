@@ -49,6 +49,13 @@ with resources.open_text(data, "type_defenses_modified.csv") as f:
     }
 
 
+def get_types_string(pokemon: Pokemon) -> str:
+    if pokemon.secondary_type is None:
+        return pokemon.primary_type.value
+    else:
+        return f"{pokemon.primary_type.value}, {pokemon.secondary_type.value}"
+
+
 def get_base_stats_chart(pokemon: Pokemon) -> str:
     base_stats = vars(pokemon.base_stats)
 
@@ -89,7 +96,7 @@ def calculate_type_defenses(pokemon: Pokemon) -> TypeDefenses:
     type1 = pokemon.primary_type
     type2 = pokemon.secondary_type
 
-    if type2 == PokemonType.NO_TYPE:
+    if type2 is None:
         return all_type_defenses[type1]
     else:
         return {
@@ -134,11 +141,7 @@ def display_summary(pokemon: Pokemon) -> None:
         f"{pokemon.height}m, "
         f"{pokemon.weight}kg"
     )
-    print(
-        f"{pokemon.primary_type.value}"
-        f"{', ' if pokemon.secondary_type != PokemonType.NO_TYPE else ''}"
-        f"{pokemon.secondary_type.value}"
-    )
+    print(get_types_string(pokemon))
     print()
 
     print(f"{Color.BOLD}BASE STATS{Color.END}")
