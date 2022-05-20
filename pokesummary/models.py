@@ -36,7 +36,7 @@ class PokemonType(Enum):
 
 
 @dataclass(frozen=True)
-class BaseStats:
+class PokemonBaseStats:
     hp: int
     attack: int
     defense: int
@@ -55,7 +55,7 @@ class Pokemon:
     primary_type: PokemonType
     secondary_type: Optional[PokemonType]
 
-    base_stats: BaseStats
+    base_stats: PokemonBaseStats
 
 
 class PokemonDict(UserDict):
@@ -76,7 +76,7 @@ class PokemonDict(UserDict):
                     weight=float(csv_row["pokemon_weight"]),
                     primary_type=PokemonType(csv_row["primary_type"]),
                     secondary_type=PokemonType.optional_pokemon_type(csv_row["secondary_type"]),
-                    base_stats=BaseStats(
+                    base_stats=PokemonBaseStats(
                         hp=int(csv_row["health_stat"]),
                         attack=int(csv_row["attack_stat"]),
                         defense=int(csv_row["defense_stat"]),
