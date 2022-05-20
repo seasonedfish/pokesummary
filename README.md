@@ -11,13 +11,13 @@ It requires no third-party libraries.
 
 
 ## Usage
-```txt
-usage: pokesummary [-h] [-i] [-s] [-v] [pokemon [pokemon ...]]
+```console
+usage: pokesummary [-h] [-i] [-s] [-v] [pokemon_names ...]
 
 Get summaries for a Pokémon or multiple Pokémon.
 
 positional arguments:
-  pokemon              the Pokémon to look up
+  pokemon_names        the Pokémon to look up
 
 optional arguments:
   -h, --help           show this help message and exit
