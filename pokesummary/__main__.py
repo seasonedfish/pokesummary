@@ -2,8 +2,8 @@ import argparse
 import string
 import sys
 
-from pokesummary import __version__, displaying
-from pokesummary.models import PokemonDict
+from pokesummary import __version__, view
+from pokesummary.model import PokemonDict
 
 
 def prepare_args(args=None):
@@ -92,7 +92,7 @@ def safe_print(dictionary, pokemon_name):
         print(f"Invalid Pokémon {pokemon_name}\n")
         return
 
-    displaying.display_summary(pokemon)
+    view.display_summary(pokemon)
 
 
 def run_program(pokemon_names, interactive, show_examples):

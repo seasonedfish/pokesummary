@@ -4,7 +4,7 @@ from importlib import resources
 from typing import cast, Dict, List
 
 from pokesummary import data
-from pokesummary.models import Pokemon, PokemonType
+from pokesummary.model import Pokemon, PokemonType
 
 
 class Color:
