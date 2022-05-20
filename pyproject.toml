@@ -7,9 +7,9 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/tactlessfish/pokesummary"
 exclude = [
-    "pokesummary/data/modify_pokemon.py",
+    "pokesummary/data/modify_pokemon",
     "pokesummary/data/pokemon_original.csv",
-    "pokesummary/data/modify_type_defenses.py",
+    "pokesummary/data/modify_type_defenses",
     "pokesummary/data/type_defenses_original.csv"
 ]
 
