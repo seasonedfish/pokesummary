@@ -21,11 +21,11 @@ TypeDefenses = Dict[PokemonType, float]
 
 class TypeDefensesDict(UserDict):
     def __init__(self):
-        type_defenses_dict = self.read_dataset_to_dictionary()
+        type_defenses_dict = self._read_dataset_to_dict()
         UserDict.__init__(self, type_defenses_dict)
 
     @staticmethod
-    def read_dataset_to_dictionary() -> Dict[PokemonType, TypeDefenses]:
+    def _read_dataset_to_dict() -> Dict[PokemonType, TypeDefenses]:
         # Parses the grid of type defenses.
         # The csv file is modified from the
         # visual chart on Pokémon Database.

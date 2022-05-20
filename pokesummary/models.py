@@ -60,11 +60,11 @@ class Pokemon:
 
 class PokemonDict(UserDict):
     def __init__(self):
-        pokemon_dictionary = self.read_dataset_to_dictionary()
-        UserDict.__init__(self, pokemon_dictionary)
+        pokemon_dict = self._read_dataset_to_dict()
+        UserDict.__init__(self, pokemon_dict)
 
     @staticmethod
-    def read_dataset_to_dictionary():
+    def _read_dataset_to_dict():
         with resources.open_text(data, "pokemon_modified.csv") as f:
             csv_iterator = csv.DictReader(f)
 
@@ -91,6 +91,10 @@ class PokemonDict(UserDict):
         return dataset_dict
 
 
-if __name__ == "__main__":
+def main():
     pokemon_dict = PokemonDict()
     print("It worked!!")
+
+
+if __name__ == "__main__":
+    main()
