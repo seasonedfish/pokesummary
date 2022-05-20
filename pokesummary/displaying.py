@@ -1,5 +1,6 @@
 import csv
 from importlib import resources
+from typing import cast
 
 from pokesummary import data
 from pokesummary.models import Pokemon, PokemonType
@@ -38,7 +39,7 @@ with resources.open_text(data, "type_defenses_modified.csv") as f:
 
     all_type_defenses = {
         PokemonType(row[0]): TypeDefenses(
-            zip(attacking_types, row[1:])
+            zip(attacking_types, cast(list[float], row[1:]))
         )
         for row in data_iterator
     }
