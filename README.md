@@ -11,6 +11,8 @@ It requires no third-party libraries.
 
 
 ## Usage
+
+### Command-line usage
 ```console
 usage: pokesummary [-h] [-i] [-s] [-v] [pokemon_names ...]
 
@@ -24,6 +26,19 @@ optional arguments:
   -i, --interactive    run interactively
   -s, --show-examples  show example uses of the program
   -v, --version        show program's version number and exit
+```
+
+### Python library usage
+Starting from version 2.0.0, you can use Pokésummary as a library.
+Note that the API is subject to change.
+```pycon
+>>> from pokesummary.model import PokemonDict
+>>> pokemon_data = PokemonDict().data
+>>> my_pokemon = pokemon_data["Lanturn"]
+>>> my_pokemon.base_stats.special_attack
+76
+>>> my_pokemon.primary_type
+<PokemonType.WATER: 'Water'>
 ```
 
 ## Installation
