@@ -1,8 +1,8 @@
 import csv
 from collections import UserDict
 from dataclasses import dataclass
-from importlib import resources
 from enum import Enum
+from importlib import resources
 from typing import Optional
 
 from pokesummary import data
