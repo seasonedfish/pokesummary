@@ -16,15 +16,6 @@ class Color:
     END = "\033[0m"
 
 
-MULTIPLIER_STRINGS = {
-    0.00: f"{Color.GREEN} 0 {Color.END}",
-    0.25: f"{Color.GREEN} ¼ {Color.END}",
-    0.50: f"{Color.GREEN} ½ {Color.END}",
-    1.00: "   ",
-    2.00: f"{Color.RED} 2 {Color.END}",
-    4.00: f"{Color.RED} 4 {Color.END}",
-}
-
 TypeDefenses = Dict[PokemonType, float]
 
 
@@ -57,6 +48,15 @@ class TypeDefensesDict(UserDict):
 
 
 ALL_TYPE_DEFENSES = TypeDefensesDict().data
+
+MULTIPLIER_STRINGS = {
+    0.00: f"{Color.GREEN} 0 {Color.END}",
+    0.25: f"{Color.GREEN} ¼ {Color.END}",
+    0.50: f"{Color.GREEN} ½ {Color.END}",
+    1.00: "   ",
+    2.00: f"{Color.RED} 2 {Color.END}",
+    4.00: f"{Color.RED} 4 {Color.END}",
+}
 
 
 def get_types_string(pokemon: Pokemon) -> str:
