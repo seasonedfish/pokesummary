@@ -53,6 +53,9 @@ pip3 install .
 pip3 uninstall pokesummary
 ```
 
+## Contributing
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
 ## Acknowledgements
 - Type chart from [Pokémon Database](https://pokemondb.net/type)
 - Pokémon data from [Yu-Chi Chiang's fixed database](https://www.kaggle.com/mrdew25/pokemon-database/discussion/165031)
