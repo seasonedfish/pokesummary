@@ -37,7 +37,7 @@ see [here](https://superuser.com/questions/413073/windows-console-with-ansi-colo
 ### Install from PyPI
 1. Install using pip
 ```sh
-pip install pokesummary
+pip3 install pokesummary
 ```
 
 ### Install from Source Code
