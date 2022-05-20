@@ -33,6 +33,7 @@ TypeDefenses = dict[PokemonType, float]
 with resources.open_text(data, "type_defenses_modified.csv") as f:
     # The QUOTE_NONNUMERIC part allows us to read numbers directly as floats.
     data_iterator = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
+    # Gets the column names as a list of PokemonType members.
     attacking_types = list(
         map(lambda x: PokemonType(x), data_iterator.__next__()[1:])
     )
