@@ -15,7 +15,7 @@ class Color:
     END = "\033[0m"
 
 
-multiplier_strings = {
+MULTIPLIER_STRINGS = {
     0.00: f"{Color.GREEN} 0 {Color.END}",
     0.25: f"{Color.GREEN} ¼ {Color.END}",
     0.50: f"{Color.GREEN} ½ {Color.END}",
@@ -112,7 +112,7 @@ def get_type_defenses_chart(pokemon: Pokemon) -> str:
     row1 = "|".join(abbreviations)
 
     multipliers = [
-        f"{multiplier_strings[multiplier]}"
+        f"{MULTIPLIER_STRINGS[multiplier]}"
         for _, multiplier in type_defenses.items()
     ]
     row2 = "|".join(multipliers)
