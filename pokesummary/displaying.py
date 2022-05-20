@@ -1,6 +1,6 @@
 import csv
 from importlib import resources
-from typing import cast, Dict
+from typing import cast, Dict, List
 
 from pokesummary import data
 from pokesummary.models import Pokemon, PokemonType
@@ -38,9 +38,9 @@ with resources.open_text(data, "type_defenses_modified.csv") as f:
         map(lambda s: PokemonType(s), data_iterator.__next__()[1:])
     )
 
-    all_type_defenses = {
-        PokemonType(row[0]): TypeDefenses(
-            zip(attacking_types, cast(list[float], row[1:]))
+    all_type_defenses: Dict[PokemonType, TypeDefenses] = {
+        PokemonType(row[0]): dict(
+            zip(attacking_types, cast(List[float], row[1:]))
         )
         for row in data_iterator
     }
