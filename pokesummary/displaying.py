@@ -94,7 +94,7 @@ def calculate_type_defenses(pokemon: Pokemon) -> TypeDefenses:
     else:
         return {
             k: all_type_defenses[type1][k] * all_type_defenses[type2][k]
-            for k in all_type_defenses[type1].keys()
+            for k in PokemonType
         }
 
 
