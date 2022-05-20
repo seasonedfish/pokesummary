@@ -26,8 +26,24 @@ multiplier_strings = {
 
 TypeDefenses = TypedDict(
     "TypeDefenses", {
-        pokemon_type: float
-        for pokemon_type in PokemonType
+        PokemonType.NORMAL: float,
+        PokemonType.FIRE: float,
+        PokemonType.WATER: float,
+        PokemonType.ELECTRIC: float,
+        PokemonType.GRASS: float,
+        PokemonType.ICE: float,
+        PokemonType.FIGHTING: float,
+        PokemonType.POISON: float,
+        PokemonType.GROUND: float,
+        PokemonType.FLYING: float,
+        PokemonType.PSYCHIC: float,
+        PokemonType.BUG: float,
+        PokemonType.ROCK: float,
+        PokemonType.GHOST: float,
+        PokemonType.DRAGON: float,
+        PokemonType.DARK: float,
+        PokemonType.STEEL: float,
+        PokemonType.FAIRY: float
     }
 )
 
