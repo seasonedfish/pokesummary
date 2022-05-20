@@ -36,6 +36,7 @@ TypeDefenses = TypedDict(
 # visual chart on Pokémon Database.
 # https://pokemondb.net/type
 with resources.open_text(data, "type_defenses_modified.csv") as f:
+    # The QUOTE_NONNUMERIC part allows us to read numbers directly as floats.
     data_iterator = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
     attacking_types = list(
         map(lambda x: PokemonType(x), data_iterator.__next__()[1:])
