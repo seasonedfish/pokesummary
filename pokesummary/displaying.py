@@ -1,6 +1,6 @@
 import csv
 from importlib import resources
-from typing import cast
+from typing import cast, Dict
 
 from pokesummary import data
 from pokesummary.models import Pokemon, PokemonType
@@ -24,7 +24,7 @@ multiplier_strings = {
     4.00: f"{Color.RED} 4 {Color.END}",
 }
 
-TypeDefenses = dict[PokemonType, float]
+TypeDefenses = Dict[PokemonType, float]
 
 # Parses the grid of type defenses.
 # The csv file is modified from the
