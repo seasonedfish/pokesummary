@@ -133,7 +133,7 @@ def get_type_defenses_chart(pokemon: Pokemon) -> str:
     return "\n".join([row1, row2])
 
 
-def display_summary(pokemon: Pokemon) -> None:
+def print_summary(pokemon: Pokemon) -> None:
     """
     Display a Pokémon's summary.
 

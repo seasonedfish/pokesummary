@@ -92,7 +92,7 @@ def safe_print(dictionary, pokemon_name):
         print(f"Invalid Pokémon {pokemon_name}\n")
         return
 
-    view.display_summary(pokemon)
+    view.print_summary(pokemon)
 
 
 def run_program(pokemon_names, interactive, show_examples):
