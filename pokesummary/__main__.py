@@ -1,3 +1,8 @@
+"""
+This module provides the command-line interface for Pokésummary.
+In terms of model-view-controller, this is the controller.
+"""
+
 import argparse
 import string
 import sys

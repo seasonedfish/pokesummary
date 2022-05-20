@@ -1,3 +1,9 @@
+"""
+This module contains the model part
+of the model-view-controller organization of Pokésummary.
+The classes here are used to store information about Pokémon.
+"""
+
 import csv
 from collections import UserDict
 from dataclasses import dataclass

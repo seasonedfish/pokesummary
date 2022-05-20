@@ -1,3 +1,9 @@
+"""
+This module contains the view part
+of the model-view-controller organization of Pokésummary.
+The classes and functions here are used to display model.Pokemon objects.
+"""
+
 import csv
 from collections import UserDict
 from importlib import resources
