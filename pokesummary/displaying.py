@@ -1,4 +1,5 @@
 import csv
+from collections import UserDict
 from importlib import resources
 from typing import cast, Dict, List
 
@@ -26,24 +27,36 @@ MULTIPLIER_STRINGS = {
 
 TypeDefenses = Dict[PokemonType, float]
 
-# Parses the grid of type defenses.
-# The csv file is modified from the
-# visual chart on Pokémon Database.
-# https://pokemondb.net/type
-with resources.open_text(data, "type_defenses_modified.csv") as f:
-    # The QUOTE_NONNUMERIC part allows us to read numbers directly as floats.
-    data_iterator = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
-    # Gets the column names as a list of PokemonType members.
-    attacking_types = list(
-        map(lambda s: PokemonType(s), data_iterator.__next__()[1:])
-    )
 
-    all_type_defenses: Dict[PokemonType, TypeDefenses] = {
-        PokemonType(row[0]): dict(
-            zip(attacking_types, cast(List[float], row[1:]))
-        )
-        for row in data_iterator
-    }
+class TypeDefensesDict(UserDict):
+    def __init__(self):
+        type_defenses_dict = self.read_dataset_to_dictionary()
+        UserDict.__init__(self, type_defenses_dict)
+
+    @staticmethod
+    def read_dataset_to_dictionary() -> Dict[PokemonType, TypeDefenses]:
+        # Parses the grid of type defenses.
+        # The csv file is modified from the
+        # visual chart on Pokémon Database.
+        # https://pokemondb.net/type
+        with resources.open_text(data, "type_defenses_modified.csv") as f:
+            # The QUOTE_NONNUMERIC part allows us to read numbers directly as floats.
+            data_iterator = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
+            # Gets the column names as a list of PokemonType members.
+            attacking_types = list(
+                map(lambda s: PokemonType(s), data_iterator.__next__()[1:])
+            )
+
+            all_type_defenses: Dict[PokemonType, TypeDefenses] = {
+                PokemonType(row[0]): dict(
+                    zip(attacking_types, cast(List[float], row[1:]))
+                )
+                for row in data_iterator
+            }
+        return all_type_defenses
+
+
+ALL_TYPE_DEFENSES = TypeDefensesDict().data
 
 
 def get_types_string(pokemon: Pokemon) -> str:
@@ -94,10 +107,10 @@ def calculate_type_defenses(pokemon: Pokemon) -> TypeDefenses:
     type2 = pokemon.secondary_type
 
     if type2 is None:
-        return all_type_defenses[type1]
+        return ALL_TYPE_DEFENSES[type1]
     else:
         return {
-            t: all_type_defenses[type1][t] * all_type_defenses[type2][t]
+            t: ALL_TYPE_DEFENSES[type1][t] * ALL_TYPE_DEFENSES[type2][t]
             for t in PokemonType
         }
 
