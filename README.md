@@ -36,20 +36,20 @@ see [here](https://superuser.com/questions/413073/windows-console-with-ansi-colo
 
 ### Install from PyPI
 1. Install using pip
-```sh
+```console
 pip3 install pokesummary
 ```
 
 ### Install from Source Code
 1. Clone or download the repository
 2. Install using pip
-```sh
+```console
 pip3 install .
 ```
 
 ### Uninstall
 1. Uninstall using pip
-```sh
+```console
 pip3 uninstall pokesummary
 ```
 
