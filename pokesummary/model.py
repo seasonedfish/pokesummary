@@ -34,11 +34,11 @@ class PokemonType(Enum):
     STEEL = "Steel"
     FAIRY = "Fairy"
 
-    @staticmethod
-    def optional_pokemon_type(s: str):
+    @classmethod
+    def optional_pokemon_type(cls, s: str):
         if s == "":
             return None
-        return PokemonType(s)
+        return cls(s)
 
 
 @dataclass(frozen=True)
