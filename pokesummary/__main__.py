@@ -49,15 +49,15 @@ def print_examples():
     """
     Print example uses of the program, along with commentary.
     """
-    examples = """The simplest example is passing a Pokémon as an argument.
+    examples = """The simplest example is passing a Pokémon name as an argument.
 Here, we want to display Bulbasaur's summary,
 so we pass `bulbasaur` as an argument.
 
     pokesummary bulbasaur
 
-Multiple Pokémon can be chained.
-Now, we pass Bulbasaur's whole evolution line.
-Note that Pokémon with multi-word names
+Multiple Pokémon names can be chained.
+Now, we pass the names of Bulbasaur's whole evolution line.
+Note that Pokémon names consisting of multiple words
 (e.g. Mega Venusaur) must be surrounded by quotation marks.
 
     pokesummary bulbasaur ivysaur venusaur "mega venusaur"
