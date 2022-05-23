@@ -7,13 +7,14 @@ The classes here are used to store information about Pokémon.
 import csv
 from collections import UserDict
 from dataclasses import dataclass
-from enum import Enum
+from enum import Enum, unique
 from importlib import resources
 from typing import Optional
 
 from pokesummary import data
 
 
+@unique
 class PokemonType(Enum):
     NORMAL = "Normal"
     FIRE = "Fire"
