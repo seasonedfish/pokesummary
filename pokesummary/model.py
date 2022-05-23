@@ -96,12 +96,3 @@ class PokemonDict(UserDict):
             }
 
         return dataset_dict
-
-
-def main():
-    pokemon_dict = PokemonDict()
-    print("It worked!!")
-
-
-if __name__ == "__main__":
-    main()
