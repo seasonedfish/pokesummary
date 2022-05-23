@@ -32,10 +32,9 @@ class TypeDefensesDict(UserDict):
 
     @staticmethod
     def _read_dataset_to_dict() -> Dict[PokemonType, TypeDefenses]:
-        # Parses the grid of type defenses.
-        # The csv file is modified from the
-        # visual chart on Pokémon Database.
-        # https://pokemondb.net/type
+        """
+        Parse the grid of type defenses.
+        """
         with resources.open_text(data, "type_defenses_modified.csv") as f:
             # The QUOTE_NONNUMERIC part allows us to read numbers directly as floats.
             data_iterator = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
