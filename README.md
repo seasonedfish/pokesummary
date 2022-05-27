@@ -44,7 +44,6 @@ we can use the following to display each of their summaries.
 
 ### Python library usage
 Starting from version 2.0.0, you can use Pokésummary as a library.
-Note that the API is subject to change.
 ```pycon
 >>> from pokesummary.model import PokemonDict
 >>> pokemon_dict = PokemonDict()
