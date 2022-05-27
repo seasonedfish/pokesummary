@@ -47,12 +47,10 @@ Starting from version 2.0.0, you can use Pokésummary as a library.
 Note that the API is subject to change.
 ```pycon
 >>> from pokesummary.model import PokemonDict
->>> pokemon_data = PokemonDict().data
->>> my_pokemon = pokemon_data["Lanturn"]
->>> my_pokemon.base_stats.special_attack
-76
->>> my_pokemon.primary_type
-<PokemonType.WATER: 'Water'>
+>>> pokemon_dict = PokemonDict()
+>>> my_pokemon = pokemon_dict["Lanturn"]
+>>> my_pokemon
+Pokemon(name='Lanturn', classification='Light Pokémon', height=1.2, weight=22.5, primary_type=<PokemonType.WATER: 'Water'>, secondary_type=<PokemonType.ELECTRIC: 'Electric'>, base_stats=PokemonBaseStats(hp=125, attack=58, defense=58, special_attack=76, special_defense=76, speed=67))
 ```
 
 ## Installation

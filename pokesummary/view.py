@@ -52,7 +52,7 @@ class TypeDefensesDict(UserDict):
         return all_type_defenses
 
 
-ALL_TYPE_DEFENSES = TypeDefensesDict().data
+ALL_TYPE_DEFENSES = TypeDefensesDict()
 
 MULTIPLIER_STRINGS = {
     0.00: f"{Color.GREEN} 0 {Color.END}",

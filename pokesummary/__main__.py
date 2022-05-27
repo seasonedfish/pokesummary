@@ -112,11 +112,11 @@ def run_program(pokemon_names, interactive, show_examples):
         print_examples()
         return
 
-    data_dictionary = PokemonDict().data
+    pokemon_dict = PokemonDict()
 
     input_pokemon = sys.stdin if interactive else pokemon_names
     for pokemon in input_pokemon:
-        safe_print(data_dictionary, string.capwords(pokemon))
+        safe_print(pokemon_dict, string.capwords(pokemon))
 
 
 def main():
