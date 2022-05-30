@@ -39,9 +39,10 @@ class TypeDefensesDict(UserDict):
             # The QUOTE_NONNUMERIC part allows us to read numbers directly as floats.
             data_iterator = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
             # Gets the column names as a list of PokemonType members.
-            attacking_types = list(
-                map(PokemonType, data_iterator.__next__()[1:])
-            )
+            attacking_types = [
+                PokemonType(s)
+                for s in data_iterator.__next__()[1:]
+            ]
 
             all_type_defenses: Dict[PokemonType, TypeDefenses] = {
                 PokemonType(row[0]): dict(
