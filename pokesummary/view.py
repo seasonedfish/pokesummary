@@ -44,7 +44,7 @@ class TypeDefensesDict(UserDict):
                 for s in data_iterator.__next__()[1:]
             ]
 
-            all_type_defenses: Dict[PokemonType, TypeDefenses] = {
+            all_type_defenses = {
                 PokemonType(row[0]): dict(
                     zip(attacking_types, cast(List[float], row[1:]))
                 )
