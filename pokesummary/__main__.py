@@ -11,7 +11,7 @@ from pokesummary import __version__, view
 from pokesummary.model import PokemonDict
 
 
-def prepare_args(args=None):
+def prepare_args(args=None) -> argparse.Namespace:
     """
     Use argparse to create the command-line interface.
 
@@ -45,7 +45,7 @@ def prepare_args(args=None):
     return parser.parse_args(args)
 
 
-def print_examples():
+def print_examples() -> None:
     """
     Print example uses of the program, along with commentary.
     """
@@ -81,7 +81,7 @@ we can use the following to display each of their summaries.
     print(examples)
 
 
-def safe_print(dictionary, pokemon_name):
+def safe_print(dictionary, pokemon_name) -> None:
     """
     Try to print a summary of a Pokémon.
 
@@ -100,7 +100,7 @@ def safe_print(dictionary, pokemon_name):
     view.print_summary(pokemon)
 
 
-def run_program(pokemon_names, interactive, show_examples):
+def run_program(pokemon_names, interactive, show_examples) -> None:
     """
     Run the program.
 
@@ -119,7 +119,7 @@ def run_program(pokemon_names, interactive, show_examples):
         safe_print(pokemon_dict, string.capwords(pokemon))
 
 
-def main():
+def main() -> None:
     """
     Driver code.
     """
