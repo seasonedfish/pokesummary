@@ -3,15 +3,15 @@ This module provides the command-line interface for Pokésummary.
 In terms of model-view-controller, this is the controller.
 """
 
-import argparse
 import string
 import sys
+from argparse import ArgumentParser, Namespace
 
 from pokesummary import __version__, view
 from pokesummary.model import PokemonDict
 
 
-def prepare_args(args=None) -> argparse.Namespace:
+def prepare_args(args=None) -> Namespace:
     """
     Use argparse to create the command-line interface.
 
@@ -19,7 +19,7 @@ def prepare_args(args=None) -> argparse.Namespace:
     If no value is given, use the sys.argv[1:] arguments.
     :return: the namespace of program arguments
     """
-    parser = argparse.ArgumentParser(
+    parser = ArgumentParser(
         description="Get summaries for a Pokémon or multiple Pokémon."
     )
     parser.add_argument(
