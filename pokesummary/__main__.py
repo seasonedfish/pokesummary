@@ -94,7 +94,7 @@ def safe_print(dictionary, pokemon_name) -> None:
     try:
         pokemon = dictionary[pokemon_name]
     except KeyError:
-        print(f"Invalid Pokémon {pokemon_name}\n")
+        print(f"Pokémon \"{pokemon_name}\" not found\n", file=sys.stderr)
         return
 
     view.print_summary(pokemon)
