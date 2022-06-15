@@ -9,7 +9,7 @@ from collections import UserDict
 from dataclasses import dataclass
 from enum import Enum, unique
 from importlib import resources
-from typing import Optional
+from typing import Dict, Optional
 
 from pokesummary import data
 
@@ -71,7 +71,7 @@ class PokemonDict(UserDict):
         UserDict.__init__(self, pokemon_dict)
 
     @staticmethod
-    def _read_dataset_to_dict():
+    def _read_dataset_to_dict() -> Dict[str, Pokemon]:
         with resources.open_text(data, "pokemon_modified.csv") as f:
             csv_iterator = csv.DictReader(f)
 
