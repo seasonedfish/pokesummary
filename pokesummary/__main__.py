@@ -1,17 +1,11 @@
-"""
-This module provides the command-line interface for Pokésummary.
-In terms of model-view-controller, this is the controller.
-"""
-
+import argparse
 import string
 import sys
-from argparse import ArgumentParser, Namespace
 
-from pokesummary import __version__, view
-from pokesummary.model import PokemonDict
+from pokesummary import __version__, displaying, parsing
 
 
-def prepare_args(args=None) -> Namespace:
+def prepare_args(args=None):
     """
     Use argparse to create the command-line interface.
 
@@ -19,11 +13,11 @@ def prepare_args(args=None) -> Namespace:
     If no value is given, use the sys.argv[1:] arguments.
     :return: the namespace of program arguments
     """
-    parser = ArgumentParser(
+    parser = argparse.ArgumentParser(
         description="Get summaries for a Pokémon or multiple Pokémon."
     )
     parser.add_argument(
-        "pokemon_names",
+        "pokemon",
         nargs="*",
         help="the Pokémon to look up"
     )
@@ -45,19 +39,19 @@ def prepare_args(args=None) -> Namespace:
     return parser.parse_args(args)
 
 
-def print_examples() -> None:
+def print_examples():
     """
     Print example uses of the program, along with commentary.
     """
-    examples = """The simplest example is passing a Pokémon name as an argument.
+    examples = """The simplest example is passing a Pokémon as an argument.
 Here, we want to display Bulbasaur's summary,
 so we pass `bulbasaur` as an argument.
 
     pokesummary bulbasaur
 
-Multiple Pokémon names can be chained.
-Now, we pass the names of Bulbasaur's whole evolution line.
-Note that Pokémon names consisting of multiple words
+Multiple Pokémon can be chained.
+Now, we pass Bulbasaur's whole evolution line.
+Note that Pokémon with multi-word names
 (e.g. Mega Venusaur) must be surrounded by quotation marks.
 
     pokesummary bulbasaur ivysaur venusaur "mega venusaur"
@@ -81,7 +75,7 @@ we can use the following to display each of their summaries.
     print(examples)
 
 
-def safe_print(dictionary, pokemon_name) -> None:
+def safe_print(dictionary, pokemon):
     """
     Try to print a summary of a Pokémon.
 
@@ -89,22 +83,22 @@ def safe_print(dictionary, pokemon_name) -> None:
     handle it gracefully.
 
     :param dictionary: the dict of Pokémon name/Pokémon info pairs
-    :param pokemon_name: the Pokémon name to look up
+    :param pokemon: the Pokémon name to look up
     """
     try:
-        pokemon = dictionary[pokemon_name]
+        pokemon_stats = dictionary[pokemon]
     except KeyError:
-        print(f"Pokémon \"{pokemon_name}\" not found\n", file=sys.stderr)
+        print(f"Invalid Pokémon {pokemon}\n")
         return
 
-    view.print_summary(pokemon)
+    displaying.display_summary(pokemon, pokemon_stats)
 
 
-def run_program(pokemon_names, interactive, show_examples) -> None:
+def run_program(pokemon, interactive, show_examples):
     """
     Run the program.
 
-    :param pokemon_names: a list of Pokémon names to look up
+    :param pokemon: a list of Pokémon names to look up
     :param interactive: if the program should read from standard input
     :param show_examples: if the program should print example uses
     """
@@ -112,14 +106,25 @@ def run_program(pokemon_names, interactive, show_examples) -> None:
         print_examples()
         return
 
-    pokemon_dict = PokemonDict()
+    # Parses the data of every Pokémon.
+    # The csv file is modified from
+    # Yu-Chi Chiang's dataset.
+    # https://www.kaggle.com/mrdew25/pokemon-database/discussion/165031
+    data_dictionary = parsing.csv_to_nested_dict(
+        "pokesummary.data",
+        "pokemon_modified_new.csv",
+        "pokemon_name"
+    )
 
-    input_pokemon = sys.stdin if interactive else pokemon_names
+    input_pokemon = sys.stdin if interactive else pokemon
     for pokemon in input_pokemon:
-        safe_print(pokemon_dict, string.capwords(pokemon))
+        safe_print(
+            data_dictionary,
+            string.capwords(pokemon)
+        )
 
 
-def main() -> None:
+def main():
     """
     Driver code.
     """

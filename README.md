@@ -11,45 +11,19 @@ It requires no third-party libraries.
 
 
 ## Usage
+```txt
+usage: pokesummary [-h] [-i] [-s] [-v] [pokemon [pokemon ...]]
 
-### Command-line usage
-The simplest example is passing a Pokémon name as an argument.
-Here, we want to display Bulbasaur's summary,
-so we pass `bulbasaur` as an argument.
+Get summaries for a Pokémon or multiple Pokémon.
 
-    pokesummary bulbasaur
+positional arguments:
+  pokemon              the Pokémon to look up
 
-Multiple Pokémon names can be chained.
-Now, we pass the names of Bulbasaur's whole evolution line.
-Note that Pokémon names consisting of multiple words
-(e.g. Mega Venusaur) must be surrounded by quotation marks.
-
-    pokesummary bulbasaur ivysaur venusaur "mega venusaur"
-
-If you would like to run pokesummary interactively,
-use the `-i` flag.
-Now we can type several Pokémon names,
-hitting Enter after each one.
-Use Ctrl-D (EOF) to exit.
-
-    pokesummary -i
-
-Since the `-i` flag reads from standard input,
-we can pipe Pokémon names to it.
-If we have a file `pokemon_names.txt`
-filled with Pokémon names (each separated by newline),
-we can use the following to display each of their summaries.
-
-    cat pokemon_names.txt | pokesummary -i
-
-### Python library usage
-Starting from version 2.0.0, you can use Pokésummary as a library.
-```pycon
->>> from pokesummary.model import PokemonDict
->>> pokemon_dict = PokemonDict()
->>> my_pokemon = pokemon_dict["Lanturn"]
->>> my_pokemon
-Pokemon(name='Lanturn', classification='Light Pokémon', height=1.2, weight=22.5, primary_type=<PokemonType.WATER: 'Water'>, secondary_type=<PokemonType.ELECTRIC: 'Electric'>, base_stats=PokemonBaseStats(hp=125, attack=58, defense=58, special_attack=76, special_defense=76, speed=67))
+optional arguments:
+  -h, --help           show this help message and exit
+  -i, --interactive    run interactively
+  -s, --show-examples  show example uses of the program
+  -v, --version        show program's version number and exit
 ```
 
 ## Installation
@@ -62,25 +36,22 @@ see [here](https://superuser.com/questions/413073/windows-console-with-ansi-colo
 
 ### Install from PyPI
 1. Install using pip
-```console
-pip3 install pokesummary
+```sh
+pip install pokesummary
 ```
 
 ### Install from Source Code
 1. Clone or download the repository
 2. Install using pip
-```console
+```sh
 pip3 install .
 ```
 
 ### Uninstall
 1. Uninstall using pip
-```console
+```sh
 pip3 uninstall pokesummary
 ```
-
-## Contributing
-Please see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Acknowledgements
 - Type chart from [Pokémon Database](https://pokemondb.net/type)

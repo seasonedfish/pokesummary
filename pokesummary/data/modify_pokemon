@@ -2,7 +2,7 @@
 import pandas as pd
 
 """
-This script not used when the main program is executed
+This module not used when the main program is executed
 because the main program reads from modified dataset.
 """
 
